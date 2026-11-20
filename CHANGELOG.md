@@ -1,5 +1,12 @@
 # Journal des versions
 
+## v1.1 · 20 novembre 2026
+
+Audit complet de la version validée (13 tailles, tous les modes, toutes les pages) : un seul défaut, corrigé.
+- Page Cabinets et contact : sur un écran d'ordinateur bas (1000×560) sans JavaScript, l'adresse des cabinets passait sous le premier écran ; le titre se resserre sur ces écrans.
+- Numéro de version des fichiers passé à 2 (les navigateurs rechargent le style).
+- Rapport de l'audit complet dans _audit/passes/.
+
 ## v1 · 20 novembre 2026
 
 Première version de la maquette, direction « L'assiette du marché ».

@@ -3,7 +3,7 @@
 // exceptionnelles et jours fériés « à noter », plusieurs adresses. Tiré de pizzalyght-maquette/cayenne-titre-horaires.
 // Tout vient d'un JSON (dans la page, écrit par generer-horaires.mjs, ou data-source). L'heure est relue chaque minute.
 // Mode calme, « réduire les animations » : pas de cadran, le statut et les horaires en texte. Sans JavaScript : les horaires.
-import { preparer, maintenant, statut, rendreBloc, rendreCadran } from './calcul.js?v=1';
+import { preparer, maintenant, statut, rendreBloc, rendreCadran } from './calcul.js?v=2';
 
 const echap = (t) => String(t ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 

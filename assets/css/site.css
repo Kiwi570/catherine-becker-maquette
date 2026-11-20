@@ -599,3 +599,7 @@ html:not(.js) .introuvable { min-height: calc(100svh - 90px); }
   .ouv-prix .titre-page--moyen { font-size: 1.45rem; }
   .ouv-prix .prix-geant-legende { font-size: .78rem; }
 }
+@media (max-height: 640px) and (min-width: 761px) {
+  .ouv-carte .titre-page { font-size: clamp(2.2rem, 8.4vh, 3.4rem); }
+  .ouv-carte .ouv-actions { margin-bottom: .5rem; }
+}

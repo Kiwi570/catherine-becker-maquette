@@ -2,7 +2,7 @@
   "nom": "Catherine Becker",
   "adresse": "https://catherine-becker-maquette.vercel.app",
   "siteActuel": "catherinebecker.fr",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "consultation", "tarifs", "presentation", "contact"],
   "doctolib": "https://www.doctolib.fr/dieteticien/nice/catherine-becker",

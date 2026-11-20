@@ -5,10 +5,10 @@
    - « assiette-tourne » : l'assiette de l'appel final tourne doucement avec le défilement ;
    - « cadran » : horaires des cabinets, statut du moment à l'heure de Paris (page Cabinets et contact) ;
    - « prix » : le prix de la consultation qui se compose (page Tarifs). */
-import { demarrer, versObjet, etat, quand, boucle } from './socle/index.js?v=1';
-import { preparer as preparerHoraires, maintenant, statut } from './horaires/calcul.js?v=1';
-import { init as initPile } from './pile/module.js?v=1';
-import { init as initCadran } from './horaires/module.js?v=1';
+import { demarrer, versObjet, etat, quand, boucle } from './socle/index.js?v=2';
+import { preparer as preparerHoraires, maintenant, statut } from './horaires/calcul.js?v=2';
+import { init as initPile } from './pile/module.js?v=2';
+import { init as initCadran } from './horaires/module.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;

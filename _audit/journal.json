@@ -55,7 +55,7 @@
           "etape": "livraison",
           "budget": 5,
           "debut": "2026-11-20T17:54:39+01:00",
-          "fin": ""
+          "fin": "2026-11-20T18:00:00+01:00"
         }
       ],
       "attentes": [
@@ -81,7 +81,7 @@
         "horaires-ouvert-maintenant"
       ],
       "audit": {
-        "niveau": "standard + passe des formats (complet mesures, écran)",
+        "niveau": "standard, passe des formats, puis complet après validation",
         "echecsPremierPassage": 59,
         "relances": 6,
         "corrections": [
@@ -94,12 +94,13 @@
           "chevauchements des prix des packs et du calculateur",
           "titre géant de la présentation",
           "débordement du formulaire (select)",
-          "liens profonds vers les motifs (cartes sorties de la cascade)"
+          "liens profonds vers les motifs (cartes sorties de la cascade)",
+          "ouverture du contact sur écran bas sans JavaScript (audit complet)"
         ]
       },
       "effetsRetires": [],
       "grilleDispenses": {},
-      "notes": "Audit plus long que le budget (environ 65 min au lieu de 25) : deux passes en parallèle ont rendu un contrôle d intro instable, relancé seul ensuite. CSS commun modifié après l audit standard : audit standard complet relancé, 0 échec."
+      "notes": "Audit plus long que le budget (environ 65 min au lieu de 25) : deux passes en parallèle ont rendu un contrôle d intro instable, relancé seul ensuite. CSS commun modifié après l audit standard : audit standard complet relancé, 0 échec. Audit complet après validation : 1 échec (1000×560 sans JS, contact), corrigé, contrôle ciblé à 0 ; livré en v1.1 (?v=2)."
     }
   ]
 }
