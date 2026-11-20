@@ -1,0 +1,24 @@
+{
+  "consultation": { "prix": 70, "titre": "Consultation diététique", "detail": "Au cabinet ou en visio. Analyse corporelle incluse.", "plus": "À domicile : +15 €" },
+  "packs": [
+    { "id": "pack-3", "titre": "Pack 3 consultations", "prix": 180, "unite": 60, "nb": 3, "validite": "Valable 3 mois" },
+    { "id": "pack-5", "titre": "Pack 5 consultations", "prix": 250, "unite": 50, "nb": 5, "validite": "Valable 6 mois" },
+    { "id": "annee", "titre": "Suivi à l'année", "prix": 600, "unite": 50, "nb": 12, "validite": "12 consultations, valable 1 an", "plus": "Paiement en 3 ou 4 fois sans frais" }
+  ],
+  "domicile": [
+    { "titre": "Cours de cuisine à domicile", "prix": 90, "validite": "Valable 6 mois" },
+    { "titre": "Tri du frigo et des placards", "prix": 90, "validite": "Valable 6 mois" },
+    { "titre": "Courses au supermarché ou au marché", "prix": 90, "validite": "Valable 6 mois" },
+    { "titre": "Coaching à domicile, une demi-journée", "prix": 180, "validite": "Valable 6 mois", "detail": "Bilan et plan alimentaire, tri du frigo, courses et cours de cuisine." }
+  ],
+  "enLigne": [
+    { "titre": "Téléconsultation", "prix": 70, "detail": "En visio ou par téléphone, avec une application de suivi." },
+    { "titre": "Coaching en ligne", "prix": 59, "detail": "Une semaine : 7 jours de défis, menus, suivi des repas par application et rééquilibrage personnalisé. Une box est livrée chez vous : assiette compartimentée en inox, podomètre et mètre ruban." },
+    { "titre": "Suivi en ligne", "prix": 35, "detail": "Une semaine par téléphone ou e-mail : application ALIVIO, correction du carnet alimentaire, menus, conseils 7 j/7. Pour poursuivre un suivi déjà commencé." }
+  ],
+  "analyse": { "titre": "Analyse corporelle seule", "prix": 12, "detail": "Pourcentage de graisse, de muscle… Incluse dans la consultation." },
+  "reseaux": [
+    { "nom": "Santéclair", "texte": "50 € la première consultation, puis 42 € les suivantes." },
+    { "nom": "Carte Blanche", "texte": "10 % de remise." }
+  ]
+}

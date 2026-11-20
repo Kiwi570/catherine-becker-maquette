@@ -1,0 +1,18 @@
+[
+  { "id": "poids", "icone": "pomme", "titre": "Gérer son poids", "court": "Surpoids, obésité, maigreur, dénutrition ; bilan et suivi après bypass ou sleeve.",
+    "liste": ["Surpoids et obésité", "Maigreur et dénutrition", "Bilan et suivi après gastroplastie (bypass, sleeve)"] },
+  { "id": "sante", "icone": "olive", "titre": "Prendre soin de sa santé", "court": "Cholestérol, diabète de type 1, 2 et gestationnel, hypertension, maladies auto-immunes.",
+    "liste": ["Cholestérol", "Diabète de type 1 et de type 2", "Diabète gestationnel", "Hypertension", "Maladies auto-immunes"] },
+  { "id": "digestion", "icone": "menthe", "titre": "Mieux digérer", "court": "Reflux, côlon irritable, Crohn et RCH, constipation, SIBO et SIFO.",
+    "liste": ["Reflux et gastrite chronique", "Syndrome du côlon irritable", "Maladie de Crohn et RCH", "Constipation, diarrhées", "SIBO et SIFO"] },
+  { "id": "femmes", "icone": "grenade", "titre": "Au féminin", "court": "Grossesse et allaitement, ménopause, endométriose, cellulite.",
+    "liste": ["Grossesse et allaitement", "Ménopause", "Endométriose", "Cellulite"] },
+  { "id": "comportement", "icone": "tasse", "titre": "Troubles du comportement alimentaire", "court": "Anorexie, boulimie, hyperphagie : un accompagnement à votre rythme.",
+    "liste": ["Anorexie", "Boulimie", "Hyperphagie"] },
+  { "id": "intolerances", "icone": "ble", "titre": "Allergies et intolérances", "court": "Sans gluten et autres intolérances : manger varié malgré les évictions.",
+    "liste": ["Intolérance au gluten", "Allergies et intolérances alimentaires"] },
+  { "id": "sport", "icone": "carotte", "titre": "Sport et alimentations choisies", "court": "Sportifs, végétariens, végétaliens, flexitariens.",
+    "liste": ["Sportifs", "Végétariens et végétaliens", "Flexitariens"] },
+  { "id": "equilibre", "icone": "citron", "titre": "Manger équilibré, en famille", "court": "Rééquilibrage, éducation nutritionnelle, diététique de l'enfant et des seniors.",
+    "liste": ["Rééquilibrage alimentaire", "Éducation nutritionnelle", "Diététique de l'enfant et de l'adolescent", "Seniors"] }
+]

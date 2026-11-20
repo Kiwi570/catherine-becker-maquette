@@ -1,0 +1,162 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Prendre rendez-vous",
+    "rdvCourt": "Rendez-vous",
+    "nouvelOnglet": "(Doctolib, nouvel onglet)",
+    "appeler": "Appeler",
+    "metier": "Diététicienne nutritionniste",
+    "sommaire": "Sommaire",
+    "cabinets": "Cabinets",
+    "suivre": "Suivre",
+    "cannes": "Cannes : Le Shakespeare, 76 bd Carnot",
+    "nice": "Nice : 91 av. des Arènes de Cimiez",
+    "ars": "Enregistrée à l'ARS · ADELI 069500676 · RPPS 10008319898",
+    "retourHaut": "Retour en haut",
+    "mentions": "Mentions légales : à compléter",
+    "confidentialite": "Politique de confidentialité : à compléter",
+    "maquette": "Maquette de présentation, non officielle.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Diététicienne nutritionniste · Cannes & Nice",
+    "rdvTitre": "Prendre rendez-vous",
+    "rdvTexte": "En ligne sur Doctolib, 7 jours sur 7, à toute heure. Ou par téléphone au secrétariat, au 04 89 82 09 06 (numéro non surtaxé).",
+    "rdvApporter": "Pour la première visite, pensez à apporter une journée type de vos repas, la liste de vos préférences et vos dernières analyses de sang si vous en avez.",
+    "rdvDoctolib": "Réserver sur Doctolib",
+    "rdvAppeler": "Appeler le 04 89 82 09 06"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Catherine Becker, diététicienne nutritionniste à Cannes et à Nice",
+      "description": "Bilan diététique avec bio-impédancemétrie, rééquilibrage alimentaire et suivi, au cabinet à Cannes ou à Nice, à domicile ou en visio. Consultation 70 €.",
+      "nav": "Accueil",
+      "partageAlt": "Catherine Becker, diététicienne nutritionniste : bien manger, sans régime miracle",
+      "accroche": "Bien manger, sans régime miracle."
+    },
+    "consultation": {
+      "titre": "La consultation diététique : Catherine Becker, Cannes et Nice",
+      "description": "Pour qui, pour quels motifs, et comment se passe un suivi : bilan avec bio-impédancemétrie, rééquilibrage alimentaire, suivi.",
+      "nav": "Consultation",
+      "partageAlt": "La consultation diététique de Catherine Becker",
+      "accroche": "La consultation, pas à pas."
+    },
+    "tarifs": {
+      "titre": "Tarifs et remboursement : Catherine Becker, diététicienne",
+      "description": "Consultation 70 €, packs de 3, 5 ou 12 consultations, coaching à domicile et en ligne, mutuelles et moyens de paiement.",
+      "nav": "Tarifs",
+      "partageAlt": "Les tarifs de Catherine Becker, diététicienne nutritionniste",
+      "accroche": "Des tarifs clairs, des formules qui s'adaptent."
+    },
+    "presentation": {
+      "titre": "Présentation : Catherine Becker, diététicienne nutritionniste",
+      "description": "Plus de 20 ans d'exercice, l'hôpital, la radio et la télévision : le parcours et les engagements de Catherine Becker.",
+      "nav": "Présentation",
+      "partageAlt": "Portrait de Catherine Becker dans son cabinet",
+      "accroche": "Diététicienne depuis plus de 20 ans."
+    },
+    "contact": {
+      "titre": "Cabinets et contact : Catherine Becker, Cannes et Nice",
+      "description": "Les cabinets de Cannes et de Nice, leurs horaires, l'accès, la téléconsultation et le formulaire de contact.",
+      "nav": "Cabinets et contact",
+      "partageAlt": "Les cabinets de Catherine Becker à Cannes et à Nice",
+      "accroche": "Cannes, Nice, ou chez vous."
+    },
+    "404": {
+      "titre": "Page introuvable : Catherine Becker",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Diététicienne nutritionniste à Cannes et à Nice",
+      "titre1": "Bien manger,",
+      "titre2a": "sans",
+      "titre2b": "régime",
+      "titre3": "miracle.",
+      "texte": "Un bilan complet, un rééquilibrage pensé pour vos goûts et votre santé, puis un suivi aussi long que nécessaire. Au cabinet, à domicile ou en visio.",
+      "tarifs": "Voir les tarifs",
+      "info": "Consultation 70 € · sur rendez-vous",
+      "alt": "Légumes et fruits du marché posés sur une nappe de lin"
+    },
+    "motifs": {
+      "surtitre": "Pour qui ?",
+      "titre1": "Vous venez",
+      "titre2": "pour…",
+      "texte": "Tout patient, adressé par un médecin ou non : adultes, enfants et adolescents, seniors, sportifs.",
+      "voir": "Voir le détail"
+    },
+    "methode": {
+      "surtitre": "La méthode",
+      "titre": "Trois temps, à votre rythme.",
+      "texte": "La même assiette pour tout le monde n'existe pas : chaque étape part de vous.",
+      "assiette": "Assiette compartimentée : une étape par compartiment",
+      "lien": "Comment se passe la consultation"
+    },
+    "bilan": {
+      "surtitre": "Le bilan",
+      "titre": "Ce que l'on regarde ensemble",
+      "texte": "Le bilan sert de base à tout le suivi. Il repère les déséquilibres, votre profil alimentaire et culinaire, et fixe les premiers objectifs. Votre médecin peut aussi le demander : avant une chirurgie, après une gastroplastie, pour ajuster un traitement.",
+      "mesure": "La bio-impédancemétrie mesure",
+      "inclus": "Analyse corporelle incluse dans la consultation.",
+      "lien": "Tout sur la consultation",
+      "alt": "Bureau en chêne clair : verre d'eau, pomme verte, carnet vierge"
+    },
+    "cabinets": {
+      "surtitre": "Où consulter",
+      "titre1": "Deux cabinets,",
+      "titre2": "et la visio.",
+      "visioTitre": "En visio ou au téléphone",
+      "visioTexte": "Depuis chez vous ou votre bureau. Même tarif qu'au cabinet : 70 €, avec une application de suivi.",
+      "domicile": "À domicile aussi, sur demande (+15 €).",
+      "lien": "Horaires et accès",
+      "indicatif": "Horaires indicatifs, sur rendez-vous : les créneaux libres sont sur Doctolib."
+    },
+    "tarifs": {
+      "surtitre": "Tarifs",
+      "titre1": "Des prix clairs,",
+      "titre2": "des formules qui suivent.",
+      "remboursement": "Non remboursé par la Sécurité sociale. Votre mutuelle peut prendre en charge tout ou partie : une facture vous est remise.",
+      "lien": "Tous les tarifs"
+    },
+    "catherine": {
+      "surtitre": "Qui vous reçoit",
+      "titre1": "Catherine Becker,",
+      "titre2": "plus de 20 ans à l'écoute.",
+      "texte": "Diplômée du BTS Diététique de l'École Sasserno, à Nice, elle a exercé au Centre Cardio-Thoracique de Monaco et à l'Hôpital des Broussailles, à Cannes. Elle consulte à Nice depuis 2006 et à Cannes depuis 2012.",
+      "texte2": "On l'entend aussi à la radio et à la télévision : experte nutrition de France Bleu Azur, chroniqueuse sur NRJ, invitée de M6, France 3 et Europe 1.",
+      "alt": "Catherine Becker, souriante, à son bureau de consultation",
+      "altRadio": "Catherine Becker au micro de France Bleu Azur",
+      "legendeRadio": "Au micro de France Bleu Azur",
+      "lien": "Son parcours",
+      "medias": "Dans les médias"
+    },
+    "temoignages": {
+      "surtitre": "Témoignages",
+      "titre1": "Ce qu'en disent",
+      "titre2": "ses patients",
+      "source": "Extraits des avis publiés sur le site actuel et sur Facebook.",
+      "alt": "Table de terrasse au soleil, salades et légumes grillés",
+      "suivant": "Avis suivant",
+      "precedent": "Avis précédent",
+      "consigne": "Faites glisser la fiche, ou utilisez les flèches."
+    }
+  },
+  "introuvable": {
+    "surtitre": "Erreur 404",
+    "titre": "Cette page n'est pas au menu.",
+    "texte": "Le lien est peut-être ancien, ou l'adresse mal recopiée. Tout le reste est servi à l'accueil.",
+    "retour": "Revenir à l'accueil",
+    "alt": "Assiette vide sur une nappe de lin, un seul petit pois"
+  },
+  "contact": {
+    "donnees": "Vos informations servent uniquement à vous répondre et ne sont jamais transmises à des tiers. Politique de confidentialité : à compléter."
+  }
+}

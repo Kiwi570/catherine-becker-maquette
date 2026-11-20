@@ -1,0 +1,144 @@
+{
+  "client": "Catherine Becker",
+  "activite": "santé",
+  "direction": "L'assiette du marché",
+  "date": "2026-11-20T15:23:33.510Z",
+  "images": [
+    {
+      "nom": "accueil-ouverture",
+      "fichier": "accueil-ouverture.png",
+      "page": "accueil",
+      "emplacement": "Ouverture de l'accueil, grand cadre à droite (l'assiette dessinée se pose sur son coin bas gauche)",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Top-down flat lay of fresh Mediterranean market produce spread on a natural linen tablecloth: ripe red tomatoes on the vine, two lemons with their leaves, small green zucchini, a bunch of radishes, fresh basil, a few apricots, a small glass cruet of golden olive oil. The produce fills the top and right of the frame; the lower left quarter is left as plain light linen, calm and empty. Bright and airy overall. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial health photography, calm minimal composition, warm, fresh and reassuring Mediterranean mood, palette of natural linen cream (#F7F2E8), deep olive green (#33442F), ripe tomato red (#C23E22), lemon yellow and soft sage, no blue cast, clear late-morning Riviera sunlight from the side, soft crisp shadows, tactile natural linen cloth, pale limestone, brushed stainless steel, light oak, set in a sunny Mediterranean coastal town on an early summer day, clean lines, generous negative space, subtle film grain, realistic, high detail. No patient, no medical procedure, no readable file or screen, no syringe, no blood, no anatomy chart, no stairs, no heights, no enclosed space, nothing frightening. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "consultation-ouverture",
+      "fichier": "consultation-ouverture.png",
+      "page": "consultation",
+      "emplacement": "Ouverture de la page Consultation, large bandeau sous le grand titre (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A calm consultation desk by a tall window in a small bright dietitian's practice: a pale oak table, a carafe and a glass of water with a lemon slice, a white bowl of green apples, a closed plain notebook with a pen, a potted plant casting a soft leaf shadow on the white wall. Nobody in the room. Plenty of quiet white wall around the objects. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial health photography, calm minimal composition, warm, fresh and reassuring Mediterranean mood, palette of natural linen cream (#F7F2E8), deep olive green (#33442F), ripe tomato red (#C23E22), lemon yellow and soft sage, no blue cast, clear late-morning Riviera sunlight from the side, soft crisp shadows, tactile natural linen cloth, pale limestone, brushed stainless steel, light oak, set in a sunny Mediterranean coastal town on an early summer day, clean lines, generous negative space, subtle film grain, realistic, high detail. No patient, no medical procedure, no readable file or screen, no syringe, no blood, no anatomy chart, no stairs, no heights, no enclosed space, nothing frightening. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "consultation-ouverture",
+      "fichier": "consultation-ouverture-mobile.png",
+      "page": "consultation",
+      "emplacement": "Ouverture de la page Consultation, large bandeau sous le grand titre (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A calm consultation desk by a tall window in a small bright dietitian's practice: a pale oak table, a carafe and a glass of water with a lemon slice, a white bowl of green apples, a closed plain notebook with a pen, a potted plant casting a soft leaf shadow on the white wall. Nobody in the room. Plenty of quiet white wall around the objects. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial health photography, calm minimal composition, warm, fresh and reassuring Mediterranean mood, palette of natural linen cream (#F7F2E8), deep olive green (#33442F), ripe tomato red (#C23E22), lemon yellow and soft sage, no blue cast, clear late-morning Riviera sunlight from the side, soft crisp shadows, tactile natural linen cloth, pale limestone, brushed stainless steel, light oak, set in a sunny Mediterranean coastal town on an early summer day, clean lines, generous negative space, subtle film grain, realistic, high detail. No patient, no medical procedure, no readable file or screen, no syringe, no blood, no anatomy chart, no stairs, no heights, no enclosed space, nothing frightening. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "tarifs-ouverture",
+      "fichier": "tarifs-ouverture.png",
+      "page": "tarifs",
+      "emplacement": "Ouverture de la page Tarifs, image à droite du prix géant",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Still life from slightly above: two halves of a lemon and half a blood orange on a pale limestone slab, a sprig of fresh mint, one cherry tomato, a stainless steel spoon, strong graphic side light with crisp shadows, bold simple composition with lots of calm space at the bottom. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial health photography, calm minimal composition, warm, fresh and reassuring Mediterranean mood, palette of natural linen cream (#F7F2E8), deep olive green (#33442F), ripe tomato red (#C23E22), lemon yellow and soft sage, no blue cast, clear late-morning Riviera sunlight from the side, soft crisp shadows, tactile natural linen cloth, pale limestone, brushed stainless steel, light oak, set in a sunny Mediterranean coastal town on an early summer day, clean lines, generous negative space, subtle film grain, realistic, high detail. No patient, no medical procedure, no readable file or screen, no syringe, no blood, no anatomy chart, no stairs, no heights, no enclosed space, nothing frightening. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-bilan",
+      "fichier": "accueil-bilan.png",
+      "page": "accueil",
+      "emplacement": "Accueil, section « Le bilan », grande image à gauche du texte",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "Close view of a light oak desk in a sunny practice: a glass of water, a green apple, a small bowl of mixed nuts, an open blank notebook with a pencil lying across it, a small green plant. Shallow depth of field, peaceful and precise. Nothing written anywhere. Landscape composition, aspect ratio 3:2, calm empty area in the right third of the frame for a title. Editorial health photography, calm minimal composition, warm, fresh and reassuring Mediterranean mood, palette of natural linen cream (#F7F2E8), deep olive green (#33442F), ripe tomato red (#C23E22), lemon yellow and soft sage, no blue cast, clear late-morning Riviera sunlight from the side, soft crisp shadows, tactile natural linen cloth, pale limestone, brushed stainless steel, light oak, set in a sunny Mediterranean coastal town on an early summer day, clean lines, generous negative space, subtle film grain, realistic, high detail. No patient, no medical procedure, no readable file or screen, no syringe, no blood, no anatomy chart, no stairs, no heights, no enclosed space, nothing frightening. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "cannes-lumiere",
+      "fichier": "cannes-lumiere.png",
+      "page": "accueil",
+      "emplacement": "Accueil, carte du cabinet de Cannes (ambiance, pas le vrai lieu)",
+      "role": "carte-service",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "The shadow of palm fronds falling on a warm cream plaster wall beside an open pale green wooden shutter, bright Riviera midday light, a terracotta pot with a small olive tree at the bottom, simple and sunny. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial health photography, calm minimal composition, warm, fresh and reassuring Mediterranean mood, palette of natural linen cream (#F7F2E8), deep olive green (#33442F), ripe tomato red (#C23E22), lemon yellow and soft sage, no blue cast, clear late-morning Riviera sunlight from the side, soft crisp shadows, tactile natural linen cloth, pale limestone, brushed stainless steel, light oak, set in a sunny Mediterranean coastal town on an early summer day, clean lines, generous negative space, subtle film grain, realistic, high detail. No patient, no medical procedure, no readable file or screen, no syringe, no blood, no anatomy chart, no stairs, no heights, no enclosed space, nothing frightening. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "nice-oliviers",
+      "fichier": "nice-oliviers.png",
+      "page": "accueil",
+      "emplacement": "Accueil, carte du cabinet de Nice (ambiance, pas le vrai lieu)",
+      "role": "carte-service",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Silvery olive tree branches seen from below against a pale, hazy, sunlit sky, warm afternoon light filtering through the leaves, a few small green olives, airy and calm. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial health photography, calm minimal composition, warm, fresh and reassuring Mediterranean mood, palette of natural linen cream (#F7F2E8), deep olive green (#33442F), ripe tomato red (#C23E22), lemon yellow and soft sage, no blue cast, clear late-morning Riviera sunlight from the side, soft crisp shadows, tactile natural linen cloth, pale limestone, brushed stainless steel, light oak, set in a sunny Mediterranean coastal town on an early summer day, clean lines, generous negative space, subtle film grain, realistic, high detail. No patient, no medical procedure, no readable file or screen, no syringe, no blood, no anatomy chart, no stairs, no heights, no enclosed space, nothing frightening. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-table",
+      "fichier": "accueil-table.png",
+      "page": "accueil",
+      "emplacement": "Accueil, section des témoignages, image à côté de la pile",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A sunlit outdoor terrace table under a vine pergola, set for a simple shared lunch: a large bowl of tomato and cucumber salad, a plate of grilled vegetables, bread, a carafe of water, linen napkins, empty chairs, dappled light. No people. Landscape composition, aspect ratio 3:2, generous empty space on the left third of the frame for a title. Editorial health photography, calm minimal composition, warm, fresh and reassuring Mediterranean mood, palette of natural linen cream (#F7F2E8), deep olive green (#33442F), ripe tomato red (#C23E22), lemon yellow and soft sage, no blue cast, clear late-morning Riviera sunlight from the side, soft crisp shadows, tactile natural linen cloth, pale limestone, brushed stainless steel, light oak, set in a sunny Mediterranean coastal town on an early summer day, clean lines, generous negative space, subtle film grain, realistic, high detail. No patient, no medical procedure, no readable file or screen, no syringe, no blood, no anatomy chart, no stairs, no heights, no enclosed space, nothing frightening. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "tarifs-cuisine",
+      "fichier": "tarifs-cuisine.png",
+      "page": "tarifs",
+      "emplacement": "Tarifs, section « Chez vous » (cours de cuisine, frigo, courses)",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A bright home kitchen counter in pale wood and white tiles: a wooden chopping board with sliced courgette and peppers, a cast iron pan, a basket of market vegetables, jars of lentils and chickpeas, soft window light. No people. Landscape composition, aspect ratio 3:2, calm empty area in the right third of the frame for a title. Editorial health photography, calm minimal composition, warm, fresh and reassuring Mediterranean mood, palette of natural linen cream (#F7F2E8), deep olive green (#33442F), ripe tomato red (#C23E22), lemon yellow and soft sage, no blue cast, clear late-morning Riviera sunlight from the side, soft crisp shadows, tactile natural linen cloth, pale limestone, brushed stainless steel, light oak, set in a sunny Mediterranean coastal town on an early summer day, clean lines, generous negative space, subtle film grain, realistic, high detail. No patient, no medical procedure, no readable file or screen, no syringe, no blood, no anatomy chart, no stairs, no heights, no enclosed space, nothing frightening. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "page-404",
+      "fichier": "page-404.png",
+      "page": "404",
+      "emplacement": "Page 404, image en tête de page",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "A single empty white plate on a natural linen tablecloth seen from above, slightly off center to the right, with one lone green pea resting on its rim, soft side light, a lot of calm empty linen on the left. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial health photography, calm minimal composition, warm, fresh and reassuring Mediterranean mood, palette of natural linen cream (#F7F2E8), deep olive green (#33442F), ripe tomato red (#C23E22), lemon yellow and soft sage, no blue cast, clear late-morning Riviera sunlight from the side, soft crisp shadows, tactile natural linen cloth, pale limestone, brushed stainless steel, light oak, set in a sunny Mediterranean coastal town on an early summer day, clean lines, generous negative space, subtle film grain, realistic, high detail. No patient, no medical procedure, no readable file or screen, no syringe, no blood, no anatomy chart, no stairs, no heights, no enclosed space, nothing frightening. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

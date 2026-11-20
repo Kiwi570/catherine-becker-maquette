@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Catherine Becker, diététicienne nutritionniste",
+  "url": "https://catherine-becker-maquette.vercel.app/",
+  "telephone": "+33489820906",
+  "email": "contact@catherinebecker.fr",
+  "description": "Diététicienne nutritionniste à Cannes et à Nice : bilan diététique avec bio-impédancemétrie, rééquilibrage alimentaire et suivi, au cabinet, à domicile ou en téléconsultation.",
+  "priceRange": "35 € – 600 €",
+  "sameAs": ["https://www.instagram.com/catherine.becker.nutritionist/", "https://fr-fr.facebook.com/catherinebeckerDiet/"],
+  "department": [
+    { "@type": "MedicalBusiness", "name": "Cabinet de Cannes", "telephone": "+33489820906",
+      "address": { "@type": "PostalAddress", "streetAddress": "Le Shakespeare, 76 boulevard Carnot", "postalCode": "06400", "addressLocality": "Cannes", "addressCountry": "FR" },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Wednesday"], "opens": "08:00", "closes": "20:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "15:00", "closes": "20:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:00", "closes": "12:00" } ] },
+    { "@type": "MedicalBusiness", "name": "Cabinet de Nice", "telephone": "+33489820906",
+      "address": { "@type": "PostalAddress", "streetAddress": "Centre paramédical, 91 avenue des Arènes de Cimiez", "postalCode": "06000", "addressLocality": "Nice", "addressCountry": "FR" },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "08:00", "closes": "12:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "12:30", "closes": "20:00" } ] }
+  ]
+}

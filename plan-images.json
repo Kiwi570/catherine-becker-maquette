@@ -1,0 +1,276 @@
+[
+  {
+    "source": "recu/logo-clair.png",
+    "nom": "logo",
+    "role": "logo",
+    "alt": "Catherine Becker, diététicienne nutritionniste"
+  },
+  {
+    "source": "recu/grok/accueil-ouverture.jpg",
+    "nom": "grok/accueil-ouverture",
+    "role": "ouverture",
+    "ratio": "4:5",
+    "mobile": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "page": "accueil",
+    "emplacement": "Ouverture de l'accueil, grand cadre à droite (l'assiette dessinée se pose sur son coin bas gauche)",
+    "priorite": "Indispensable",
+    "consigne_scene": "Top-down flat lay of fresh Mediterranean market produce spread on a natural linen tablecloth: ripe red tomatoes on the vine, two lemons with their leaves, small green zucchini, a bunch of radishes, fresh basil, a few apricots, a small glass cruet of golden olive oil. The produce fills the top and right of the frame; the lower left quarter is left as plain light linen, calm and empty. Bright and airy overall.",
+    "alt": "Légumes et fruits du marché posés sur une nappe de lin",
+    "beaute": 4,
+    "zone_texte": "aucune",
+    "cadrage": [
+      42,
+      40
+    ]
+  },
+  {
+    "source": "recu/grok/consultation-ouverture.jpg",
+    "source_mobile": "recu/grok/consultation-ouverture-mobile.jpg",
+    "nom": "grok/consultation-ouverture",
+    "role": "ouverture",
+    "ratio": "16:9",
+    "mobile": "9:16",
+    "zone_texte": "gauche",
+    "page": "consultation",
+    "emplacement": "Ouverture de la page Consultation, large bandeau sous le grand titre",
+    "priorite": "Indispensable",
+    "consigne_scene": "A calm consultation desk by a tall window in a small bright dietitian's practice: a pale oak table, a carafe and a glass of water with a lemon slice, a white bowl of green apples, a closed plain notebook with a pen, a potted plant casting a soft leaf shadow on the white wall. Nobody in the room. Plenty of quiet white wall around the objects.",
+    "alt": "Bureau de consultation lumineux, carafe d'eau citronnée et pommes vertes",
+    "beaute": 5
+  },
+  {
+    "source": "recu/grok/tarifs-ouverture.jpg",
+    "nom": "grok/tarifs-ouverture",
+    "role": "ouverture",
+    "ratio": "4:5",
+    "mobile": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "page": "tarifs",
+    "emplacement": "Ouverture de la page Tarifs, image à droite du prix géant",
+    "priorite": "Indispensable",
+    "consigne_scene": "Still life from slightly above: two halves of a lemon and half a blood orange on a pale limestone slab, a sprig of fresh mint, one cherry tomato, a stainless steel spoon, strong graphic side light with crisp shadows, bold simple composition with lots of calm space at the bottom.",
+    "alt": "Agrumes coupés et brin de menthe sur une pierre claire",
+    "beaute": 4,
+    "zone_texte": "aucune",
+    "cadrage": [
+      40,
+      30
+    ]
+  },
+  {
+    "source": "recu/grok/accueil-bilan.jpg",
+    "nom": "grok/accueil-bilan",
+    "role": "section-fond",
+    "ratio": "3:2",
+    "zone_texte": "droite",
+    "page": "accueil",
+    "emplacement": "Accueil, section « Le bilan », grande image à gauche du texte",
+    "priorite": "Conseillée",
+    "consigne_scene": "Close view of a light oak desk in a sunny practice: a glass of water, a green apple, a small bowl of mixed nuts, an open blank notebook with a pencil lying across it, a small green plant. Shallow depth of field, peaceful and precise. Nothing written anywhere.",
+    "alt": "Bureau en chêne clair : verre d'eau, pomme verte, carnet vierge",
+    "beaute": 5
+  },
+  {
+    "source": "recu/grok/cannes-lumiere.jpg",
+    "nom": "grok/cannes-lumiere",
+    "role": "carte-service",
+    "ratio": "4:5",
+    "mobile": "4:5",
+    "page": "accueil",
+    "emplacement": "Accueil, carte du cabinet de Cannes (ambiance, pas le vrai lieu)",
+    "priorite": "Conseillée",
+    "consigne_scene": "The shadow of palm fronds falling on a warm cream plaster wall beside an open pale green wooden shutter, bright Riviera midday light, a terracotta pot with a small olive tree at the bottom, simple and sunny.",
+    "alt": "Ombre de palmier sur un mur crème, volet vert ouvert",
+    "beaute": 5
+  },
+  {
+    "source": "recu/grok/nice-oliviers.jpg",
+    "nom": "grok/nice-oliviers",
+    "role": "carte-service",
+    "ratio": "4:5",
+    "mobile": "4:5",
+    "page": "accueil",
+    "emplacement": "Accueil, carte du cabinet de Nice (ambiance, pas le vrai lieu)",
+    "priorite": "Conseillée",
+    "consigne_scene": "Silvery olive tree branches seen from below against a pale, hazy, sunlit sky, warm afternoon light filtering through the leaves, a few small green olives, airy and calm.",
+    "alt": "Branches d'olivier dans la lumière de l'après-midi",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/accueil-table.jpg",
+    "nom": "grok/accueil-table",
+    "role": "section-fond",
+    "ratio": "3:2",
+    "zone_texte": "gauche",
+    "page": "accueil",
+    "emplacement": "Accueil, section des témoignages, image à côté de la pile",
+    "priorite": "Conseillée",
+    "consigne_scene": "A sunlit outdoor terrace table under a vine pergola, set for a simple shared lunch: a large bowl of tomato and cucumber salad, a plate of grilled vegetables, bread, a carafe of water, linen napkins, empty chairs, dappled light. No people.",
+    "alt": "Table de terrasse au soleil, salades et légumes grillés",
+    "beaute": 5
+  },
+  {
+    "source": "recu/grok/tarifs-cuisine.jpg",
+    "nom": "grok/tarifs-cuisine",
+    "role": "section-fond",
+    "ratio": "3:2",
+    "zone_texte": "droite",
+    "page": "tarifs",
+    "emplacement": "Tarifs, section « Chez vous » (cours de cuisine, frigo, courses)",
+    "priorite": "Conseillée",
+    "consigne_scene": "A bright home kitchen counter in pale wood and white tiles: a wooden chopping board with sliced courgette and peppers, a cast iron pan, a basket of market vegetables, jars of lentils and chickpeas, soft window light. No people.",
+    "alt": "Plan de travail de cuisine, légumes du marché et bocaux de légumineuses",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/page-404.jpg",
+    "nom": "grok/page-404",
+    "role": "404",
+    "ratio": "16:9",
+    "mobile": "9:16",
+    "zone_texte": "gauche",
+    "page": "404",
+    "emplacement": "Page 404, image en tête de page",
+    "priorite": "Conseillée",
+    "consigne_scene": "A single empty white plate on a natural linen tablecloth seen from above, slightly off center to the right, with one lone green pea resting on its rim, soft side light, a lot of calm empty linen on the left.",
+    "alt": "Assiette vide sur une nappe de lin, un seul petit pois",
+    "beaute": 5
+  },
+  {
+    "source": "recu/suivi-dietetique.jpg",
+    "nom": "catherine-cabinet",
+    "role": "portrait",
+    "ratio": "4:5",
+    "mobile": "4:5",
+    "cadrage": [
+      33,
+      32
+    ],
+    "alt": "Catherine Becker, souriante, à son bureau de consultation",
+    "beaute": 4
+  },
+  {
+    "source": "recu/suivi-dietetique.jpg",
+    "nom": "presentation-ouverture",
+    "role": "ouverture",
+    "ratio": "4:5",
+    "mobile": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "cadrage": [
+      33,
+      34
+    ],
+    "zone_texte": "bas",
+    "alt": "Catherine Becker à son bureau de consultation",
+    "beaute": 4
+  },
+  {
+    "source": "recu/pourquoi-consulter.jpg",
+    "nom": "cabinet",
+    "role": "galerie",
+    "ratio": "3:2",
+    "cadrage": [
+      45,
+      50
+    ],
+    "alt": "Le cabinet : bureau en verre, chaises vert pomme, plantes et tableau de bord de mer",
+    "beaute": 3
+  },
+  {
+    "source": "recu/catherine-becker-experte-nutrition.png",
+    "nom": "france-bleu-azur",
+    "role": "vignette",
+    "ratio": "4:5",
+    "cadrage": [
+      42,
+      60
+    ],
+    "alt": "Catherine Becker au micro de France Bleu Azur",
+    "beaute": 3
+  },
+  {
+    "source": "recu/france-3-meteo-carte.jpg",
+    "nom": "france-3",
+    "role": "vignette",
+    "ratio": "3:2",
+    "cadrage": [
+      62,
+      45
+    ],
+    "alt": "Catherine Becker interviewée sur France 3, face à la mer",
+    "beaute": 3
+  },
+  {
+    "source": "recu/reportage-televise-100-mag.jpg",
+    "nom": "m6-100-mag",
+    "role": "vignette",
+    "ratio": "3:2",
+    "cadrage": [
+      50,
+      40
+    ],
+    "alt": "Catherine Becker dans un reportage de 100 % Mag",
+    "beaute": 2
+  },
+  {
+    "source": "recu/etoiles-mougins-9eme-festival-2.jpg",
+    "nom": "etoiles-mougins",
+    "role": "vignette",
+    "ratio": "3:2",
+    "cadrage": [
+      45,
+      55
+    ],
+    "alt": "Conférence aux Étoiles de Mougins, festival international de la gastronomie",
+    "beaute": 3
+  },
+  {
+    "source": "recu/soiree-vip-secrets-stars-7.jpg",
+    "nom": "soiree-monaco",
+    "role": "vignette",
+    "ratio": "4:5",
+    "cadrage": [
+      53,
+      35
+    ],
+    "alt": "Catherine Becker lors d'une soirée au Méridien Beach Plaza, à Monaco",
+    "beaute": 3
+  },
+  {
+    "source": "recu/nutrition-infos.png",
+    "nom": "nutrition-infos",
+    "role": "vignette",
+    "ratio": "4:5",
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Couverture de la revue Nutrition Infos",
+    "beaute": 2
+  },
+  {
+    "source": "recu/mince-alors-observateur-monaco.jpg",
+    "nom": "observateur-monaco",
+    "role": "vignette",
+    "ratio": "4:5",
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Article « Mince alors ! » de L'Observateur de Monaco",
+    "beaute": 2
+  }
+]

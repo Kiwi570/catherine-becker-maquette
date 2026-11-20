@@ -1,0 +1,83 @@
+{
+ "ouverture": {
+  "surtitre": "Tarifs et remboursement",
+  "titre": "Ce que coûte un suivi,",
+  "titre2": "clairement.",
+  "prixLegende": "la consultation diététique",
+  "texte": "Au cabinet à Cannes ou à Nice, ou en visio. Analyse corporelle incluse. Une facture vous est remise pour votre mutuelle.",
+  "alt": "Agrumes coupés et brin de menthe sur une pierre claire"
+ },
+ "consultations": {
+  "surtitre": "Consultations",
+  "titre1": "À l'unité",
+  "titre2": "",
+  "domicile": "À domicile",
+  "domicileTexte": "Supplément pour une consultation chez vous.",
+  "teleTitre": "Téléconsultation",
+  "teleTexte": "En visio ou par téléphone, avec une application de suivi."
+ },
+ "packs": {
+  "surtitre": "Packs",
+  "titre1": "Plus de rendez-vous,",
+  "titre2": "un prix qui baisse.",
+  "texte": "Les forfaits à partir de trois consultations se paient d'avance, avec un paiement échelonné possible.",
+  "economie": "au lieu de",
+  "calcTitre": "Combien de consultations prévoyez-vous ?",
+  "calcMoins": "Une consultation de moins",
+  "calcPlus": "Une consultation de plus",
+  "calcUnite": "À l'unité",
+  "calcFormule": "Avec les packs",
+  "calcEconomie": "Économie",
+  "calcNote": "Calcul indicatif d'après les tarifs affichés, à confirmer avec Catherine Becker (validité des packs : 3, 6 ou 12 mois)."
+ },
+ "domicile": {
+  "surtitre": "Chez vous",
+  "titre1": "Dans votre cuisine,",
+  "titre2": "au marché.",
+  "texte": "Pour passer de la théorie à la pratique : un cours de cuisine, un tri du frigo et des placards, des courses ensemble.",
+  "alt": "Plan de travail de cuisine, légumes du marché et bocaux de légumineuses"
+ },
+ "enLigne": {
+  "surtitre": "À distance",
+  "titre1": "En ligne,",
+  "titre2": "partout en France."
+ },
+ "remboursement": {
+  "surtitre": "Remboursement",
+  "titre1": "Votre mutuelle",
+  "titre2": "peut aider.",
+  "points": [
+   "Les consultations diététiques ne sont pas prises en charge par la Sécurité sociale : ni carte Vitale, ni CMU.",
+   "Les mutuelles peuvent prendre en charge tout ou partie de la consultation : renseignez-vous auprès de la vôtre.",
+   "Une facture vous est remise. Catherine Becker est enregistrée à l'ARS (ADELI 069500676, RPPS 10008319898)."
+  ],
+  "reseauxTitre": "Réseaux partenaires",
+  "reseauxNote": "Au cabinet seulement, avance des frais obligatoire : présentez votre carte de mutuelle en début de consultation et vérifiez que le logo du réseau y figure."
+ },
+ "conditions": {
+  "surtitre": "Paiement et annulation",
+  "titre1": "Les conditions,",
+  "titre2": "sans petites lignes.",
+  "paiement": [
+   "Chèque, espèces ou carte bancaire (SumUp).",
+   "Paiement en plusieurs fois par PayPal.",
+   "Suivi à l'année : en 3 ou 4 fois sans frais."
+  ],
+  "annulation": [
+   "Un rendez-vous s'annule au moins 24 h à l'avance ; sinon, il reste dû.",
+   "Consultations, coaching et forfaits ne sont ni remboursables ni cessibles, et valables 3, 6 ou 12 mois selon la formule.",
+   "Les conditions générales sont disponibles au cabinet. Les tarifs peuvent varier selon le lieu."
+  ],
+  "paiementTitre": "Pour payer",
+  "annulationTitre": "Pour annuler"
+ },
+ "cadeau": {
+  "surtitre": "Bon cadeau",
+  "titre1": "Offrir",
+  "titre2": "une consultation",
+  "texte": "Une consultation, un coaching, une analyse corporelle ou un coaching au supermarché, d'une valeur au choix.",
+  "lien": "Demander un bon cadeau",
+  "carteNom": "Bon cadeau",
+  "carteValeur": "Valeur au choix"
+ }
+}

@@ -1,0 +1,204 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/accueil-ouverture-1280.webp",
+      "poids": 103115,
+      "sujet": {
+        "x": 655,
+        "y": 0,
+        "l": 518,
+        "h": 589
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 47,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "consultation",
+      "langue": "fr",
+      "fichier": "assets/partage/consultation-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/consultation-ouverture-1280.webp",
+      "poids": 75635,
+      "sujet": {
+        "x": 600,
+        "y": 72,
+        "l": 600,
+        "h": 547
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "cabinet-960.webp",
+      "poids": 55488,
+      "sujet": {
+        "x": 804,
+        "y": 147,
+        "l": 193,
+        "h": 483
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "presentation",
+      "langue": "fr",
+      "fichier": "assets/partage/presentation-fr.jpg",
+      "gabarit": "droite",
+      "image": "presentation-ouverture-1280.webp",
+      "poids": 60478,
+      "sujet": {
+        "x": 724,
+        "y": 0,
+        "l": 383,
+        "h": 406
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "tarifs",
+      "langue": "fr",
+      "fichier": "assets/partage/tarifs-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/tarifs-ouverture-1280.webp",
+      "poids": 89386,
+      "sujet": {
+        "x": 682,
+        "y": 0,
+        "l": 409,
+        "h": 514
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 202,
+          "l": 480,
+          "h": 258
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 74,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

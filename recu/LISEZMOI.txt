@@ -1,0 +1,3 @@
+Les photos originales du site actuel ne sont pas dans ce zip (trop lourdes) : elles sont dans ~/Downloads/catherine-becker-recu
+(récupérées par le bloc Terminal du début du projet). Les variantes utilisées par le site sont dans assets/images.
+Les images Grok sources sont dans recu/grok (en JPG).

@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-20T15:33:43.712Z",
+  "plan": "/home/claude/catherine-becker-maquette/plan-images.json",
+  "attendus": 10,
+  "recus": 10,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [],
+  "images": [
+    {
+      "nom": "grok/accueil-ouverture",
+      "attendu": "accueil-ouverture.png",
+      "fichier": "accueil-ouverture.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1074,
+      "hauteur": 1600,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/consultation-ouverture",
+      "attendu": "consultation-ouverture.png",
+      "fichier": "consultation-ouverture.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 1074,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/consultation-ouverture",
+      "mobile": true,
+      "attendu": "consultation-ouverture-mobile.png",
+      "fichier": "consultation-ouverture-mobile.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1074,
+      "hauteur": 1600,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/tarifs-ouverture",
+      "attendu": "tarifs-ouverture.png",
+      "fichier": "tarifs-ouverture.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1074,
+      "hauteur": 1600,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/accueil-bilan",
+      "attendu": "accueil-bilan.png",
+      "fichier": "accueil-bilan.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1600,
+      "hauteur": 1074,
+      "boites": []
+    },
+    {
+      "nom": "grok/cannes-lumiere",
+      "attendu": "cannes-lumiere.png",
+      "fichier": "cannes-lumiere.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1074,
+      "hauteur": 1600,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/nice-oliviers",
+      "attendu": "nice-oliviers.png",
+      "fichier": "nice-oliviers.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1074,
+      "hauteur": 1600,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/accueil-table",
+      "attendu": "accueil-table.png",
+      "fichier": "accueil-table.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1600,
+      "hauteur": 1074,
+      "boites": []
+    },
+    {
+      "nom": "grok/tarifs-cuisine",
+      "attendu": "tarifs-cuisine.png",
+      "fichier": "tarifs-cuisine.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1600,
+      "hauteur": 1074,
+      "boites": []
+    },
+    {
+      "nom": "grok/page-404",
+      "attendu": "page-404.png",
+      "fichier": "page-404.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 1074,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    }
+  ]
+}

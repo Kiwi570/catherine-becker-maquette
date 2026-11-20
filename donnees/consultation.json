@@ -1,0 +1,91 @@
+{
+  "ouverture": {
+    "surtitre": "La consultation",
+    "titre1": "Pas à pas,",
+    "titre2": "avec vous.",
+    "texte": "Ouverte à tout patient, adressé par un médecin ou non : adultes, enfants et adolescents, seniors, sportifs. Une alimentation équilibrée aide à prévenir et à gérer de nombreux problèmes de santé, et redonne de la vitalité.",
+    "info": "Consultation 70 € · bilan avec bio-impédancemétrie inclus",
+    "alt": "Bureau de consultation lumineux, carafe d'eau citronnée et pommes vertes"
+  },
+  "motifs": {
+    "surtitre": "Les motifs",
+    "titre1": "Je viens",
+    "titre2": "pour…",
+    "texte": "Choisissez ce qui vous amène : chaque carte détaille les situations prises en charge.",
+    "hopital": "Expérience hospitalière : diabétologie, néphrologie, cancérologie, gériatrie, chirurgie digestive, ORL, maternité, cliniques de diététique."
+  },
+  "deroule": {
+    "surtitre": "Le déroulé",
+    "titre1": "Trois étapes,",
+    "titre2": "dans cet ordre.",
+    "etapes": [
+      { "n": "1", "titre": "Bilan diététique", "texte": "Bilan nutritionnel, psycho-nutritionnel et corporel par bio-impédancemétrie. Les conclusions vous sont commentées et les premiers objectifs fixés ensemble." },
+      { "n": "2", "titre": "Rééquilibrage alimentaire", "texte": "Une prescription personnelle selon votre mode de vie, vos habitudes alimentaires et votre santé." },
+      { "n": "3", "titre": "Suivi diététique", "texte": "Si nécessaire : évolution, réajustements suivant les résultats, soutien et motivation." }
+    ]
+  },
+  "bilan": {
+    "surtitre": "Le bilan",
+    "titre1": "La base",
+    "titre2": "de tout le suivi.",
+    "texte": "Il peut être demandé par votre médecin : bilan avant une opération, bilan après une gastroplastie, ajustement d'un traitement ou autre motif.",
+    "points": [
+      "Repérer les causes possibles d'un problème de santé ou d'un surpoids.",
+      "Repérer les déséquilibres en nutriments, vitamines et minéraux, et l'apport calorique actuel.",
+      "Définir votre profil alimentaire et culinaire, et repérer d'éventuels troubles du comportement alimentaire : le protocole s'adapte.",
+      "Vous commenter les conclusions et fixer les premiers objectifs."
+    ],
+    "bioTitre": "La bio-impédancemétrie",
+    "bioTexte": "Une mesure rapide et indolore de la composition du corps, faite au cabinet. Elle mesure :",
+    "mesures": [
+      { "nom": "Masse grasse", "texte": "La part de graisse dans le poids du corps." },
+      { "nom": "Masse musculaire", "texte": "Segment par segment : bras, jambes, tronc." },
+      { "nom": "Graisse viscérale", "texte": "La graisse placée autour des organes de l'abdomen." },
+      { "nom": "Masse hydrique", "texte": "L'eau contenue dans le corps." },
+      { "nom": "IMC", "texte": "L'indice de masse corporelle, rapport du poids à la taille." }
+    ]
+  },
+  "preparer": {
+    "surtitre": "Avant de venir",
+    "titre1": "Préparer",
+    "titre2": "votre première visite",
+    "points": [
+      { "icone": "pomme", "titre": "Vos préférences", "texte": "La liste de ce que vous aimez, et de ce que vous n'aimez pas." },
+      { "icone": "tasse", "titre": "Une journée type", "texte": "Horaires, composition des repas, boissons, quantités : une journée ordinaire, telle qu'elle est." },
+      { "icone": "olive", "titre": "Vos analyses", "texte": "Vos derniers bilans et analyses de sang, si vous en avez." }
+    ],
+    "alt": "Le cabinet : bureau en verre, chaises vert pomme, plantes et tableau de bord de mer",
+    "legende": "Le cabinet"
+  },
+  "rythme": {
+    "surtitre": "Le rythme",
+    "titre1": "Combien de",
+    "titre2": "rendez-vous ?",
+    "texte": "Tout dépend de vous. En moyenne :",
+    "jalons": [
+      { "quand": "1 à 2 semaines", "texte": "entre les deux premières consultations." },
+      { "quand": "1 à 2 rendez-vous", "texte": "pour un rééquilibrage alimentaire, environ." },
+      { "quand": "3 à 6 rendez-vous", "texte": "pour un suivi approfondi (obésité, troubles du comportement alimentaire…), environ." },
+      { "quand": "Ensuite", "texte": "les rendez-vous s'espacent si les résultats sont bons, et se rapprochent dans les périodes difficiles." }
+    ],
+    "formules": "Deux formules possibles : un rendez-vous par semaine pendant un mois, ou un suivi mensuel sur l'année.",
+    "lien": "Voir les packs"
+  },
+  "modalites": {
+    "surtitre": "Où et comment",
+    "titre1": "Quatre façons",
+    "titre2": "de consulter",
+    "liste": [
+      { "icone": "citron", "titre": "Au cabinet", "texte": "À Cannes ou à Nice, sur rendez-vous.", "prix": "70 €" },
+      { "icone": "carotte", "titre": "À domicile", "texte": "Chez vous, sur demande.", "prix": "+15 €" },
+      { "icone": "menthe", "titre": "En téléconsultation", "texte": "Par téléphone ou en visio, depuis chez vous ou votre bureau.", "prix": "70 €" },
+      { "icone": "tasse", "titre": "Suivi en ligne", "texte": "Par téléphone ou e-mail, pour poursuivre un suivi déjà commencé.", "prix": "35 €" }
+    ]
+  },
+  "medecin": {
+    "surtitre": "Avec votre médecin",
+    "titre": "Un courrier à votre médecin, avec votre accord.",
+    "texte": "Après la consultation, et avec votre accord, un courrier informe le professionnel qui vous a adressé du bilan, du régime prescrit et de l'évolution, comme le recommande la Haute Autorité de santé.",
+    "texte2": "Catherine Becker travaille avec des médecins généralistes, des gastro-entérologues, des chirurgiens, des psychologues, des kinésithérapeutes…"
+  }
+}

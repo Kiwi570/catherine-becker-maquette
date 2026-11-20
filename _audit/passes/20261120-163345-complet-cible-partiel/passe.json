@@ -1,0 +1,16 @@
+{
+ "id": "20261120-163345-complet-cible-partiel",
+ "date": "2026-11-20T16:34:52.334Z",
+ "niveau": "complet",
+ "pages": "/tarifs",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 7,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

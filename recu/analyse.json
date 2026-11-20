@@ -1,0 +1,6938 @@
+{
+  "dossier": "/Users/paul/Downloads/catherine-becker-recu",
+  "date": "2026-11-20T15:18:23.989Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg",
+    "planche-4.jpg",
+    "planche-5.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo-clair.png",
+      "nom": "logo-clair",
+      "drapeau": "logo",
+      "largeur": 988,
+      "hauteur": 334,
+      "ratio": "3:1",
+      "ratio_valeur": 2.958,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 54185,
+      "transparence": true,
+      "sujet": {
+        "x": 34.3,
+        "y": 9,
+        "l": 45.7,
+        "h": 83.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        61
+      ],
+      "cadrage_css": "47% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        }
+      ],
+      "qualite": {
+        "nettete": 76.9,
+        "bruit": 0.09,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "TETICIENNE · UTRITIONNIS",
+        "blocs": 2,
+        "surface": 8,
+        "details": [
+          {
+            "texte": "TETICIENNE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "UTRITIONNIS",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0c0c8c8d8c1ab291",
+      "drapeaux": [
+        "logo",
+        "texte du logo",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "logo.jpg",
+      "nom": "logo",
+      "drapeau": "logo",
+      "largeur": 567,
+      "hauteur": 354,
+      "ratio": "16:10",
+      "ratio_valeur": 1.602,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 23194,
+      "transparence": false,
+      "sujet": {
+        "x": 7.7,
+        "y": 20.5,
+        "l": 81.6,
+        "h": 61.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        51
+      ],
+      "cadrage_css": "42% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 49.6,
+        "bruit": 0.28,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "Sodexho",
+        "blocs": 1,
+        "surface": 25.9,
+        "details": [
+          {
+            "texte": "Sodexho",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "004e16524b190923",
+      "drapeaux": [
+        "logo",
+        "texte du logo",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "logo-2.jpg",
+      "nom": "logo-2",
+      "drapeau": "logo",
+      "largeur": 400,
+      "hauteur": 400,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 8517,
+      "transparence": false,
+      "sujet": {
+        "x": 8.2,
+        "y": 41.4,
+        "l": 64.1,
+        "h": 19,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        49
+      ],
+      "cadrage_css": "36% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 1,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.79,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "droite",
+          "score": 0.78,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 31.3,
+        "bruit": 0.14,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "QUITOQUE",
+        "blocs": 1,
+        "surface": 12.3,
+        "details": [
+          {
+            "texte": "QUITOQUE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "009061929a219000",
+      "drapeaux": [
+        "logo",
+        "texte du logo",
+        "calme haut/bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "logo-3.jpg",
+      "nom": "logo-3",
+      "drapeau": "logo",
+      "largeur": 300,
+      "hauteur": 300,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 7730,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 29.4,
+        "l": 79.4,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        43
+      ],
+      "cadrage_css": "48% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        }
+      ],
+      "qualite": {
+        "nettete": 56.4,
+        "bruit": 0.06,
+        "compression": 1.41,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "140055d5d5540044",
+      "drapeaux": [
+        "logo",
+        "calme bas/haut"
+      ]
+    },
+    {
+      "fichier": "logo-4.jpg",
+      "nom": "logo-4",
+      "drapeau": "logo",
+      "largeur": 389,
+      "hauteur": 130,
+      "ratio": "3:1",
+      "ratio_valeur": 2.992,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 9063,
+      "transparence": false,
+      "sujet": {
+        "x": 17.5,
+        "y": 60.4,
+        "l": 57.3,
+        "h": 37.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        70
+      ],
+      "cadrage_css": "35% 70%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        }
+      ],
+      "qualite": {
+        "nettete": 59.8,
+        "bruit": 1.11,
+        "compression": 1.4,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "Santéclair · Informations & réseaux de soins",
+        "blocs": 2,
+        "surface": 65.9,
+        "details": [
+          {
+            "texte": "Santéclair",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Informations & réseaux de soins",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "ca9a4d793f0f6965",
+      "drapeaux": [
+        "logo",
+        "texte du logo"
+      ]
+    },
+    {
+      "fichier": "logo-5.jpg",
+      "nom": "logo-5",
+      "drapeau": "logo",
+      "largeur": 71,
+      "hauteur": 94,
+      "ratio": "3:4",
+      "ratio_valeur": 0.755,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 3494,
+      "transparence": false,
+      "sujet": {
+        "x": 1.6,
+        "y": 5.3,
+        "l": 95.3,
+        "h": 80.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        54
+      ],
+      "cadrage_css": "46% 54%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 46.3,
+        "bruit": 1.76,
+        "compression": 1.31,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "\"ENTRES · DE CANNES",
+        "blocs": 2,
+        "surface": 8.2,
+        "details": [
+          {
+            "texte": "\"ENTRES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DE CANNES",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "610d24e315551521",
+      "drapeaux": [
+        "logo",
+        "texte du logo"
+      ]
+    },
+    {
+      "fichier": "bol-sante.jpg",
+      "nom": "bol-sante",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 499497,
+      "transparence": false,
+      "sujet": {
+        "x": 30.6,
+        "y": 8,
+        "l": 64.6,
+        "h": 92,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        50
+      ],
+      "cadrage_css": "62% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.65
+        }
+      ],
+      "qualite": {
+        "nettete": 46,
+        "bruit": 1.07,
+        "compression": 1.16,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "26838796b1894f67",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "green-goodness.jpg",
+      "nom": "green-goodness",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1342,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 620651,
+      "transparence": false,
+      "sujet": {
+        "x": 7.7,
+        "y": 17.6,
+        "l": 87.7,
+        "h": 75.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        51
+      ],
+      "cadrage_css": "53% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        }
+      ],
+      "qualite": {
+        "nettete": 55.6,
+        "bruit": 1.5,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "50256d6d65575d59",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "cb-scout5-hdpi.png",
+      "nom": "cb-scout5-hdpi",
+      "drapeau": "autre",
+      "largeur": 430,
+      "hauteur": 1670,
+      "ratio": "0.26",
+      "ratio_valeur": 0.257,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 104139,
+      "transparence": true,
+      "sujet": {
+        "x": 5.9,
+        "y": 4.4,
+        "l": 69.1,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        34
+      ],
+      "cadrage_css": "37% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        }
+      ],
+      "qualite": {
+        "nettete": 54.7,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "430 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d7555552d0d0d0d0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite/bas"
+      ]
+    },
+    {
+      "fichier": "cannes.jpg",
+      "nom": "cannes",
+      "drapeau": "autre",
+      "largeur": 539,
+      "hauteur": 645,
+      "ratio": "0.84",
+      "ratio_valeur": 0.836,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 32775,
+      "transparence": false,
+      "sujet": {
+        "x": 5.4,
+        "y": 0,
+        "l": 94.2,
+        "h": 83.9,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        53,
+        35
+      ],
+      "cadrage_css": "53% 35%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        }
+      ],
+      "qualite": {
+        "nettete": 13,
+        "bruit": 0.7,
+        "compression": 1.44,
+        "faible": true,
+        "raisons": [
+          "539 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8693b39317030f07",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "cannes-2.webp",
+      "nom": "cannes-2",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 15894,
+      "transparence": false,
+      "sujet": {
+        "x": 19.1,
+        "y": 35.3,
+        "l": 69.1,
+        "h": 25,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        47
+      ],
+      "cadrage_css": "60% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 32.9,
+        "bruit": 0.35,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "vullauleo · Castellane · urel · Parc nature · régional de · Préalpes · d'Azur · Grasse",
+        "blocs": 8,
+        "surface": 7.4,
+        "details": [
+          {
+            "texte": "vullauleo",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Castellane",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "urel",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parc nature",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "régional de",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Préalpes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "d'Azur",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Grasse",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "835402a0a5c11142",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "cannes-3.webp",
+      "nom": "cannes-3",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 3776,
+      "transparence": false,
+      "sujet": {
+        "x": 13.2,
+        "y": 4.4,
+        "l": 47.1,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        36
+      ],
+      "cadrage_css": "36% 36%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 4.3,
+        "bruit": 0.06,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Riviera Ligure di Lev",
+        "blocs": 1,
+        "surface": 3.8,
+        "details": [
+          {
+            "texte": "Riviera Ligure di Lev",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2060404000008010",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "texte décoratif",
+        "calme droite/bas/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "cannes-4.webp",
+      "nom": "cannes-4",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 11158,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 22.1,
+        "l": 35.3,
+        "h": 44.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        49
+      ],
+      "cadrage_css": "42% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "haut",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 42.1,
+        "bruit": 0.2,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Canr · Draguignan · orgues · Le Muy · Fréjus · Sainte-Maxime · Saint-Tropez · es-Mimosas",
+        "blocs": 8,
+        "surface": 7.4,
+        "details": [
+          {
+            "texte": "Canr",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Draguignan",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "orgues",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Le Muy",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Fréjus",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sainte-Maxime",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Saint-Tropez",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "es-Mimosas",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "689404028c005050",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite/bas/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "cannes-5.webp",
+      "nom": "cannes-5",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 10766,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 4.4,
+        "l": 58.8,
+        "h": 45.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        29
+      ],
+      "cadrage_css": "42% 29%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "haut",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        }
+      ],
+      "qualite": {
+        "nettete": 20.1,
+        "bruit": 0.16,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Albenga · Alassio · Imperia · Taggia · anremo",
+        "blocs": 5,
+        "surface": 3.6,
+        "details": [
+          {
+            "texte": "Albenga",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Alassio",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Imperia",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Taggia",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "anremo",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8222004c40800000",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "cannes-6.webp",
+      "nom": "cannes-6",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 5072,
+      "transparence": false,
+      "sujet": {
+        "x": 41.6,
+        "y": 49.6,
+        "l": 26.3,
+        "h": 17,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        56
+      ],
+      "cadrage_css": "53% 56%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        }
+      ],
+      "qualite": {
+        "nettete": 2.8,
+        "bruit": 0.06,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Mer Ligure",
+        "blocs": 1,
+        "surface": 1.6,
+        "details": [
+          {
+            "texte": "Mer Ligure",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8000001004041000",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "texte décoratif",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "cannes-7.webp",
+      "nom": "cannes-7",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 12182,
+      "transparence": false,
+      "sujet": {
+        "x": 20.6,
+        "y": 50,
+        "l": 47.1,
+        "h": 25,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        63
+      ],
+      "cadrage_css": "48% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "bas",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        }
+      ],
+      "qualite": {
+        "nettete": 30.3,
+        "bruit": 0.26,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Tellue · Menton · Monaco · Vence · Nice · Cagnes-sur-Mer",
+        "blocs": 6,
+        "surface": 4.9,
+        "details": [
+          {
+            "texte": "Tellue",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Menton",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Monaco",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Vence",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Nice",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cagnes-sur-Mer",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0104c4e442a6a408",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/droite/gauche/bas"
+      ]
+    },
+    {
+      "fichier": "cannes-8.webp",
+      "nom": "cannes-8",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 1848,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 26.5,
+        "l": 30.9,
+        "h": 32.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        42
+      ],
+      "cadrage_css": "48% 42%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "bas",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 1.9,
+        "bruit": 0.03,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0100000000000020",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "calme droite/haut/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "cannes-9.webp",
+      "nom": "cannes-9",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 4662,
+      "transparence": false,
+      "sujet": {
+        "x": 74.8,
+        "y": 39.2,
+        "l": 24.2,
+        "h": 51.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        81,
+        58
+      ],
+      "cadrage_css": "81% 58%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 3.9,
+        "bruit": 0.09,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Riviera Ligure di Ponente",
+        "blocs": 1,
+        "surface": 7.9,
+        "details": [
+          {
+            "texte": "Riviera Ligure di Ponente",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0040090101010102",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "texte décoratif",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "cannes-10.webp",
+      "nom": "cannes-10",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 2146,
+      "transparence": false,
+      "sujet": {
+        "x": 35.3,
+        "y": 27.9,
+        "l": 27.9,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        42
+      ],
+      "cadrage_css": "49% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 3.5,
+        "bruit": 0.06,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8200000000000000",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "calme bas/droite/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "cannes-11.webp",
+      "nom": "cannes-11",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 19068,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 16.2,
+        "l": 82.4,
+        "h": 45.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        40
+      ],
+      "cadrage_css": "46% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        }
+      ],
+      "qualite": {
+        "nettete": 29.3,
+        "bruit": 0.28,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Forcalquier · Oraison · Manosque · Valensole · Parc nati · régiona · du Verd",
+        "blocs": 7,
+        "surface": 7,
+        "details": [
+          {
+            "texte": "Forcalquier",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Oraison",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Manosque",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Valensole",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parc nati",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "régiona",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "du Verd",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "92223a0c2c006bd0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/gauche/haut/droite"
+      ]
+    },
+    {
+      "fichier": "cannes-12.webp",
+      "nom": "cannes-12",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 21870,
+      "transparence": false,
+      "sujet": {
+        "x": 27.9,
+        "y": 13.2,
+        "l": 45.6,
+        "h": 50,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        38
+      ],
+      "cadrage_css": "51% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "bas",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 43.7,
+        "bruit": 0.34,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Istres · Martigues · Aix-en-Provence · Vitrolles · Marignane · Gardanne · Marseille Aubagne · Parc national · des Calanques",
+        "blocs": 9,
+        "surface": 13.2,
+        "details": [
+          {
+            "texte": "Istres",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Martigues",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Aix-en-Provence",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Vitrolles",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Marignane",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Gardanne",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Marseille Aubagne",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parc national",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "des Calanques",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "617899eb8e15130c",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/bas"
+      ]
+    },
+    {
+      "fichier": "cannes-13.webp",
+      "nom": "cannes-13",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 2858,
+      "transparence": false,
+      "sujet": {
+        "x": 33.8,
+        "y": 20.6,
+        "l": 29.4,
+        "h": 39.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        40
+      ],
+      "cadrage_css": "49% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 2.7,
+        "bruit": 0.06,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0000000010011400",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "calme bas/droite/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "cannes-14.webp",
+      "nom": "cannes-14",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 16568,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 26.5,
+        "l": 70.6,
+        "h": 42.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        45
+      ],
+      "cadrage_css": "51% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "bas",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "droite",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 42.5,
+        "bruit": 0.3,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Valréas · Nyons · Parc naturel · régional des · Baronnies · Provençales · Vaison-la-Romaine · Parc naturel · rénional cut",
+        "blocs": 9,
+        "surface": 11.6,
+        "details": [
+          {
+            "texte": "Valréas",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Nyons",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parc naturel",
+            "niveau": "marque"
+          },
+          {
+            "texte": "régional des",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Baronnies",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Provençales",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Vaison-la-Romaine",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parc naturel",
+            "niveau": "marque"
+          },
+          {
+            "texte": "rénional cut",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "5208c1b33131320c",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme haut/bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "cannes-15.webp",
+      "nom": "cannes-15",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 26472,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 26.5,
+        "l": 44.1,
+        "h": 26.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        40
+      ],
+      "cadrage_css": "61% 40%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        }
+      ],
+      "qualite": {
+        "nettete": 37.4,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ano · Dogliani · Mondovi · Ceva · Cairo · Montenotte · Vado · Spoto · Finale Ligur · Loano",
+        "blocs": 10,
+        "surface": 7.1,
+        "details": [
+          {
+            "texte": "ano",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Dogliani",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Mondovi",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Ceva",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cairo",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Montenotte",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Vado",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Spoto",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Finale Ligur",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Loano",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "b834435324800000",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "cannes-16.webp",
+      "nom": "cannes-16",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 27082,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 19.1,
+        "l": 39.7,
+        "h": 39.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        39
+      ],
+      "cadrage_css": "35% 39%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 42.2,
+        "bruit": 0.44,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Saint-Maximin-la-Sainte-Baume · Brignoles · Parc naturel · régional de la · Sainte-Baume · Bormes-l · Toulon · Six-Fours-les-Plages · Hyères",
+        "blocs": 9,
+        "surface": 13.1,
+        "details": [
+          {
+            "texte": "Saint-Maximin-la-Sainte-Baume",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Brignoles",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parc naturel",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "régional de la",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sainte-Baume",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bormes-l",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Toulon",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Six-Fours-les-Plages",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Hyères",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c18c3d1e1c1c984b",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite/bas/haut"
+      ]
+    },
+    {
+      "fichier": "cannes-17.webp",
+      "nom": "cannes-17",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 24118,
+      "transparence": false,
+      "sujet": {
+        "x": 11.8,
+        "y": 23.5,
+        "l": 48.5,
+        "h": 38.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        33,
+        45
+      ],
+      "cadrage_css": "33% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 35.5,
+        "bruit": 0.26,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Gap · Veynes · Chorges · Tallard · Serres · Laragne-Montéglin · Sisteron · Niana lac Rain",
+        "blocs": 8,
+        "surface": 6.8,
+        "details": [
+          {
+            "texte": "Gap",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Veynes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Chorges",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Tallard",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Serres",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Laragne-Montéglin",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sisteron",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Niana lac Rain",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "342466383a410a10",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "cannes-18.webp",
+      "nom": "cannes-18",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 17236,
+      "transparence": false,
+      "sujet": {
+        "x": 4.4,
+        "y": 22.1,
+        "l": 66.2,
+        "h": 29.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        36
+      ],
+      "cadrage_css": "39% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "haut",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        }
+      ],
+      "qualite": {
+        "nettete": 42.5,
+        "bruit": 0.33,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Mont-Ventoux · L'Isle-sur-la-Sorgue · ard · Cavaillon · Parc naturel · régional du · Luberon · Pertuis · Salon-de-Provence · Miramas",
+        "blocs": 10,
+        "surface": 11.8,
+        "details": [
+          {
+            "texte": "Mont-Ventoux",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "L'Isle-sur-la-Sorgue",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ard",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cavaillon",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parc naturel",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "régional du",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Luberon",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Pertuis",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Salon-de-Provence",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Miramas",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8e0ab36342891150",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite/haut"
+      ]
+    },
+    {
+      "fichier": "cannes-19.webp",
+      "nom": "cannes-19",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 27410,
+      "transparence": false,
+      "sujet": {
+        "x": 48.5,
+        "y": 32.4,
+        "l": 23.5,
+        "h": 42.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        50
+      ],
+      "cadrage_css": "60% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 41.8,
+        "bruit": 0.32,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Foss · Busca · Dronero · Coni · Borgo San · Dalmazzo · inée · national · ercantour · Parco Naturale · Alpi Marittime",
+        "blocs": 11,
+        "surface": 10.3,
+        "details": [
+          {
+            "texte": "Foss",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Busca",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Dronero",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Coni",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Borgo San",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Dalmazzo",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "inée",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "national",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ercantour",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parco Naturale",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Alpi Marittime",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "02060a0286984647",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/gauche/droite/bas"
+      ]
+    },
+    {
+      "fichier": "cannes-20.webp",
+      "nom": "cannes-20",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 29440,
+      "transparence": false,
+      "sujet": {
+        "x": 30.9,
+        "y": 26.5,
+        "l": 44.1,
+        "h": 41.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        44
+      ],
+      "cadrage_css": "51% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        }
+      ],
+      "qualite": {
+        "nettete": 41.2,
+        "bruit": 0.28,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Embrun · Les Orres · Vars · Jausiers · Barcelonnette · Saint-Étienne-de-T · Allos · Parc · du M · Guillaumen",
+        "blocs": 10,
+        "surface": 8.1,
+        "details": [
+          {
+            "texte": "Embrun",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Les Orres",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Vars",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Jausiers",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Barcelonnette",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Saint-Étienne-de-T",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Allos",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parc",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "du M",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Guillaumen",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "28b0040562115880",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "cannes-21.webp",
+      "nom": "cannes-21",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 11850,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 8.8,
+        "l": 83.8,
+        "h": 51.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        35
+      ],
+      "cadrage_css": "50% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "haut",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 37.4,
+        "bruit": 0.21,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Borgo Val · di Taro · Rapallo · Chiavari · Sestri Levante · Monterosso · al Mare · La Sp",
+        "blocs": 8,
+        "surface": 6.8,
+        "details": [
+          {
+            "texte": "Borgo Val",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "di Taro",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rapallo",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Chiavari",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sestri Levante",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Monterosso",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "al Mare",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "La Sp",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "a101006429b85702",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "cannes-22.webp",
+      "nom": "cannes-22",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 10458,
+      "transparence": false,
+      "sujet": {
+        "x": 17.6,
+        "y": 23.5,
+        "l": 70.6,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        35
+      ],
+      "cadrage_css": "54% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 31.6,
+        "bruit": 0.21,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Arenzano · Varazze · avona · Ligure · rno · Busalla · Gênes · Sori",
+        "blocs": 8,
+        "surface": 5.6,
+        "details": [
+          {
+            "texte": "Arenzano",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Varazze",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "avona",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Ligure",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "rno",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Busalla",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Gênes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sori",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "436c93136cc00000",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/haut/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "hurom.jpg",
+      "nom": "hurom",
+      "drapeau": "produit",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 421460,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 3.9,
+        "l": 53.6,
+        "h": 87.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        44
+      ],
+      "cadrage_css": "50% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 41.8,
+        "bruit": 0.8,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "461e9ed49e66869a",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "medecins-chirurgiens-pharmaciens.jpg",
+      "nom": "medecins-chirurgiens-pharmaciens",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1330,
+      "ratio": "3:2",
+      "ratio_valeur": 1.504,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 234862,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 13.2,
+        "l": 32.4,
+        "h": 52.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        39
+      ],
+      "cadrage_css": "54% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 13.4,
+        "bruit": 0.36,
+        "compression": 1.32,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "1c1939b2983c3294",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "services-entreprises-professionnels.jpg",
+      "nom": "services-entreprises-professionnels",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 233168,
+      "transparence": false,
+      "sujet": {
+        "x": 36,
+        "y": 42,
+        "l": 59.6,
+        "h": 47.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        57
+      ],
+      "cadrage_css": "63% 57%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 9.6,
+        "bruit": 0.38,
+        "compression": 1.51,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "cc59494948c77379",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "catherine-becker-europe-1.png",
+      "nom": "catherine-becker-europe-1",
+      "drapeau": "autre",
+      "largeur": 1000,
+      "hauteur": 368,
+      "ratio": "2.72",
+      "ratio_valeur": 2.717,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 33877,
+      "transparence": true,
+      "sujet": {
+        "x": 9.1,
+        "y": 12.5,
+        "l": 72.4,
+        "h": 58.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        42
+      ],
+      "cadrage_css": "39% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.46,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.45
+        }
+      ],
+      "qualite": {
+        "nettete": 31.9,
+        "bruit": 0.07,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1000 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Europe 1",
+        "blocs": 1,
+        "surface": 47.8,
+        "details": [
+          {
+            "texte": "Europe 1",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "459aa2e8c8d2522d",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "pourquoi-consulter.jpg",
+      "nom": "pourquoi-consulter",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 238381,
+      "transparence": false,
+      "sujet": {
+        "x": 22.7,
+        "y": 31.5,
+        "l": 20.4,
+        "h": 68.1,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        35,
+        49
+      ],
+      "cadrage_css": "35% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 18.2,
+        "bruit": 0.34,
+        "compression": 1.5,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "ecccd8d5d430b191",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "compression visible",
+        "calme haut/droite"
+      ]
+    },
+    {
+      "fichier": "suivi-dietetique.jpg",
+      "nom": "suivi-dietetique",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 298104,
+      "transparence": false,
+      "sujet": {
+        "x": 15.4,
+        "y": 4.8,
+        "l": 38.3,
+        "h": 54.5,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        35,
+        34
+      ],
+      "cadrage_css": "35% 34%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 25.6,
+        "bruit": 0.56,
+        "compression": 1.23,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "MICHAES",
+        "blocs": 1,
+        "surface": 0.9,
+        "details": [
+          {
+            "texte": "MICHAES",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "30b23a3118b09393",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "repas-asiatique.jpg",
+      "nom": "repas-asiatique",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1786,
+      "ratio": "1.08",
+      "ratio_valeur": 1.075,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1804664,
+      "transparence": false,
+      "sujet": {
+        "x": 8.5,
+        "y": 12.1,
+        "l": 87.7,
+        "h": 79.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        44
+      ],
+      "cadrage_css": "56% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.51,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "gauche",
+          "score": 0.42,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "haut",
+          "score": 0.36,
+          "ton": "sombre",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.72
+        }
+      ],
+      "qualite": {
+        "nettete": 25.6,
+        "bruit": 0.7,
+        "compression": 1.07,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "942cde4c62d696a1",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "cabinets-dietetiques-plan-acces.webp",
+      "nom": "cabinets-dietetiques-plan-acces",
+      "drapeau": "lieu",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 29788,
+      "transparence": false,
+      "sujet": {
+        "x": 7.4,
+        "y": 16.2,
+        "l": 50,
+        "h": 30.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        34,
+        31
+      ],
+      "cadrage_css": "34% 31%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "haut",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 31.3,
+        "bruit": 0.85,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Chem. des cu, · Le Cannet · Av. du Campon · Rte Napoléon",
+        "blocs": 4,
+        "surface": 13.8,
+        "details": [
+          {
+            "texte": "Chem. des cu,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Le Cannet",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. du Campon",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte Napoléon",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "15a95a5454507478",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite"
+      ]
+    },
+    {
+      "fichier": "cabinets-dietetiques-plan-acces-2.webp",
+      "nom": "cabinets-dietetiques-plan-acces-2",
+      "drapeau": "lieu",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 60822,
+      "transparence": false,
+      "sujet": {
+        "x": 34.3,
+        "y": 1.3,
+        "l": 65.6,
+        "h": 80.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        45
+      ],
+      "cadrage_css": "65% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "haut",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 40.2,
+        "bruit": 0.74,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "PASTEUR · Av. du Maréchal Lyautey · Pénétrante du · Bd Virgile Barel Bd Saint-Roch · ST ROCH · Tun. André Lautaud",
+        "blocs": 6,
+        "surface": 35.8,
+        "details": [
+          {
+            "texte": "PASTEUR",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. du Maréchal Lyautey",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Pénétrante du",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bd Virgile Barel Bd Saint-Roch",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ST ROCH",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Tun. André Lautaud",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1a163c2d69782c39",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "cabinets-dietetiques-plan-acces-3.webp",
+      "nom": "cabinets-dietetiques-plan-acces-3",
+      "drapeau": "lieu",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 27678,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 13.2,
+        "l": 64.7,
+        "h": 61.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        45
+      ],
+      "cadrage_css": "39% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 38,
+        "bruit": 0.71,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Bd de Cessole · Bd Gorbella · Av. de Brancolar · VALROSE · CIMIE · LIBERATION",
+        "blocs": 6,
+        "surface": 15.7,
+        "details": [
+          {
+            "texte": "Bd de Cessole",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bd Gorbella",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. de Brancolar",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "VALROSE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CIMIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LIBERATION",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "287993e7e8cccbf2",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite"
+      ]
+    },
+    {
+      "fichier": "cabinets-dietetiques-plan-acces-4.webp",
+      "nom": "cabinets-dietetiques-plan-acces-4",
+      "drapeau": "lieu",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 54632,
+      "transparence": false,
+      "sujet": {
+        "x": 11.8,
+        "y": 8.8,
+        "l": 57.4,
+        "h": 86.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        38,
+        45
+      ],
+      "cadrage_css": "38% 45%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "bas",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 29.5,
+        "bruit": 0.91,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "CALIFORNIE · PÉZOU",
+        "blocs": 2,
+        "surface": 2,
+        "details": [
+          {
+            "texte": "CALIFORNIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PÉZOU",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4e382ac212420302",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "cabinets-dietetiques-plan-acces-5.webp",
+      "nom": "cabinets-dietetiques-plan-acces-5",
+      "drapeau": "lieu",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 54402,
+      "transparence": false,
+      "sujet": {
+        "x": 3.6,
+        "y": 0,
+        "l": 52.8,
+        "h": 99.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        38,
+        46
+      ],
+      "cadrage_css": "38% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 38.5,
+        "bruit": 1.04,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "nines · LES FUMADES · Rte de Cannes · em, des Colines · SUPER-CANNES",
+        "blocs": 5,
+        "surface": 19.3,
+        "details": [
+          {
+            "texte": "nines",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LES FUMADES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte de Cannes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "em, des Colines",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SUPER-CANNES",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1b978f1e1b13333e",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "cabinets-dietetiques-plan-acces-6.webp",
+      "nom": "cabinets-dietetiques-plan-acces-6",
+      "drapeau": "lieu",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 64670,
+      "transparence": false,
+      "sujet": {
+        "x": 40.3,
+        "y": 13,
+        "l": 48.2,
+        "h": 72.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        47
+      ],
+      "cadrage_css": "62% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "bas",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        }
+      ],
+      "qualite": {
+        "nettete": 41.6,
+        "bruit": 0.86,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "RIOU - PETIT · JUAS - AV. DE · GRASSE DISTRIC · CROIX · GARDES · Av. du Dr Raymond Picaud · Bd du Midi Louise Moreau",
+        "blocs": 7,
+        "surface": 14.2,
+        "details": [
+          {
+            "texte": "RIOU - PETIT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "JUAS - AV. DE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "GRASSE DISTRIC",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CROIX",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "GARDES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. du Dr Raymond Picaud",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bd du Midi Louise Moreau",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2e06b73eba93cfec",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "cabinets-dietetiques-plan-acces-7.webp",
+      "nom": "cabinets-dietetiques-plan-acces-7",
+      "drapeau": "lieu",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 23544,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 22.1,
+        "l": 36.8,
+        "h": 54.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        53
+      ],
+      "cadrage_css": "43% 53%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 36.5,
+        "bruit": 0.59,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Bd Carnot · PRADO · RÉPUBLIQUE · Av. de Vallauris · Cannes · CTRE VILLE · E SUQUET",
+        "blocs": 7,
+        "surface": 11.3,
+        "details": [
+          {
+            "texte": "Bd Carnot",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PRADO",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "RÉPUBLIQUE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. de Vallauris",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cannes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CTRE VILLE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "E SUQUET",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "a84c4df89a9e2b26",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif",
+        "calme droite/bas"
+      ]
+    },
+    {
+      "fichier": "cabinets-dietetiques-plan-acces-8.webp",
+      "nom": "cabinets-dietetiques-plan-acces-8",
+      "drapeau": "lieu",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 51528,
+      "transparence": false,
+      "sujet": {
+        "x": 11.8,
+        "y": 27.9,
+        "l": 52.9,
+        "h": 61.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        52
+      ],
+      "cadrage_css": "44% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "bas",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 34.2,
+        "bruit": 0.44,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LE PÉRIER · che daima · Rte Napoléon · Grasse",
+        "blocs": 4,
+        "surface": 16.3,
+        "details": [
+          {
+            "texte": "LE PÉRIER",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "che daima",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte Napoléon",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Grasse",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "19338e24a5a5846d",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif",
+        "calme droite/haut/gauche/bas"
+      ]
+    },
+    {
+      "fichier": "femme-buvant-jus.jpg",
+      "nom": "femme-buvant-jus",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1127,
+      "ratio": "16:9",
+      "ratio_valeur": 1.775,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 270162,
+      "transparence": false,
+      "sujet": {
+        "x": 36.9,
+        "y": 0,
+        "l": 33,
+        "h": 62.3,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        53,
+        29
+      ],
+      "cadrage_css": "53% 29%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 26.6,
+        "bruit": 0.81,
+        "compression": 1.23,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "6652b1717178624e",
+      "drapeaux": [
+        "autre",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "fruits-legumes.jpg",
+      "nom": "fruits-legumes",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1125,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 632867,
+      "transparence": false,
+      "sujet": {
+        "x": 1.6,
+        "y": 14.1,
+        "l": 93.9,
+        "h": 76.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        49
+      ],
+      "cadrage_css": "49% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 69.7,
+        "bruit": 1.8,
+        "compression": 1.1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c093b31b256b6765",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "nutritionniste.jpg",
+      "nom": "nutritionniste",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 267992,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 0,
+        "l": 81,
+        "h": 92.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        46
+      ],
+      "cadrage_css": "58% 46%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 19.3,
+        "bruit": 0.48,
+        "compression": 1.29,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "eff0d8ce6af9d9dc",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "bilan-nutritionnel.jpg",
+      "nom": "bilan-nutritionnel",
+      "drapeau": "autre",
+      "largeur": 600,
+      "hauteur": 851,
+      "ratio": "0.71",
+      "ratio_valeur": 0.705,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 87669,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 25,
+        "l": 63.2,
+        "h": 47.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        53
+      ],
+      "cadrage_css": "45% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 65.9,
+        "bruit": 0.86,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "600 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "TANITA · Body Composition Analyzer · MC-780 · Date (DIMIY] · 28/06/2013 20:02 · 41 Age · 1l Tadle · 0000000000000001 · # Détails · ) Poids · Groisse · 50.9 · 20",
+        "blocs": 99,
+        "surface": 13.7,
+        "details": [
+          {
+            "texte": "TANITA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Body Composition Analyzer",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MC-780",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Date (DIMIY]",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "28/06/2013 20:02",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "41 Age",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "1l Tadle",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "0000000000000001",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "# Détails",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": ") Poids",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Groisse",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "50.9",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "5133737177334911",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "concept-brainfood-groupe-radisson.png",
+      "nom": "concept-brainfood-groupe-radisson",
+      "drapeau": "plat",
+      "largeur": 720,
+      "hauteur": 600,
+      "ratio": "1.2",
+      "ratio_valeur": 1.2,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 36084,
+      "transparence": false,
+      "sujet": {
+        "x": 7.8,
+        "y": 34.1,
+        "l": 68.4,
+        "h": 33.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        48
+      ],
+      "cadrage_css": "43% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 48.5,
+        "bruit": 0.18,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "720 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Radisson · BLU · HOTELS & RESORTS",
+        "blocs": 3,
+        "surface": 24.5,
+        "details": [
+          {
+            "texte": "Radisson",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BLU",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "HOTELS & RESORTS",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0026d95d2dc51001",
+      "drapeaux": [
+        "plat",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "reponse-tout.jpg",
+      "nom": "reponse-tout",
+      "drapeau": "autre",
+      "largeur": 1480,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.74,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 703987,
+      "transparence": false,
+      "sujet": {
+        "x": 28.4,
+        "y": 0,
+        "l": 71.6,
+        "h": 59.1,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        65,
+        28
+      ],
+      "cadrage_css": "65% 28%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.72
+        }
+      ],
+      "qualite": {
+        "nettete": 76.4,
+        "bruit": 1.03,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "JUIN 2015 - N° 300 · REPONSEI · A TOUT- · LE MAGAZINE QUI ENRICHIT LA VIE WWW.REPONSEATOUT.COM · QUIZ DROIT · Connaissez- · vous les · règles à · respecter · po",
+        "blocs": 52,
+        "surface": 28,
+        "details": [
+          {
+            "texte": "JUIN 2015 - N° 300",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "REPONSEI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "A TOUT-",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LE MAGAZINE QUI ENRICHIT LA VIE WWW.REPONSEATOUT.COM",
+            "niveau": "marque"
+          },
+          {
+            "texte": "QUIZ DROIT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Connaissez-",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "vous les",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "règles à",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "respecter",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "pour vos",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "travaux?",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ARGENT",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "5b66575667765b69",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "journee-depistage-atelier-nutrition.jpg",
+      "nom": "journee-depistage-atelier-nutrition",
+      "drapeau": "lieu",
+      "largeur": 1200,
+      "hauteur": 800,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 66472,
+      "transparence": false,
+      "sujet": {
+        "x": 14.4,
+        "y": 36.4,
+        "l": 62.2,
+        "h": 35.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        48
+      ],
+      "cadrage_css": "54% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "gauche",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 11.6,
+        "bruit": 0.1,
+        "compression": 1.15,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "mutuelles du soleil",
+        "blocs": 1,
+        "surface": 14.4,
+        "details": [
+          {
+            "texte": "mutuelles du soleil",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "00260355253c1800",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "azur-tv-journal-07.jpg",
+      "nom": "azur-tv-journal-07",
+      "drapeau": "plat",
+      "largeur": 1236,
+      "hauteur": 694,
+      "ratio": "16:9",
+      "ratio_valeur": 1.781,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 398298,
+      "transparence": false,
+      "sujet": {
+        "x": 56.7,
+        "y": 18.1,
+        "l": 20.7,
+        "h": 48.7,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        67,
+        39
+      ],
+      "cadrage_css": "67% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "sombre",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 25.6,
+        "bruit": 0.58,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1236 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Mercredi 07 Janvier · APRÈS LES · FÊTES · LE RÉGIME",
+        "blocs": 4,
+        "surface": 8.3,
+        "details": [
+          {
+            "texte": "Mercredi 07 Janvier",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "APRÈS LES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FÊTES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LE RÉGIME",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "b48b89a9998d8d7d",
+      "drapeaux": [
+        "plat",
+        "visage",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "solution-simple-consommer-plus.jpg",
+      "nom": "solution-simple-consommer-plus",
+      "drapeau": "lieu",
+      "largeur": 1096,
+      "hauteur": 1500,
+      "ratio": "0.73",
+      "ratio_valeur": 0.731,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 770979,
+      "transparence": false,
+      "sujet": {
+        "x": 23.6,
+        "y": 12.7,
+        "l": 45.5,
+        "h": 43.8,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        46,
+        32
+      ],
+      "cadrage_css": "46% 32%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 15.3,
+        "bruit": 0.82,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1096 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "190c4d4e4e6b6187",
+      "drapeaux": [
+        "lieu",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "etoiles-mougins-9eme-festival.jpg",
+      "nom": "etoiles-mougins-9eme-festival",
+      "drapeau": "oeuvre",
+      "largeur": 442,
+      "hauteur": 249,
+      "ratio": "16:9",
+      "ratio_valeur": 1.775,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 107061,
+      "transparence": false,
+      "sujet": {
+        "x": 2.8,
+        "y": 4.5,
+        "l": 97.2,
+        "h": 75.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        40
+      ],
+      "cadrage_css": "42% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.85
+        }
+      ],
+      "qualite": {
+        "nettete": 87.7,
+        "bruit": 0.98,
+        "compression": 0.94,
+        "faible": true,
+        "raisons": [
+          "442 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LES ETOILES · DE MOUGINS · 7 FESTIVAL INTERNATIONAL · DE LA GASTRONOMIE · 19 / 20 / 21 Sept.",
+        "blocs": 5,
+        "surface": 37.6,
+        "details": [
+          {
+            "texte": "LES ETOILES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DE MOUGINS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "7 FESTIVAL INTERNATIONAL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DE LA GASTRONOMIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "19 / 20 / 21 Sept.",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "a3b794aef695a4d2",
+      "drapeaux": [
+        "oeuvre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "etoiles-mougins-9eme-festival-2.jpg",
+      "nom": "etoiles-mougins-9eme-festival-2",
+      "drapeau": "oeuvre",
+      "largeur": 960,
+      "hauteur": 720,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 72065,
+      "transparence": false,
+      "sujet": {
+        "x": 2.7,
+        "y": 28,
+        "l": 54.4,
+        "h": 59,
+        "source": "corps"
+      },
+      "visages": 4,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 30,
+        "bruit": 0.73,
+        "compression": 1.36,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "6c67584837396746",
+      "drapeaux": [
+        "oeuvre",
+        "4 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "chroniques-nutrition-radio-nationale.png",
+      "nom": "chroniques-nutrition-radio-nationale",
+      "drapeau": "autre",
+      "largeur": 861,
+      "hauteur": 1019,
+      "ratio": "0.84",
+      "ratio_valeur": 0.845,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 185781,
+      "transparence": true,
+      "sujet": {
+        "x": 4.8,
+        "y": 1.8,
+        "l": 89.1,
+        "h": 78.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        47
+      ],
+      "cadrage_css": "43% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 55,
+        "bruit": 0.09,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "861 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "HIT MUSIC ONLY ! · *QUE DES HIS SUR N",
+        "blocs": 2,
+        "surface": 10.4,
+        "details": [
+          {
+            "texte": "HIT MUSIC ONLY !",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "*QUE DES HIS SUR N",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4929054d1d13b99b",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "carte-cadeau.jpg",
+      "nom": "carte-cadeau",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1334,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 197130,
+      "transparence": false,
+      "sujet": {
+        "x": 50.5,
+        "y": 50.8,
+        "l": 49.3,
+        "h": 49.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        73,
+        63
+      ],
+      "cadrage_css": "73% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 10.3,
+        "bruit": 0.38,
+        "compression": 1.5,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "a3829b9c1c2c0313",
+      "drapeaux": [
+        "plat",
+        "compression visible",
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "bol-repas-sain.jpg",
+      "nom": "bol-repas-sain",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 341296,
+      "transparence": false,
+      "sujet": {
+        "x": 13.6,
+        "y": 2,
+        "l": 63,
+        "h": 71.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        38
+      ],
+      "cadrage_css": "42% 38%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 44.8,
+        "bruit": 1.1,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "9a381d5f4b1f8dc9",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "programme-nutritionnel-personnalise-sibo.jpg",
+      "nom": "programme-nutritionnel-personnalise-sibo",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 505354,
+      "transparence": false,
+      "sujet": {
+        "x": 39.7,
+        "y": 39.7,
+        "l": 16.2,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        54
+      ],
+      "cadrage_css": "48% 54%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.6,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.47,
+          "ton": "sombre",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 24,
+        "bruit": 1.55,
+        "compression": 0.92,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f77a6e6eacadbc39",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "boire-smoothie-vert.jpg",
+      "nom": "boire-smoothie-vert",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 338993,
+      "transparence": false,
+      "sujet": {
+        "x": 29.6,
+        "y": 13.7,
+        "l": 69.2,
+        "h": 65.1,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        53,
+        35
+      ],
+      "cadrage_css": "53% 35%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 38,
+        "bruit": 0.66,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "a6c743974d2763c3",
+      "drapeaux": [
+        "autre",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "mains-estomac.jpg",
+      "nom": "mains-estomac",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 131829,
+      "transparence": false,
+      "sujet": {
+        "x": 35.9,
+        "y": 0.3,
+        "l": 42.5,
+        "h": 99.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        42
+      ],
+      "cadrage_css": "57% 42%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "droite",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 13.7,
+        "bruit": 0.36,
+        "compression": 1.49,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "cedadbc6dbdbc6c6",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme gauche/bas"
+      ]
+    },
+    {
+      "fichier": "soiree-vip-secrets-stars.jpg",
+      "nom": "soiree-vip-secrets-stars",
+      "drapeau": "lieu",
+      "largeur": 1554,
+      "hauteur": 322,
+      "ratio": "4.83",
+      "ratio_valeur": 4.826,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 113227,
+      "transparence": false,
+      "sujet": {
+        "x": 37.2,
+        "y": 33.3,
+        "l": 37.4,
+        "h": 41.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        49
+      ],
+      "cadrage_css": "47% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        }
+      ],
+      "qualite": {
+        "nettete": 12.3,
+        "bruit": 0.13,
+        "compression": 0.82,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Le MERIDIEN",
+        "blocs": 1,
+        "surface": 69.1,
+        "details": [
+          {
+            "texte": "Le MERIDIEN",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "214d171932155d22",
+      "drapeaux": [
+        "lieu",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "nutrition-infos.png",
+      "nom": "nutrition-infos",
+      "drapeau": "autre",
+      "largeur": 477,
+      "hauteur": 608,
+      "ratio": "4:5",
+      "ratio_valeur": 0.785,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 347525,
+      "transparence": false,
+      "sujet": {
+        "x": 22.7,
+        "y": 21.6,
+        "l": 45.7,
+        "h": 78.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        50
+      ],
+      "cadrage_css": "48% 50%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 100.8,
+        "bruit": 1.02,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "477 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "NUTRITION infos · infos · La revue des professionnels de la nutrition at de la diététique · EXCLUSIF · INTERVIEWS · Les Pr Herberg · et Basdevant confient · leu",
+        "blocs": 21,
+        "surface": 36,
+        "details": [
+          {
+            "texte": "NUTRITION infos",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "infos",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "La revue des professionnels de la nutrition at de la diététique",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EXCLUSIF",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "INTERVIEWS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Les Pr Herberg",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "et Basdevant confient",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "leur vision du PNNS 3",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "et du Plan Obésité",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "OBÉSITÉ",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Une prise en",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "charge résolument",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "b482b4a4b466e6cc",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "mince-alors-observateur-monaco.jpg",
+      "nom": "mince-alors-observateur-monaco",
+      "drapeau": "autre",
+      "largeur": 424,
+      "hauteur": 527,
+      "ratio": "4:5",
+      "ratio_valeur": 0.805,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 179100,
+      "transparence": false,
+      "sujet": {
+        "x": 45.5,
+        "y": 19.6,
+        "l": 42.6,
+        "h": 73.9,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        67,
+        42
+      ],
+      "cadrage_css": "67% 42%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        }
+      ],
+      "qualite": {
+        "nettete": 74.4,
+        "bruit": 0.71,
+        "compression": 1.07,
+        "faible": true,
+        "raisons": [
+          "424 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "VIVRE · MINCE ALORS! · CONSO/ Alors que l'été est là, les · produits se multiplient sur le · marché de la minceur. Petit tour · d'horizon des nouveautés.",
+        "blocs": 6,
+        "surface": 14.6,
+        "details": [
+          {
+            "texte": "VIVRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MINCE ALORS!",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CONSO/ Alors que l'été est là, les",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "produits se multiplient sur le",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "marché de la minceur. Petit tour",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "d'horizon des nouveautés.",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "88c6d31393a78d39",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "catherine-becker-experte-nutrition.png",
+      "nom": "catherine-becker-experte-nutrition",
+      "drapeau": "autre",
+      "largeur": 720,
+      "hauteur": 1280,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 942227,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 26.7,
+        "l": 100,
+        "h": 73.3,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        42,
+        67
+      ],
+      "cadrage_css": "42% 67%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 8,
+        "bruit": 0.36,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "720 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "france bleu azur · bleu · bleu · francebleur",
+        "blocs": 4,
+        "surface": 11,
+        "details": [
+          {
+            "texte": "france bleu azur",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "bleu",
+            "niveau": "marque"
+          },
+          {
+            "texte": "bleu",
+            "niveau": "marque"
+          },
+          {
+            "texte": "francebleur",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "70b094e1d1c18293",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "cannes-23.png",
+      "nom": "cannes-23",
+      "drapeau": "autre",
+      "largeur": 400,
+      "hauteur": 282,
+      "ratio": "1.42",
+      "ratio_valeur": 1.418,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 10638,
+      "transparence": true,
+      "sujet": {
+        "x": 13.7,
+        "y": 9.6,
+        "l": 76.8,
+        "h": 77.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        51
+      ],
+      "cadrage_css": "48% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "droite",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        }
+      ],
+      "qualite": {
+        "nettete": 24.9,
+        "bruit": 0.09,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "400 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0223274527373101",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "play-video.jpg",
+      "nom": "play-video",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 126349,
+      "transparence": false,
+      "sujet": {
+        "x": 2.7,
+        "y": 6.4,
+        "l": 83.9,
+        "h": 63.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        32
+      ],
+      "cadrage_css": "48% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 12.9,
+        "bruit": 0.5,
+        "compression": 1.32,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Recherche d'hôtels · Toulouse · Toulouse, France · Vieille-Toulouse, France",
+        "blocs": 4,
+        "surface": 21.6,
+        "details": [
+          {
+            "texte": "Recherche d'hôtels",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Toulouse",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Toulouse, France",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Vieille-Toulouse, France",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "cae06ae0f0f8eaf0",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "journee-depistage-atelier-nutrition-2.jpg",
+      "nom": "journee-depistage-atelier-nutrition-2",
+      "drapeau": "lieu",
+      "largeur": 640,
+      "hauteur": 400,
+      "ratio": "16:10",
+      "ratio_valeur": 1.6,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 37066,
+      "transparence": false,
+      "sujet": {
+        "x": 12.3,
+        "y": 9.4,
+        "l": 75,
+        "h": 50.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        46
+      ],
+      "cadrage_css": "58% 46%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 27.1,
+        "bruit": 0.38,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "PALM BUS · THÉOULE/MER MOUGINS · CANNES LE CANNET · MANDELIEU-LA NAPOUL · PAYS DE LÉRINS · Communauté d'agglomération · Audacieux, ensemble",
+        "blocs": 7,
+        "surface": 18.3,
+        "details": [
+          {
+            "texte": "PALM BUS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "THÉOULE/MER MOUGINS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CANNES LE CANNET",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MANDELIEU-LA NAPOUL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PAYS DE LÉRINS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Communauté d'agglomération",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Audacieux, ensemble",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "00313153b959010c",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "tmc-90-minutes-enquete.jpg",
+      "nom": "tmc-90-minutes-enquete",
+      "drapeau": "plat",
+      "largeur": 619,
+      "hauteur": 315,
+      "ratio": "2:1",
+      "ratio_valeur": 1.965,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 50992,
+      "transparence": false,
+      "sujet": {
+        "x": 61.7,
+        "y": 8.9,
+        "l": 30.2,
+        "h": 87.6,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        57,
+        36
+      ],
+      "cadrage_css": "57% 36%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 16.6,
+        "bruit": 0.64,
+        "compression": 1.19,
+        "faible": true,
+        "raisons": [
+          "619 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9a9b95919131d391",
+      "drapeaux": [
+        "plat",
+        "2 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "soiree-vip-secrets-stars-2.jpg",
+      "nom": "soiree-vip-secrets-stars-2",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1408,
+      "ratio": "1.42",
+      "ratio_valeur": 1.42,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 2453101,
+      "transparence": false,
+      "sujet": {
+        "x": 39.7,
+        "y": 20.6,
+        "l": 42.6,
+        "h": 36.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        38
+      ],
+      "cadrage_css": "60% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 58.4,
+        "bruit": 1.73,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LMERIDIEN",
+        "blocs": 1,
+        "surface": 0.1,
+        "details": [
+          {
+            "texte": "LMERIDIEN",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "058dc7c5989c1498",
+      "drapeaux": [
+        "lieu",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "soiree-vip-secrets-stars-3.jpg",
+      "nom": "soiree-vip-secrets-stars-3",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1499650,
+      "transparence": false,
+      "sujet": {
+        "x": 0.1,
+        "y": 36.7,
+        "l": 59.8,
+        "h": 62.3,
+        "source": "corps"
+      },
+      "visages": 5,
+      "cadrage": [
+        38,
+        50
+      ],
+      "cadrage_css": "38% 50%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 24.4,
+        "bruit": 0.75,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "14b4e4c43a9a3a38",
+      "drapeaux": [
+        "lieu",
+        "5 visages"
+      ]
+    },
+    {
+      "fichier": "soiree-vip-secrets-stars-4.jpg",
+      "nom": "soiree-vip-secrets-stars-4",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 2410925,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 38.2,
+        "l": 61.8,
+        "h": 20.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        48
+      ],
+      "cadrage_css": "53% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 63.9,
+        "bruit": 1.8,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "32642524acc8c545",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "soiree-vip-secrets-stars-5.jpg",
+      "nom": "soiree-vip-secrets-stars-5",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1276890,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 22.3,
+        "l": 97.5,
+        "h": 77.7,
+        "source": "corps"
+      },
+      "visages": 3,
+      "cadrage": [
+        66,
+        44
+      ],
+      "cadrage_css": "66% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.98
+        }
+      ],
+      "qualite": {
+        "nettete": 21,
+        "bruit": 0.84,
+        "compression": 1.04,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "CRETS DE STARS",
+        "blocs": 1,
+        "surface": 0.3,
+        "details": [
+          {
+            "texte": "CRETS DE STARS",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "d3d2e6c6caad401a",
+      "drapeaux": [
+        "lieu",
+        "3 visages",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "soiree-vip-secrets-stars-6.jpg",
+      "nom": "soiree-vip-secrets-stars-6",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1771739,
+      "transparence": false,
+      "sujet": {
+        "x": 0.5,
+        "y": 20.9,
+        "l": 88.7,
+        "h": 79.1,
+        "source": "corps"
+      },
+      "visages": 4,
+      "cadrage": [
+        46,
+        43
+      ],
+      "cadrage_css": "46% 43%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "sombre",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        }
+      ],
+      "qualite": {
+        "nettete": 37.8,
+        "bruit": 1.03,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Le MERIDIEN · BEACH PLAZA",
+        "blocs": 2,
+        "surface": 1.2,
+        "details": [
+          {
+            "texte": "Le MERIDIEN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BEACH PLAZA",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "462693d393999919",
+      "drapeaux": [
+        "lieu",
+        "4 visages",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "soiree-vip-secrets-stars-7.jpg",
+      "nom": "soiree-vip-secrets-stars-7",
+      "drapeau": "lieu",
+      "largeur": 1330,
+      "hauteur": 1500,
+      "ratio": "0.89",
+      "ratio_valeur": 0.887,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 903533,
+      "transparence": false,
+      "sujet": {
+        "x": 31.2,
+        "y": 12.5,
+        "l": 44,
+        "h": 51.6,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        53,
+        35
+      ],
+      "cadrage_css": "53% 35%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 10.9,
+        "bruit": 0.71,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "330d4f4d8daf9b86",
+      "drapeaux": [
+        "lieu",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "soiree-vip-secrets-stars-8.jpg",
+      "nom": "soiree-vip-secrets-stars-8",
+      "drapeau": "lieu",
+      "largeur": 1000,
+      "hauteur": 1500,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 756155,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 33.8,
+        "l": 100,
+        "h": 59.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        54
+      ],
+      "cadrage_css": "49% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        }
+      ],
+      "qualite": {
+        "nettete": 9.3,
+        "bruit": 0.59,
+        "compression": 1.03,
+        "faible": true,
+        "raisons": [
+          "1000 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "01224e95534325b3",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "france-3-meteo-carte.jpg",
+      "nom": "france-3-meteo-carte",
+      "drapeau": "plat",
+      "largeur": 1258,
+      "hauteur": 731,
+      "ratio": "1.72",
+      "ratio_valeur": 1.721,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 415584,
+      "transparence": false,
+      "sujet": {
+        "x": 45.7,
+        "y": 0,
+        "l": 46,
+        "h": 84.6,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        69,
+        37
+      ],
+      "cadrage_css": "69% 37%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.67
+        }
+      ],
+      "qualite": {
+        "nettete": 9.6,
+        "bruit": 0.41,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "1258 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "-CARTE · Catherine Becker - Nutritionniste",
+        "blocs": 2,
+        "surface": 2.1,
+        "details": [
+          {
+            "texte": "-CARTE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Catherine Becker - Nutritionniste",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "8b9b1b0bcb032121",
+      "drapeaux": [
+        "plat",
+        "visage",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "reportage-televise-100-mag.jpg",
+      "nom": "reportage-televise-100-mag",
+      "drapeau": "autre",
+      "largeur": 947,
+      "hauteur": 698,
+      "ratio": "4:3",
+      "ratio_valeur": 1.357,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 312297,
+      "transparence": false,
+      "sujet": {
+        "x": 14.4,
+        "y": 9.4,
+        "l": 58.8,
+        "h": 83.9,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        51,
+        38
+      ],
+      "cadrage_css": "51% 38%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 7.3,
+        "bruit": 0.48,
+        "compression": 1.03,
+        "faible": true,
+        "raisons": [
+          "947 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "100% · mag · CUISINE & BEAUTÉ: LES VERTUS CACHÉES DU CITRON",
+        "blocs": 3,
+        "surface": 6.5,
+        "details": [
+          {
+            "texte": "100%",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "mag",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CUISINE & BEAUTÉ: LES VERTUS CACHÉES DU CITRON",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8c8c0c2c2c042624",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "reportage-televise-100-mag-2.jpg",
+      "nom": "reportage-televise-100-mag-2",
+      "drapeau": "autre",
+      "largeur": 900,
+      "hauteur": 600,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 47924,
+      "transparence": false,
+      "sujet": {
+        "x": 29.6,
+        "y": 4.6,
+        "l": 43.6,
+        "h": 90.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        46
+      ],
+      "cadrage_css": "51% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "droite",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 19.2,
+        "bruit": 0.18,
+        "compression": 2.51,
+        "faible": true,
+        "raisons": [
+          "900 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "4d490f17170f6969",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible"
+      ]
+    }
+  ]
+}

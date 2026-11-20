@@ -1,0 +1,18 @@
+{
+  "ouverture": { "surtitre": "Cabinets et contact", "titre1": "Cannes, Nice,", "titre2": "ou chez vous.", "texte": "Deux cabinets sur la Côte d'Azur, des consultations à domicile et en visio. Rendez-vous en ligne sur Doctolib, à toute heure, ou par téléphone.", "carte": "Carte schématique de la côte, de Cannes à Nice", "visio": "Visio et téléphone : partout" },
+  "cabinets": { "surtitre": "Horaires", "titre1": "Quand venir", "titre2": "au cabinet", "intro": "Consultations sans interruption, sur rendez-vous. Le statut se lit à l'heure de Paris.", "indicatif": "Horaires indicatifs : les créneaux libres sont sur Doctolib. Le samedi, ouverture exceptionnelle à Cannes." },
+  "acces": [
+    { "id": "cannes", "nom": "Cannes", "lieu": "Le Shakespeare, quartier Carnot", "adresse": "76 bd Carnot, ou 20 rue Shakespeare (l'immeuble a deux entrées), 06400 Cannes",
+      "lignes": [ ["Bus", "Arrêt Milton, juste en face du cabinet."], ["Voiture", "Places le long du boulevard Carnot et de la rue Shakespeare ; parking public Mozart à proximité."], ["À pied", "Environ 10 minutes de la gare, de la rue d'Antibes et de la Croisette."], ["Accessibilité", "Places réservées aux personnes à mobilité réduite sur la voie publique, à proximité."] ] },
+    { "id": "nice", "nom": "Nice", "lieu": "Centre paramédical, quartier de Cimiez", "adresse": "91 av. des Arènes de Cimiez, 06000 Nice",
+      "lignes": [ ["Bus", "Arrêt Sainte-Rosalie, juste en face ; un autre arrêt boulevard de Cimiez."], ["Voiture", "Stationnement gratuit et facile juste à côté du cabinet."], ["À pied", "Environ 20 minutes du centre-ville."], ["Accessibilité", "Places réservées aux personnes à mobilité réduite sur la voie publique, à proximité."] ] }
+  ],
+  "cabinetPhoto": { "alt": "Le cabinet : bureau en verre, chaises vert pomme, plantes et tableau de bord de mer", "legende": "Un cabinet clair, au calme" },
+  "distance": { "titre": "Sans vous déplacer", "texte": "Téléconsultation en visio ou par téléphone, depuis chez vous ou votre bureau (70 €). Consultation à domicile sur demande (+15 €)." },
+  "formulaire": { "surtitre": "Écrire", "titre1": "Une question ?", "titre2": "Écrivez-nous.", "texte": "Pour prendre rendez-vous, le plus simple reste Doctolib ou le téléphone. Pour tout le reste, ce formulaire.",
+    "nom": "Nom", "email": "E-mail", "tel": "Téléphone", "objet": "Objet", "cabinet": "Cabinet souhaité", "message": "Votre message", "envoyer": "Envoyer",
+    "objets": [ ["rdv", "Prendre rendez-vous"], ["consultation", "Une question sur la consultation"], ["coaching", "Coaching en ligne ou à domicile"], ["cadeau", "Bon cadeau"], ["pro", "Professionnel de santé, entreprise, média"], ["autre", "Autre"] ],
+    "cabinets": [ ["cannes", "Cannes"], ["nice", "Nice"], ["visio", "Visio ou téléphone"], ["domicile", "À domicile"] ],
+    "donnees": "Vos informations servent uniquement à vous répondre et ne sont jamais transmises. <a href=\"#pied\">Politique de confidentialité : à compléter</a>." },
+  "coordonnees": { "titre": "Coordonnées", "tel": "Secrétariat", "email": "E-mail", "courrier": "Courrier", "courrierTexte": "Résidence le Shakespeare, 20 rue Shakespeare, 06400 Cannes" }
+}

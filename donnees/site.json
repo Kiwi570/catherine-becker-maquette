@@ -1,0 +1,16 @@
+{
+  "nom": "Catherine Becker",
+  "adresse": "https://catherine-becker-maquette.vercel.app",
+  "siteActuel": "catherinebecker.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "consultation", "tarifs", "presentation", "contact"],
+  "doctolib": "https://www.doctolib.fr/dieteticien/nice/catherine-becker",
+  "reseaux": { "instagram": "https://www.instagram.com/catherine.becker.nutritionist/", "facebook": "https://fr-fr.facebook.com/catherinebeckerDiet/" },
+  "couleurs": { "fond": "#F7F2E8", "texte": "#22301E", "voile": "#33442F", "ouverture": "#33442F", "menu": "#F7F2E8", "theme": "#F7F2E8" },
+  "formeVoile": "rideau",
+  "contact": { "telephone": "04 89 82 09 06", "telephoneLien": "+33489820906", "email": "contact@catherinebecker.fr", "adresse": "Le Shakespeare, 76 bd Carnot, 06400 Cannes" },
+  "polices": ["/assets/fonts/young-serif-400.woff2", "/assets/fonts/outfit-400.woff2"],
+  "imagePartage": "accueil-ouverture-1280.webp",
+  "curseur": true
+}

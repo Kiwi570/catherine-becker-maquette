@@ -1,0 +1,1491 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-clair.png",
+    "role": "logo",
+    "alt": "Catherine Becker, diététicienne nutritionniste",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "a23c12a3a5795992",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 5938,
+      "logo-480.webp": 12550
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Catherine Becker, diététicienne nutritionniste\", sizes: '240px' })"
+  },
+  "grok/accueil-ouverture": {
+    "nom": "grok/accueil-ouverture",
+    "source": "recu/grok/accueil-ouverture.png",
+    "role": "ouverture",
+    "alt": "Légumes et fruits du marché posés sur une nappe de lin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "4cb5f554fa23cd3f",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "42% 44%"
+    },
+    "cadrage": "42% 48%",
+    "sujet": {
+      "x": 9.1,
+      "y": 3.7,
+      "l": 86.4,
+      "h": 82
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "aucune",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-ouverture-640.webp",
+      "grok/accueil-ouverture-960.webp",
+      "grok/accueil-ouverture-1280.webp",
+      "grok/accueil-ouverture-mobile-640.webp",
+      "grok/accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-ouverture-640.webp": 104164,
+      "grok/accueil-ouverture-960.webp": 188102,
+      "grok/accueil-ouverture-1280.webp": 265022,
+      "grok/accueil-ouverture-mobile-640.webp": 105352,
+      "grok/accueil-ouverture-mobile-1080.webp": 219760
+    },
+    "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"Légumes et fruits du marché posés sur une nappe de lin\", cadrage: '42% 48%', cadrageMobile: '42% 44%', sizes: '100vw', priorite: true })"
+  },
+  "grok/consultation-ouverture": {
+    "nom": "grok/consultation-ouverture",
+    "source": "recu/grok/consultation-ouverture.png",
+    "role": "ouverture",
+    "alt": "Bureau de consultation lumineux, carafe d'eau citronnée et pommes vertes",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "b49c8800b7f5dbf9",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "58% 67%"
+    },
+    "cadrage": "68% 50%",
+    "sujet": {
+      "x": 40.6,
+      "y": 11.4,
+      "l": 59.4,
+      "h": 86.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.75,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 141,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/consultation-ouverture-640.webp",
+      "grok/consultation-ouverture-1280.webp",
+      "grok/consultation-ouverture-1920.webp",
+      "grok/consultation-ouverture-mobile-640.webp",
+      "grok/consultation-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/consultation-ouverture-640.webp": 23572,
+      "grok/consultation-ouverture-1280.webp": 62708,
+      "grok/consultation-ouverture-1920.webp": 98984,
+      "grok/consultation-ouverture-mobile-640.webp": 53444,
+      "grok/consultation-ouverture-mobile-1080.webp": 103422
+    },
+    "media": "c.media({ nom: 'grok/consultation-ouverture', alt: \"Bureau de consultation lumineux, carafe d'eau citronnée et pommes vertes\", cadrage: '68% 50%', cadrageMobile: '58% 67%', sizes: '100vw', priorite: true })"
+  },
+  "grok/tarifs-ouverture": {
+    "nom": "grok/tarifs-ouverture",
+    "source": "recu/grok/tarifs-ouverture.png",
+    "role": "ouverture",
+    "alt": "Agrumes coupés et brin de menthe sur une pierre claire",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "f840f050fd477491",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "40% 36%"
+    },
+    "cadrage": "40% 36%",
+    "sujet": {
+      "x": 13.6,
+      "y": 0,
+      "l": 68.2,
+      "h": 74.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.89,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.45,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "aucune",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/tarifs-ouverture-640.webp",
+      "grok/tarifs-ouverture-960.webp",
+      "grok/tarifs-ouverture-1280.webp",
+      "grok/tarifs-ouverture-mobile-640.webp",
+      "grok/tarifs-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/tarifs-ouverture-640.webp": 79928,
+      "grok/tarifs-ouverture-960.webp": 150388,
+      "grok/tarifs-ouverture-1280.webp": 214408,
+      "grok/tarifs-ouverture-mobile-640.webp": 79928,
+      "grok/tarifs-ouverture-mobile-1080.webp": 171950
+    },
+    "media": "c.media({ nom: 'grok/tarifs-ouverture', alt: \"Agrumes coupés et brin de menthe sur une pierre claire\", cadrage: '40% 36%', cadrageMobile: '40% 36%', sizes: '100vw', priorite: true })"
+  },
+  "grok/accueil-bilan": {
+    "nom": "grok/accueil-bilan",
+    "source": "recu/grok/accueil-bilan.png",
+    "role": "section-fond",
+    "alt": "Bureau en chêne clair : verre d'eau, pomme verte, carnet vierge",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "3626b54eaba935ab",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "40% 50%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 90.6,
+      "h": 87
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-bilan-640.webp",
+      "grok/accueil-bilan-1280.webp",
+      "grok/accueil-bilan-1920.webp"
+    ],
+    "poids": {
+      "grok/accueil-bilan-640.webp": 32592,
+      "grok/accueil-bilan-1280.webp": 87974,
+      "grok/accueil-bilan-1920.webp": 137174
+    },
+    "media": "c.media({ nom: 'grok/accueil-bilan', alt: \"Bureau en chêne clair : verre d'eau, pomme verte, carnet vierge\", cadrage: '40% 50%', sizes: '100vw' })"
+  },
+  "grok/cannes-lumiere": {
+    "nom": "grok/cannes-lumiere",
+    "source": "recu/grok/cannes-lumiere.png",
+    "role": "carte-service",
+    "alt": "Ombre de palmier sur un mur crème, volet vert ouvert",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "b7595c1b462ca707",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "62% 50%"
+    },
+    "cadrage": "62% 50%",
+    "sujet": {
+      "x": 22.7,
+      "y": 0,
+      "l": 72.7,
+      "h": 96.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 316,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/cannes-lumiere-480.webp",
+      "grok/cannes-lumiere-640.webp",
+      "grok/cannes-lumiere-784.webp",
+      "grok/cannes-lumiere-mobile-640.webp",
+      "grok/cannes-lumiere-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/cannes-lumiere-480.webp": 41184,
+      "grok/cannes-lumiere-640.webp": 72600,
+      "grok/cannes-lumiere-784.webp": 103398,
+      "grok/cannes-lumiere-mobile-640.webp": 72878,
+      "grok/cannes-lumiere-mobile-1080.webp": 162628
+    },
+    "media": "c.media({ nom: 'grok/cannes-lumiere', alt: \"Ombre de palmier sur un mur crème, volet vert ouvert\", cadrage: '62% 50%', cadrageMobile: '62% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/nice-oliviers": {
+    "nom": "grok/nice-oliviers",
+    "source": "recu/grok/nice-oliviers.png",
+    "role": "carte-service",
+    "alt": "Branches d'olivier dans la lumière de l'après-midi",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e7ea71cd5d5f3f95",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "66% 41%"
+    },
+    "cadrage": "66% 41%",
+    "sujet": {
+      "x": 22.7,
+      "y": 0,
+      "l": 72.7,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/nice-oliviers-480.webp",
+      "grok/nice-oliviers-640.webp",
+      "grok/nice-oliviers-784.webp",
+      "grok/nice-oliviers-mobile-640.webp",
+      "grok/nice-oliviers-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/nice-oliviers-480.webp": 46148,
+      "grok/nice-oliviers-640.webp": 69672,
+      "grok/nice-oliviers-784.webp": 92294,
+      "grok/nice-oliviers-mobile-640.webp": 69672,
+      "grok/nice-oliviers-mobile-1080.webp": 131568
+    },
+    "media": "c.media({ nom: 'grok/nice-oliviers', alt: \"Branches d'olivier dans la lumière de l'après-midi\", cadrage: '66% 41%', cadrageMobile: '66% 41%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/accueil-table": {
+    "nom": "grok/accueil-table",
+    "source": "recu/grok/accueil-table.png",
+    "role": "section-fond",
+    "alt": "Table de terrasse au soleil, salades et légumes grillés",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "bb3e11b9c8805b68",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "55% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-table-640.webp",
+      "grok/accueil-table-1280.webp",
+      "grok/accueil-table-1920.webp"
+    ],
+    "poids": {
+      "grok/accueil-table-640.webp": 59534,
+      "grok/accueil-table-1280.webp": 152420,
+      "grok/accueil-table-1920.webp": 231276
+    },
+    "media": "c.media({ nom: 'grok/accueil-table', alt: \"Table de terrasse au soleil, salades et légumes grillés\", cadrage: '55% 40%', sizes: '100vw' })"
+  },
+  "grok/tarifs-cuisine": {
+    "nom": "grok/tarifs-cuisine",
+    "source": "recu/grok/tarifs-cuisine.png",
+    "role": "section-fond",
+    "alt": "Plan de travail de cuisine, légumes du marché et bocaux de légumineuses",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "615f9c073731cf17",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "40% 56%",
+    "sujet": {
+      "x": 6.3,
+      "y": 26.8,
+      "l": 59.4,
+      "h": 54.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.74,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 7,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/tarifs-cuisine-640.webp",
+      "grok/tarifs-cuisine-1280.webp",
+      "grok/tarifs-cuisine-1920.webp"
+    ],
+    "poids": {
+      "grok/tarifs-cuisine-640.webp": 37580,
+      "grok/tarifs-cuisine-1280.webp": 107254,
+      "grok/tarifs-cuisine-1920.webp": 166374
+    },
+    "media": "c.media({ nom: 'grok/tarifs-cuisine', alt: \"Plan de travail de cuisine, légumes du marché et bocaux de légumineuses\", cadrage: '40% 56%', sizes: '100vw' })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.png",
+    "role": "404",
+    "alt": "Assiette vide sur une nappe de lin, un seul petit pois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "f619d6ca0bd3aee5",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "68% 54%"
+    },
+    "cadrage": "88% 50%",
+    "sujet": {
+      "x": 53.1,
+      "y": 0,
+      "l": 46.9,
+      "h": 99.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.72,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 130,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp",
+      "grok/page-404-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 46154,
+      "grok/page-404-1600.webp": 156122,
+      "grok/page-404-mobile-640.webp": 70334
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Assiette vide sur une nappe de lin, un seul petit pois\", cadrage: '88% 50%', cadrageMobile: '68% 54%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "catherine-cabinet": {
+    "nom": "catherine-cabinet",
+    "source": "recu/suivi-dietetique.jpg",
+    "role": "portrait",
+    "alt": "Catherine Becker, souriante, à son bureau de consultation",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c50ca713d881ae80",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 32%"
+    },
+    "cadrage": "50% 32%",
+    "sujet": {
+      "x": 20.7,
+      "y": 4.8,
+      "l": 63.8,
+      "h": 54.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.54,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 60,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "catherine-cabinet-480.webp",
+      "catherine-cabinet-640.webp",
+      "catherine-cabinet-784.webp",
+      "catherine-cabinet-mobile-640.webp",
+      "catherine-cabinet-mobile-1080.webp"
+    ],
+    "poids": {
+      "catherine-cabinet-480.webp": 19252,
+      "catherine-cabinet-640.webp": 29192,
+      "catherine-cabinet-784.webp": 40084,
+      "catherine-cabinet-mobile-640.webp": 29192,
+      "catherine-cabinet-mobile-1080.webp": 63466
+    },
+    "media": "c.media({ nom: 'catherine-cabinet', alt: \"Catherine Becker, souriante, à son bureau de consultation\", cadrage: '50% 32%', cadrageMobile: '50% 32%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "presentation-ouverture": {
+    "nom": "presentation-ouverture",
+    "source": "recu/suivi-dietetique.jpg",
+    "role": "ouverture",
+    "alt": "Catherine Becker à son bureau de consultation",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ee1a39d0038033ea",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 34%"
+    },
+    "cadrage": "50% 34%",
+    "sujet": {
+      "x": 20.7,
+      "y": 4.8,
+      "l": 63.8,
+      "h": 54.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.54,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 60,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1200 px après recadrage)"
+    ],
+    "fichiers": [
+      "presentation-ouverture-640.webp",
+      "presentation-ouverture-960.webp",
+      "presentation-ouverture-1280.webp",
+      "presentation-ouverture-mobile-640.webp",
+      "presentation-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "presentation-ouverture-640.webp": 29192,
+      "presentation-ouverture-960.webp": 54004,
+      "presentation-ouverture-1280.webp": 76216,
+      "presentation-ouverture-mobile-640.webp": 29192,
+      "presentation-ouverture-mobile-1080.webp": 63466
+    },
+    "media": "c.media({ nom: 'presentation-ouverture', alt: \"Catherine Becker à son bureau de consultation\", cadrage: '50% 34%', cadrageMobile: '50% 34%', sizes: '100vw', priorite: true })"
+  },
+  "cabinet": {
+    "nom": "cabinet",
+    "source": "recu/pourquoi-consulter.jpg",
+    "role": "galerie",
+    "alt": "Le cabinet : bureau en verre, chaises vert pomme, plantes et tableau de bord de mer",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "81f7a9007887ec85",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "45% 44%",
+    "sujet": {
+      "x": 22.7,
+      "y": 23.4,
+      "l": 20.4,
+      "h": 76.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.83,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 161,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "cabinet-480.webp",
+      "cabinet-640.webp",
+      "cabinet-960.webp"
+    ],
+    "poids": {
+      "cabinet-480.webp": 12034,
+      "cabinet-640.webp": 17862,
+      "cabinet-960.webp": 29426
+    },
+    "media": "c.media({ nom: 'cabinet', alt: \"Le cabinet : bureau en verre, chaises vert pomme, plantes et tableau de bord de mer\", cadrage: '45% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "france-bleu-azur": {
+    "nom": "france-bleu-azur",
+    "source": "recu/catherine-becker-experte-nutrition.png",
+    "role": "vignette",
+    "alt": "Catherine Becker au micro de France Bleu Azur",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "cf0a4119d0e39b05",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "42% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 2.6,
+      "l": 100,
+      "h": 97.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 318,
+      "width": 720,
+      "height": 900,
+      "source": [
+        720,
+        1280
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "720 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,11 fois (source de 720 px après recadrage)"
+    ],
+    "fichiers": [
+      "france-bleu-azur-480.webp",
+      "france-bleu-azur-640.webp",
+      "france-bleu-azur-800.webp"
+    ],
+    "poids": {
+      "france-bleu-azur-480.webp": 19556,
+      "france-bleu-azur-640.webp": 27256,
+      "france-bleu-azur-800.webp": 35060
+    },
+    "media": "c.media({ nom: 'france-bleu-azur', alt: \"Catherine Becker au micro de France Bleu Azur\", cadrage: '42% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "france-3": {
+    "nom": "france-3",
+    "source": "recu/france-3-meteo-carte.jpg",
+    "role": "vignette",
+    "alt": "Catherine Becker interviewée sur France 3, face à la mer",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4d39375b2b4aa9bc",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "56% 45%",
+    "sujet": {
+      "x": 37.7,
+      "y": 0,
+      "l": 52.8,
+      "h": 84.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 161,
+      "top": 0,
+      "width": 1097,
+      "height": 731,
+      "source": [
+        1258,
+        731
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1258 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "france-3-480.webp",
+      "france-3-640.webp",
+      "france-3-800.webp"
+    ],
+    "poids": {
+      "france-3-480.webp": 18574,
+      "france-3-640.webp": 25814,
+      "france-3-800.webp": 32970
+    },
+    "media": "c.media({ nom: 'france-3', alt: \"Catherine Becker interviewée sur France 3, face à la mer\", cadrage: '56% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "m6-100-mag": {
+    "nom": "m6-100-mag",
+    "source": "recu/reportage-televise-100-mag.jpg",
+    "role": "vignette",
+    "alt": "Catherine Becker dans un reportage de 100 % Mag",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "34ec3158590b085f",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 14.4,
+      "y": 7.2,
+      "l": 58.8,
+      "h": 92.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.5,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 20,
+      "width": 947,
+      "height": 631,
+      "source": [
+        947,
+        698
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "947 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "m6-100-mag-480.webp",
+      "m6-100-mag-640.webp",
+      "m6-100-mag-800.webp"
+    ],
+    "poids": {
+      "m6-100-mag-480.webp": 7780,
+      "m6-100-mag-640.webp": 11320,
+      "m6-100-mag-800.webp": 14822
+    },
+    "media": "c.media({ nom: 'm6-100-mag', alt: \"Catherine Becker dans un reportage de 100 % Mag\", cadrage: '50% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "etoiles-mougins": {
+    "nom": "etoiles-mougins",
+    "source": "recu/etoiles-mougins-9eme-festival-2.jpg",
+    "role": "vignette",
+    "alt": "Conférence aux Étoiles de Mougins, festival international de la gastronomie",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "dd4946074a1b1d0f",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "45% 50%",
+    "sujet": {
+      "x": 2.7,
+      "y": 19.6,
+      "l": 54.4,
+      "h": 66.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 76,
+      "width": 960,
+      "height": 640,
+      "source": [
+        960,
+        720
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "960 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "etoiles-mougins-480.webp",
+      "etoiles-mougins-640.webp",
+      "etoiles-mougins-800.webp"
+    ],
+    "poids": {
+      "etoiles-mougins-480.webp": 18828,
+      "etoiles-mougins-640.webp": 29608,
+      "etoiles-mougins-800.webp": 40306
+    },
+    "media": "c.media({ nom: 'etoiles-mougins', alt: \"Conférence aux Étoiles de Mougins, festival international de la gastronomie\", cadrage: '45% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "soiree-monaco": {
+    "nom": "soiree-monaco",
+    "source": "recu/soiree-vip-secrets-stars-7.jpg",
+    "role": "vignette",
+    "alt": "Catherine Becker lors d'une soirée au Méridien Beach Plaza, à Monaco",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ffc822f37853070d",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 35%",
+    "sujet": {
+      "x": 25.8,
+      "y": 12.5,
+      "l": 48.8,
+      "h": 51.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.51,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.48,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 105,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        1330,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "soiree-monaco-480.webp",
+      "soiree-monaco-640.webp",
+      "soiree-monaco-800.webp"
+    ],
+    "poids": {
+      "soiree-monaco-480.webp": 19310,
+      "soiree-monaco-640.webp": 27912,
+      "soiree-monaco-800.webp": 37942
+    },
+    "media": "c.media({ nom: 'soiree-monaco', alt: \"Catherine Becker lors d'une soirée au Méridien Beach Plaza, à Monaco\", cadrage: '50% 35%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "nutrition-infos": {
+    "nom": "nutrition-infos",
+    "source": "recu/nutrition-infos.png",
+    "role": "vignette",
+    "alt": "Couverture de la revue Nutrition Infos",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "e234020f8f606cfd",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 22.7,
+      "y": 20,
+      "l": 45.7,
+      "h": 80
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 12,
+      "width": 477,
+      "height": 596,
+      "source": [
+        477,
+        608
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 800",
+      "477 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,34 fois (source de 477 px après recadrage)"
+    ],
+    "fichiers": [
+      "nutrition-infos-480.webp",
+      "nutrition-infos-640.webp"
+    ],
+    "poids": {
+      "nutrition-infos-480.webp": 32394,
+      "nutrition-infos-640.webp": 43200
+    },
+    "media": "c.media({ nom: 'nutrition-infos', alt: \"Couverture de la revue Nutrition Infos\", cadrage: '50% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "observateur-monaco": {
+    "nom": "observateur-monaco",
+    "source": "recu/mince-alors-observateur-monaco.jpg",
+    "role": "vignette",
+    "alt": "Article « Mince alors ! » de L'Observateur de Monaco",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "560c047ba5d1a51b",
+    "ratio": "4:5",
+    "largeurs": [
+      480
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 45.5,
+      "y": 19.6,
+      "l": 42.8,
+      "h": 73.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 1,
+      "top": 0,
+      "width": 422,
+      "height": 527,
+      "source": [
+        424,
+        527
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 640, 800",
+      "424 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 422 px après recadrage)"
+    ],
+    "fichiers": [
+      "observateur-monaco-480.webp"
+    ],
+    "poids": {
+      "observateur-monaco-480.webp": 21244
+    },
+    "media": "c.media({ nom: 'observateur-monaco', alt: \"Article « Mince alors ! » de L'Observateur de Monaco\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  }
+}

@@ -1,0 +1,5 @@
+[
+  { "n": "1", "compartiment": "b", "titre": "Le bilan", "texte": "Bilan nutritionnel, psycho-nutritionnel et corporel, avec bio-impédancemétrie. On part de vos habitudes, de votre santé et de ce que vous aimez." },
+  { "n": "2", "compartiment": "a", "titre": "Le rééquilibrage", "texte": "Une prescription personnelle, selon votre mode de vie, vos habitudes alimentaires et votre santé. Végétarien, végan ou sans gluten : le plan suit vos choix." },
+  { "n": "3", "compartiment": "c", "titre": "Le suivi", "texte": "Si nécessaire : on suit l'évolution, on réajuste selon les résultats, et l'on vous soutient quand c'est plus difficile." }
+]

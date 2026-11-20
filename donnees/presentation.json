@@ -1,0 +1,199 @@
+{
+ "ouverture": {
+  "surtitre": "Présentation",
+  "titre1": "Catherine",
+  "titre2": "Becker",
+  "texte": "Diététicienne nutritionniste depuis plus de 20 ans, à Nice depuis 2006 et à Cannes depuis 2012. Formée à l'hôpital, entendue à la radio, toujours au cabinet.",
+  "info": "Enregistrée à l'ARS · ADELI 069500676 · RPPS 10008319898",
+  "alt": "Catherine Becker à son bureau de consultation"
+ },
+ "parcours": {
+  "surtitre": "Parcours",
+  "titre1": "De l'hôpital",
+  "titre2": "au cabinet.",
+  "etapes": [
+   {
+    "quand": "Formation",
+    "titre": "BTS Diététique",
+    "texte": "À l'École Sasserno, à Nice. Elle est aujourd'hui membre du jury du BTS Diététique."
+   },
+   {
+    "quand": "À l'hôpital",
+    "titre": "Monaco et Cannes",
+    "texte": "Diététicienne au Centre Cardio-Thoracique de Monaco et à l'Hôpital des Broussailles, à Cannes."
+   },
+   {
+    "quand": "2006",
+    "titre": "Le cabinet de Nice",
+    "texte": "Installation en libéral à Nice."
+   },
+   {
+    "quand": "2010-2011",
+    "titre": "Chroniques sur NRJ",
+    "texte": "Des chroniques nutrition à la radio, avant plus de 50 émissions sur France Bleu Azur."
+   },
+   {
+    "quand": "2012",
+    "titre": "Le cabinet de Cannes",
+    "texte": "Ouverture du second cabinet, à Cannes."
+   },
+   {
+    "quand": "2014",
+    "titre": "Les Étoiles de Mougins",
+    "texte": "Conférence sur les desserts et l'équilibre au festival international de la gastronomie."
+   },
+   {
+    "quand": "2018",
+    "titre": "BRAINFOOD",
+    "texte": "Collaboration au concept BRAINFOOD du groupe hôtelier Radisson."
+   },
+   {
+    "quand": "2024",
+    "titre": "Europe 1",
+    "texte": "Invitée sur Europe 1 le 25 décembre 2024."
+   }
+  ]
+ },
+ "metier": {
+  "surtitre": "Le métier",
+  "titre": "Diététicienne : un métier de santé.",
+  "texte": "La diététicienne est une professionnelle de santé diplômée, enregistrée auprès de l'Agence régionale de santé. Le médecin nutritionniste, lui, est médecin. Les deux travaillent souvent ensemble.",
+  "texte2": "Méfiez-vous des « coachs » sans diplôme et des experts autoproclamés de la nutrition."
+ },
+ "engagements": {
+  "surtitre": "Ses engagements",
+  "titre1": "Sept engagements,",
+  "titre2": "aucun miracle.",
+  "liste": [
+   {
+    "icone": "pomme",
+    "titre": "Une prise en charge personnalisée",
+    "texte": "Votre santé, vos goûts, votre rythme."
+   },
+   {
+    "icone": "ble",
+    "titre": "Des informations validées",
+    "texte": "Scientifiquement, et expliquées simplement."
+   },
+   {
+    "icone": "olive",
+    "titre": "La confidentialité",
+    "texte": "Ce qui se dit au cabinet reste au cabinet."
+   },
+   {
+    "icone": "tomate",
+    "titre": "Pas de régime miracle",
+    "texte": "Des changements réalistes, à votre rythme."
+   },
+   {
+    "icone": "tasse",
+    "titre": "Joignable",
+    "texte": "Par téléphone ou par e-mail, entre deux rendez-vous."
+   },
+   {
+    "icone": "menthe",
+    "titre": "La protection des données",
+    "texte": "Vos informations de santé sont protégées."
+   },
+   {
+    "icone": "basilic",
+    "titre": "La responsabilité environnementale",
+    "texte": "Une démarche attentive à l'environnement."
+   }
+  ]
+ },
+ "medias": {
+  "surtitre": "À l'antenne et dans la presse",
+  "titre1": "On l'entend,",
+  "titre2": "on la lit.",
+  "chiffres": [
+   {
+    "n": 50,
+    "plus": "+",
+    "texte": "émissions comme experte nutrition sur France Bleu Azur"
+   },
+   {
+    "n": 50,
+    "plus": "+",
+    "texte": "passages dans l'émission jeunesse « Pitchoun »"
+   }
+  ],
+  "tele": "Télévision : M6, France 2, France 3, Canal+, Azur TV.",
+  "radio": "Radio : France Bleu Azur, NRJ (2010-2011), Europe 1.",
+  "presse": "Presse : Nutrition Infos, ELLE, Nice-Matin, La Gazette de Monaco, L'Observateur de Monaco, Fémina, Santé Magazine.",
+  "vignettes": [
+   {
+    "nom": "france-bleu-azur",
+    "alt": "Catherine Becker au micro de France Bleu Azur",
+    "legende": "France Bleu Azur",
+    "cadrage": "40% 62%"
+   },
+   {
+    "nom": "france-3",
+    "alt": "Catherine Becker interviewée sur France 3, face à la mer",
+    "legende": "France 3",
+    "cadrage": "62% 45%"
+   },
+   {
+    "nom": "m6-100-mag",
+    "alt": "Catherine Becker dans un reportage de 100 % Mag",
+    "legende": "100 % Mag, M6",
+    "cadrage": "50% 40%"
+   },
+   {
+    "nom": "nutrition-infos",
+    "alt": "Couverture de la revue Nutrition Infos",
+    "legende": "Nutrition Infos",
+    "cadrage": "50% 50%"
+   },
+   {
+    "nom": "observateur-monaco",
+    "alt": "Article « Mince alors ! » de L'Observateur de Monaco",
+    "legende": "L'Observateur de Monaco",
+    "cadrage": "50% 50%"
+   }
+  ]
+ },
+ "collaborations": {
+  "surtitre": "Avec les entreprises",
+  "titre1": "Collaborations",
+  "titre2": "et conférences",
+  "liste": [
+   "Concept BRAINFOOD du groupe Radisson (2018)",
+   "Carte minceur et équilibre de la chaîne BYSUSHI",
+   "Campagne nutrition pour Casino et les Galeries Lafayette",
+   "Laboratoires Oméga Pharma et Novartis",
+   "Journée de dépistage et atelier nutrition pour la Mutuelle du Soleil",
+   "Formation de pharmaciens, ateliers en entreprise",
+   "Soirée au Méridien Beach Plaza, à Monaco",
+   "Conseil en hygiène et sécurité alimentaire à l'hôpital de Cannes, menus de cantines scolaires",
+   "Conférence aux Étoiles de Mougins (2014), formation pour l'ARAPL Côte d'Azur (2013), conférence aux médecins sur le diabète"
+  ],
+  "vignettes": [
+   {
+    "nom": "etoiles-mougins",
+    "alt": "Conférence aux Étoiles de Mougins, festival international de la gastronomie",
+    "legende": "Les Étoiles de Mougins, 2014",
+    "cadrage": "45% 55%"
+   },
+   {
+    "nom": "soiree-monaco",
+    "alt": "Catherine Becker lors d'une soirée au Méridien Beach Plaza, à Monaco",
+    "legende": "Méridien Beach Plaza, Monaco",
+    "cadrage": "53% 35%"
+   }
+  ]
+ },
+ "reseaux": {
+  "surtitre": "Réseaux",
+  "titre": "Elle travaille en réseau",
+  "liste": [
+   "Partenaire des réseaux Santéclair et Carte Blanche",
+   "Partenaire de KALIDEA (comités d'entreprise)",
+   "Membre du réseau diabète RESDIAB06 et du réseau SLA du CHU de Nice",
+   "Membre de la Fédération française des sports de glace",
+   "Diététicienne de l'équipe féminine de volley du Racing Club de Cannes",
+   "Médecins, gastro-entérologues, chirurgiens, psychologues, kinésithérapeutes qui lui adressent leurs patients"
+  ]
+ }
+}
