@@ -63,6 +63,7 @@ export default (c) => {
         <output class="calcul-n" data-calcul-n aria-live="polite">5</output>
         <button type="button" class="calcul-bouton" data-calcul-plus aria-label="${P.packs.calcPlus}">+</button>
       </div>
+      <div class="calcul-assiettes" data-calcul-assiettes aria-hidden="true">${[1, 2, 3, 4, 5].map(() => html`<i data-type="p5"></i>`)}</div>
       <dl class="calcul-resultat">
         <div><dt>${P.packs.calcUnite}</dt><dd data-calcul-unite>350&nbsp;€</dd></div>
         <div><dt>${P.packs.calcFormule}</dt><dd data-calcul-formule>250&nbsp;€</dd></div>

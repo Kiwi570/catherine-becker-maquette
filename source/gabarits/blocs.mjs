@@ -18,10 +18,15 @@ export function scriptHoraires(H) {
 }
 
 /** Appel final : prendre rendez-vous, sur fond olive, avec l'assiette qui tourne doucement. */
+/** Bouton posé sur une assiette : un clic la vide et la remplit de nouveau (jeu, sans conséquence). */
+export function boutonResservir(c) {
+  return html`<button type="button" class="assiette-jeu" data-resservir><span class="assiette-indice"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg>${c.t('commun.resservir')}<span class="visuellement-cache"> ${c.t('commun.resservirCache')}</span></span></button>`;
+}
+
 export function appelFinal(c, cle) {
   return html`<section class="appel fond-olive" id="rendez-vous">
   <div class="conteneur appel-grille">
-    <div class="appel-assiette" data-effet="assiette-tourne">${assiette({ id: 'appel-' + cle })}</div>
+    <div class="appel-assiette" data-effet="assiette-tourne">${assiette({ id: 'appel-' + cle })}${boutonResservir(c)}</div>
     <div class="appel-texte">
       <h2 class="titre-section" data-anime="lignes">${c.t('commun.rdvTitre')}</h2>
       <p>${c.t('commun.rdvTexte')}</p>

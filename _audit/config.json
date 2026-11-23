@@ -1,6 +1,23 @@
 {
   "siteActuel": "catherinebecker.fr",
-  "pagesTypes": ["/", "/consultation", "/tarifs", "/presentation", "/contact"],
-  "effets": ["assiette", "ingredients", "assiette-tourne", "cadran", "prix"],
-  "grille": { "dispenses": {} }
+  "pagesTypes": [
+    "/",
+    "/consultation",
+    "/tarifs",
+    "/presentation",
+    "/contact"
+  ],
+  "effets": [
+    "assiette",
+    "ingredients",
+    "assiette-tourne",
+    "cadran",
+    "prix",
+    "lettre",
+    "sceau",
+    "frise"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
 }

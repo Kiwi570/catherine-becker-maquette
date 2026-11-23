@@ -4,17 +4,28 @@ import { scriptHoraires } from '../gabarits/blocs.mjs';
 
 export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'cabinet-960.webp' };
 
-/* Côte schématique, de Cannes à Nice (dessin indicatif, pas à l'échelle). */
-const carte = (titre, visio) => brut(`<svg class="cote" viewBox="0 0 700 420" role="img" aria-label="${titre}">
-<defs><linearGradient id="mer" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdad3"/><stop offset="1" stop-color="#b9cbc4"/></linearGradient></defs>
-<path class="cote-mer" d="M0 300 C 60 290 100 312 150 300 C 190 290 220 272 252 276 C 272 280 284 300 292 324 C 302 350 326 352 336 330 C 344 310 340 282 360 262 C 388 232 430 236 470 212 C 510 188 545 170 590 172 C 630 174 660 190 700 186 V420 H0 Z" fill="url(#mer)"/>
-<path class="cote-trait" data-fx-trait d="M0 300 C 60 290 100 312 150 300 C 190 290 220 272 252 276 C 272 280 284 300 292 324 C 302 350 326 352 336 330 C 344 310 340 282 360 262 C 388 232 430 236 470 212 C 510 188 545 170 590 172 C 630 174 660 190 700 186" fill="none" stroke="#33442F" stroke-width="3" stroke-linecap="round"/>
+/* Côte schématique, de Cannes à Nice (dessin indicatif, pas à l'échelle) : baie de Cannes et îles de Lérins,
+   cap d'Antibes, baie des Anges. Les épingles mènent aux horaires et choisissent leur cabinet. */
+const COTE = 'M0 292 C 50 284 96 300 140 292 C 176 286 204 272 232 276 C 254 279 266 296 274 314 C 284 336 300 350 318 350 C 336 350 352 338 360 318 C 368 296 376 274 398 258 C 434 234 470 222 506 202 C 540 184 566 170 596 168 C 626 166 646 180 662 176 C 680 172 690 160 700 158';
+const epingle = (id, nom, x, y) => `<g class="cote-epingle cote-epingle--${id}" transform="translate(${x} ${y})">
+<circle class="cote-onde" cy="-38" r="10" fill="none" stroke="#C23E22" stroke-width="2.5"/>
+<g class="cote-goutte"><ellipse cy="2" rx="12" ry="4" fill="#33442F" opacity=".18"/><path d="M0 0 C -14 -18 -20 -28 -20 -38 A 20 20 0 0 1 20 -38 C 20 -28 14 -18 0 0 Z" fill="#C23E22"/><circle cy="-38" r="8" fill="#F7F2E8"/></g>
+<text x="0" y="-72" text-anchor="middle">${nom}</text></g>`;
+const carte = (titre, visio, aria) => brut(`<div class="cote-cadre">
+${['cannes', 'nice'].map((id) => `<a class="cote-lien" href="#cabinets" data-cabinet="${id}" data-sans-transition aria-label="${aria[id]}"></a>`).join('')}
+<svg class="cote" viewBox="0 0 700 420" role="group" aria-label="${titre}">
+<defs><linearGradient id="mer" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdad3"/><stop offset="1" stop-color="#b9cbc4"/></linearGradient><linearGradient id="terre" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBF7EE"/><stop offset="1" stop-color="#EFE5CF"/></linearGradient></defs>
+<rect class="cote-terre" width="700" height="420" fill="url(#terre)"/>
+<path class="cote-mer" d="${COTE} V420 H0 Z" fill="url(#mer)"/>
+<g class="cote-vagues" fill="none" stroke="#F7F2E8" stroke-width="2" stroke-linecap="round" opacity=".7"><path d="M60 352 q 10 -6 20 0 t 20 0"/><path d="M420 300 q 10 -6 20 0 t 20 0"/><path d="M560 250 q 10 -6 20 0 t 20 0"/><path d="M250 392 q 10 -6 20 0 t 20 0"/></g>
+<g class="cote-iles" fill="#E8DCC3" stroke="#33442F" stroke-width="2"><ellipse cx="150" cy="326" rx="26" ry="7"/><ellipse cx="198" cy="334" rx="17" ry="5.5"/></g>
+<path class="cote-trait" data-fx-trait d="${COTE}" fill="none" stroke="#33442F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <path class="cote-collines" d="M40 200 C 120 150 170 170 230 140 S 330 120 380 110 S 470 80 520 70" fill="none" stroke="#B9C4A0" stroke-width="2" stroke-dasharray="1 7" stroke-linecap="round"/>
-<path class="cote-route" data-fx-trait d="M120 270 C 220 230 330 220 420 196 S 540 150 586 150" fill="none" stroke="#C23E22" stroke-width="2.5" stroke-dasharray="2 9" stroke-linecap="round"/>
-<g class="cote-epingle" data-repere transform="translate(120 270)"><path d="M0 0 C -14 -18 -20 -28 -20 -38 A 20 20 0 0 1 20 -38 C 20 -28 14 -18 0 0 Z" fill="#C23E22"/><circle cy="-38" r="8" fill="#F7F2E8"/><text x="0" y="-70" text-anchor="middle">Cannes</text></g>
-<g class="cote-epingle" data-repere transform="translate(586 150)"><path d="M0 0 C -14 -18 -20 -28 -20 -38 A 20 20 0 0 1 20 -38 C 20 -28 14 -18 0 0 Z" fill="#C23E22"/><circle cy="-38" r="8" fill="#F7F2E8"/><text x="0" y="-70" text-anchor="middle">Nice</text></g>
-<g class="cote-visio" transform="translate(470 330)"><rect x="-112" y="-26" width="224" height="52" rx="26" fill="#33442F"/><text x="0" y="6" text-anchor="middle" fill="#F7F2E8">${visio.replace(' : ', '\u00a0: ')}</text></g>
-</svg>`);
+<path class="cote-route" d="M120 270 C 220 230 330 220 420 196 S 540 150 586 150" fill="none" stroke="#C23E22" stroke-width="2.5" stroke-dasharray="2 9" stroke-linecap="round"/>
+${epingle('cannes', 'Cannes', 120, 270)}
+${epingle('nice', 'Nice', 586, 150)}
+<g class="cote-visio" transform="translate(500 350)"><rect x="-122" y="-26" width="244" height="52" rx="26" fill="#33442F"/><text x="0" y="6" text-anchor="middle" fill="#F7F2E8">${visio.replace(' : ', '\u00a0: ')}</text></g>
+</svg></div>`);
 
 export default (c) => {
   const D = c.donnees.contact, H = c.donnees.horaires, F = D.formulaire;
@@ -30,7 +41,7 @@ export default (c) => {
     </p>
     <p class="info-cle" data-info-cle>${c.t('commun.cannes')} · ${c.t('commun.nice')}</p>
   </div>
-  <div class="ouv-carte-visuel" data-iris-centre data-effet="cote" data-fx="trace">${carte(D.ouverture.carte, D.ouverture.visio)}</div>
+  <div class="ouv-carte-visuel" data-iris-centre data-effet="cote" data-fx="trace">${carte(D.ouverture.carte, D.ouverture.visio, { cannes: 'Cannes : horaires et accès', nice: 'Nice : horaires et accès' })}</div>
 </section>
 
 <section class="horaires horaires-contact" id="cabinets" data-module="horaires-ouvert-maintenant" aria-labelledby="horaires-titre">

@@ -1,0 +1,16 @@
+{
+ "id": "20261123-145153-complet-cible-partiel",
+ "date": "2026-11-23T14:52:43.019Z",
+ "niveau": "complet",
+ "pages": "/contact",
+ "etapes": [
+  "fichiers",
+  "parcours"
+ ],
+ "version": "3",
+ "echecs": 0,
+ "aRegarder": 2,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

@@ -1,32 +1,80 @@
 {
-  "depot": "catherine-becker-maquette",
-  "resume": "Diététicienne nutritionniste à Cannes et à Nice. Direction « L'assiette du marché » : lin, olive et tomate, Young Serif et Outfit ; l'assiette compartimentée en inox de sa box relie le site (intro qui la remplit puis la pose sur la photo, méthode qui remplit un compartiment par étape, appel final). Vraies photos de la praticienne en grand, illustrations générées pour les ambiances du marché et de la Riviera.",
-  "source": "script d'audit de la skill (standard puis complet, v1), inventaire de la bibliothèque et lecture des captures.",
-  "c": [
-    [12, "Intro de l'assiette qui se remplit puis glisse à sa place, ouvertures fortes et toutes différentes (bandeau, prix géant qui défile, portrait en arche, carte de la côte, assiette vide de la 404) ; pas de grand effet spectaculaire."],
-    [14, "Palette tenue sur les six pages (lin, olive pour les bandes, tomate pour les boutons et un mot par titre), titres Young Serif francs, photos Grok cohérentes entre elles et avec les vraies photos du cabinet."],
-    [12, "Une animation dans chaque section : assiette qui se remplit, ingrédients qui flottent, compteurs, jalons, cadran, inclinaisons à la vitesse, mots géants des médias, rideau olive entre les pages."],
-    [7, "Pile d'avis à lancer, calculateur des packs, cadran des horaires, puces des motifs ; l'assiette elle-même ne se manipule pas."],
-    [14, "Premier écran tenu jusqu'au 320×568, au téléphone couché et au 1000×560 ; balayage de 320 à 1920 px sans débordement."],
-    [9, "Tous les faits viennent du site actuel (tarifs, horaires, parcours, médias, avis réels tronqués sans promesse de poids) ; jours fériés sans statut faute d'horaires ; carte de la côte schématique."],
-    [9, "Ouvertures sous 2,9 s, 0 % d'images lentes au défilement, moins de 0,6 s de calcul au chargement sur téléphone ralenti."],
-    [4, "noindex, images de partage par page, vercel.json sans frame-ancestors ; mise en ligne à faire par l'utilisateur."],
-    [4, "axe-core sans erreur, contrastes et zones tactiles conformes ; boutons de la pile nommés sans JavaScript."]
+ "depot": "catherine-becker-maquette",
+ "resume": "Diététicienne nutritionniste à Cannes et à Nice. Direction « L'assiette du marché » : lin, olive et tomate, Young Serif et Outfit ; l'assiette compartimentée en inox de sa box relie le site (intro qui la remplit puis la pose sur la photo, méthode qui remplit un compartiment par étape, visio, sceau du métier, appel final), et se ressert d'un clic. Vraies photos de la praticienne en grand, illustrations générées pour les ambiances du marché et de la Riviera.",
+ "source": "script d'audit de la skill (v2 : complet sur 13 tailles et tous les modes, 3 échecs corrigés, puis contrôles ciblés à 0), inventaire de la bibliothèque et lecture des captures ordinateur et téléphone de chaque page.",
+ "c": [
+  [
+   13,
+   "Intro de l'assiette qui se remplit puis glisse à sa place, ouvertures fortes et toutes différentes (bandeau, prix géant qui défile, portrait en arche, carte de la côte aux épingles qui tombent, assiette vide de la 404) ; pas de grand effet spectaculaire en 3D."
   ],
-  "forts": [
-    "l'assiette compartimentée en inox, objet réel de son offre, devient l'intro, la méthode et l'appel final",
-    "six ouvertures toutes différentes dans un seul système",
-    "vraies photos de Catherine Becker en grand (cabinet, radio, télévision) et illustrations générées cohérentes",
-    "horaires des deux cabinets à l'heure de Paris, formulés en positif, sans statut les jours fériés inconnus",
-    "calculateur des packs vérifié par le script d'audit de 1 à 12 consultations"
+  [
+   14,
+   "Palette tenue sur les six pages (lin, olive pour les bandes, tomate pour les boutons et un mot par titre), titres Young Serif francs, illustrations dessinées dans le même trait (assiette, visio, lettre, sceau, côte), photos Grok cohérentes avec les vraies photos du cabinet."
   ],
-  "bloquants": [],
-  "importants": [
-    ["Carte de la côte", "Dessin schématique un peu raide (le cap d'Antibes en V) : à adoucir ou remplacer par une vraie carte stylisée.", "30 min"],
-    ["Safari", "Non vérifié ici : intro, voile, menu sur iPhone, formulaires.", "15 min"]
+  [
+   13,
+   "Une animation dans chaque section : assiette qui se remplit, ingrédients qui flottent, frise qui se trace, lettre qui sort de l'enveloppe, sceau qui tourne, compteurs, jalons, cadran, mots géants des médias, rideau olive entre les pages."
   ],
-  "finition": [
-    ["Assiette manipulable", "L'assiette pourrait se tourner à la main sur l'accueil.", "1 h"]
+  [
+   9,
+   "L'assiette se ressert d'un clic, ses compartiments mènent aux étapes, préparation de la visite à cocher, épingles qui choisissent le cabinet, calculateur en petites assiettes, pile d'avis à lancer."
   ],
-  "mesures": [["Ouvertures", "2,5 à 2,9 s depuis le premier octet"], ["Accueil", "environ 9,5 écrans sur ordinateur"]]
+  [
+   14,
+   "Premier écran tenu jusqu'au 320×568, au téléphone couché et au 1000×560 ; balayage de 320 à 1920 px sans débordement."
+  ],
+  [
+   9,
+   "Tous les faits viennent du site actuel (tarifs, horaires, parcours, médias, avis réels tronqués sans promesse de poids) ; jours fériés sans statut faute d'horaires ; carte de la côte schématique, non à l'échelle."
+  ],
+  [
+   9,
+   "Ouvertures sous 3 s, aucune image lente au défilement, boucles arrêtées hors écran."
+  ],
+  [
+   5,
+   "En ligne sur l'adresse courte, protection Vercel désactivée, noindex, images de partage par page, vercel.json sans frame-ancestors."
+  ],
+  [
+   4,
+   "axe-core sans erreur, contrastes et zones tactiles conformes ; jeux doublés au clavier (boutons, liens posés sur la carte)."
+  ]
+ ],
+ "forts": [
+  "l'assiette compartimentée en inox, objet réel de son offre, devient l'intro, la méthode, la visio, le sceau du métier et l'appel final, et se ressert d'un clic",
+  "six ouvertures toutes différentes dans un seul système",
+  "vraies photos de Catherine Becker en grand (cabinet, radio, télévision) et illustrations générées cohérentes",
+  "petits jeux utiles : préparation de la visite à cocher, épingles qui choisissent le cabinet, calculateur en assiettes",
+  "horaires des deux cabinets à l'heure de Paris, formulés en positif, sans statut les jours fériés inconnus"
+ ],
+ "bloquants": [],
+ "importants": [
+  [
+   "Safari",
+   "Non vérifié ici : intro, voile, menu sur iPhone, formulaires.",
+   "15 min"
+  ]
+ ],
+ "finition": [
+  [
+   "Assiette à tourner",
+   "L'assiette se ressert d'un clic ; elle pourrait aussi se faire tourner à la main.",
+   "1 h"
+  ],
+  [
+   "Choix du cabinet au rechargement",
+   "Le cabinet choisi dans les horaires revient à Cannes au rechargement.",
+   "20 min"
+  ]
+ ],
+ "mesures": [
+  [
+   "Ouvertures",
+   "moins de 3 s (films d'ouverture de l'audit)"
+  ],
+  [
+   "Accueil",
+   "environ 9,5 écrans sur ordinateur"
+  ]
+ ]
 }

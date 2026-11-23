@@ -66,6 +66,10 @@ export function assiette({ id, classe = '', numeros = false, attrs = '', titre =
   const B = 'M200 200 L32 200 A168 168 0 0 1 200 32 Z';
   const C = 'M200 200 L200 368 A168 168 0 0 1 32 200 Z';
   const num = (x, y, t) => numeros ? `<g class="assiette-num" transform="translate(${x} ${y})"><circle r="17"/><text y="1">${t}</text></g>` : '';
+  /* Méthode : contours en pointillés des compartiments encore vides, et zones cliquables (aller à l'étape). */
+  const CA = 'M212 48.5 A152 152 0 0 1 212 351.5 Z', CB = 'M188 188 L48.5 188 A152 152 0 0 1 188 48.5 Z', CC = 'M188 212 L188 351.5 A152 152 0 0 1 48.5 212 Z';
+  const contours = numeros ? `<g class="assiette-contours">${[['a', CA], ['b', CB], ['c', CC]].map(([k, d]) => `<path data-contour="${k}" d="${d}" fill="none" stroke="#b3b3ac" stroke-width="2.5" stroke-dasharray="5 9" stroke-linecap="round" stroke-linejoin="round"/>`).join('')}</g>` : '';
+  const zones = numeros ? `<g class="assiette-zones">${[['a', A], ['b', B], ['c', C]].map(([k, d]) => `<path data-zone="${k}" d="${d}" fill="transparent"/>`).join('')}</g>` : '';
   return brut(`<svg class="assiette ${classe}" viewBox="0 0 400 400" ${titre ? `role="img" aria-label="${titre}"` : 'aria-hidden="true" focusable="false"'} ${attrs}>
 <defs>
 <radialGradient id="${id}-inox" cx="38%" cy="32%" r="78%"><stop offset="0" stop-color="#fbfbf9"/><stop offset=".55" stop-color="#dcdcd7"/><stop offset=".8" stop-color="#c9c9c3"/><stop offset="1" stop-color="#e9e9e4"/></radialGradient>
@@ -77,10 +81,11 @@ export function assiette({ id, classe = '', numeros = false, attrs = '', titre =
 <circle cx="200" cy="200" r="170" fill="url(#${id}-fond)"/>
 <circle cx="200" cy="200" r="169" fill="none" stroke="#c4c4be" stroke-width="3"/>
 </g>
+${contours}
 <g data-compartiment="b" clip-path="url(#${id}-b)">${CONTENU.b}</g>
 <g data-compartiment="a" clip-path="url(#${id}-a)">${CONTENU.a}</g>
 <g data-compartiment="c" clip-path="url(#${id}-c)">${CONTENU.c}</g>
 <g class="assiette-cloisons"><path d="M200 30 L200 370 M30 200 L200 200" stroke="#cfcfca" stroke-width="11" stroke-linecap="round" fill="none"/><path d="M198 32 L198 368 M32 198 L200 198" stroke="#fbfbf9" stroke-width="2.5" stroke-linecap="round" fill="none"/></g>
-${num(286, 72, '2')}${num(118, 92, '1')}${num(118, 318, '3')}
+${zones}${num(286, 72, '2')}${num(118, 92, '1')}${num(118, 318, '3')}
 </svg>`);
 }

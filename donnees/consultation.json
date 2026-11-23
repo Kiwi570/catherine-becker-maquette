@@ -19,9 +19,21 @@
     "titre1": "Trois étapes,",
     "titre2": "dans cet ordre.",
     "etapes": [
-      { "n": "1", "titre": "Bilan diététique", "texte": "Bilan nutritionnel, psycho-nutritionnel et corporel par bio-impédancemétrie. Les conclusions vous sont commentées et les premiers objectifs fixés ensemble." },
-      { "n": "2", "titre": "Rééquilibrage alimentaire", "texte": "Une prescription personnelle selon votre mode de vie, vos habitudes alimentaires et votre santé." },
-      { "n": "3", "titre": "Suivi diététique", "texte": "Si nécessaire : évolution, réajustements suivant les résultats, soutien et motivation." }
+      {
+        "n": "1",
+        "titre": "Bilan diététique",
+        "texte": "Bilan nutritionnel, psycho-nutritionnel et corporel par bio-impédancemétrie. Les conclusions vous sont commentées et les premiers objectifs fixés ensemble."
+      },
+      {
+        "n": "2",
+        "titre": "Rééquilibrage alimentaire",
+        "texte": "Une prescription personnelle selon votre mode de vie, vos habitudes alimentaires et votre santé."
+      },
+      {
+        "n": "3",
+        "titre": "Suivi diététique",
+        "texte": "Si nécessaire : évolution, réajustements suivant les résultats, soutien et motivation."
+      }
     ]
   },
   "bilan": {
@@ -38,11 +50,26 @@
     "bioTitre": "La bio-impédancemétrie",
     "bioTexte": "Une mesure rapide et indolore de la composition du corps, faite au cabinet. Elle mesure :",
     "mesures": [
-      { "nom": "Masse grasse", "texte": "La part de graisse dans le poids du corps." },
-      { "nom": "Masse musculaire", "texte": "Segment par segment : bras, jambes, tronc." },
-      { "nom": "Graisse viscérale", "texte": "La graisse placée autour des organes de l'abdomen." },
-      { "nom": "Masse hydrique", "texte": "L'eau contenue dans le corps." },
-      { "nom": "IMC", "texte": "L'indice de masse corporelle, rapport du poids à la taille." }
+      {
+        "nom": "Masse grasse",
+        "texte": "La part de graisse dans le poids du corps."
+      },
+      {
+        "nom": "Masse musculaire",
+        "texte": "Segment par segment : bras, jambes, tronc."
+      },
+      {
+        "nom": "Graisse viscérale",
+        "texte": "La graisse placée autour des organes de l'abdomen."
+      },
+      {
+        "nom": "Masse hydrique",
+        "texte": "L'eau contenue dans le corps."
+      },
+      {
+        "nom": "IMC",
+        "texte": "L'indice de masse corporelle, rapport du poids à la taille."
+      }
     ]
   },
   "preparer": {
@@ -50,12 +77,28 @@
     "titre1": "Préparer",
     "titre2": "votre première visite",
     "points": [
-      { "icone": "pomme", "titre": "Vos préférences", "texte": "La liste de ce que vous aimez, et de ce que vous n'aimez pas." },
-      { "icone": "tasse", "titre": "Une journée type", "texte": "Horaires, composition des repas, boissons, quantités : une journée ordinaire, telle qu'elle est." },
-      { "icone": "olive", "titre": "Vos analyses", "texte": "Vos derniers bilans et analyses de sang, si vous en avez." }
+      {
+        "icone": "pomme",
+        "titre": "Vos préférences",
+        "texte": "La liste de ce que vous aimez, et de ce que vous n'aimez pas."
+      },
+      {
+        "icone": "tasse",
+        "titre": "Une journée type",
+        "texte": "Horaires, composition des repas, boissons, quantités : une journée ordinaire, telle qu'elle est."
+      },
+      {
+        "icone": "olive",
+        "titre": "Vos analyses",
+        "texte": "Vos derniers bilans et analyses de sang, si vous en avez."
+      }
     ],
     "alt": "Le cabinet : bureau en verre, chaises vert pomme, plantes et tableau de bord de mer",
-    "legende": "Le cabinet"
+    "legende": "Le cabinet",
+    "cocher": "C'est prêt",
+    "etat0": "Cochez ce qui est déjà prêt.",
+    "etatN": "{n} sur 3 : c'est en bonne voie.",
+    "etatTout": "Tout est prêt pour votre première visite."
   },
   "rythme": {
     "surtitre": "Le rythme",
@@ -63,10 +106,22 @@
     "titre2": "rendez-vous ?",
     "texte": "Tout dépend de vous. En moyenne :",
     "jalons": [
-      { "quand": "1 à 2 semaines", "texte": "entre les deux premières consultations." },
-      { "quand": "1 à 2 rendez-vous", "texte": "pour un rééquilibrage alimentaire, environ." },
-      { "quand": "3 à 6 rendez-vous", "texte": "pour un suivi approfondi (obésité, troubles du comportement alimentaire…), environ." },
-      { "quand": "Ensuite", "texte": "les rendez-vous s'espacent si les résultats sont bons, et se rapprochent dans les périodes difficiles." }
+      {
+        "quand": "1 à 2 semaines",
+        "texte": "entre les deux premières consultations."
+      },
+      {
+        "quand": "1 à 2 rendez-vous",
+        "texte": "pour un rééquilibrage alimentaire, environ."
+      },
+      {
+        "quand": "3 à 6 rendez-vous",
+        "texte": "pour un suivi approfondi (obésité, troubles du comportement alimentaire…), environ."
+      },
+      {
+        "quand": "Ensuite",
+        "texte": "les rendez-vous s'espacent si les résultats sont bons, et se rapprochent dans les périodes difficiles."
+      }
     ],
     "formules": "Deux formules possibles : un rendez-vous par semaine pendant un mois, ou un suivi mensuel sur l'année.",
     "lien": "Voir les packs"
@@ -76,10 +131,30 @@
     "titre1": "Quatre façons",
     "titre2": "de consulter",
     "liste": [
-      { "icone": "citron", "titre": "Au cabinet", "texte": "À Cannes ou à Nice, sur rendez-vous.", "prix": "70 €" },
-      { "icone": "carotte", "titre": "À domicile", "texte": "Chez vous, sur demande.", "prix": "+15 €" },
-      { "icone": "menthe", "titre": "En téléconsultation", "texte": "Par téléphone ou en visio, depuis chez vous ou votre bureau.", "prix": "70 €" },
-      { "icone": "tasse", "titre": "Suivi en ligne", "texte": "Par téléphone ou e-mail, pour poursuivre un suivi déjà commencé.", "prix": "35 €" }
+      {
+        "icone": "citron",
+        "titre": "Au cabinet",
+        "texte": "À Cannes ou à Nice, sur rendez-vous.",
+        "prix": "70 €"
+      },
+      {
+        "icone": "carotte",
+        "titre": "À domicile",
+        "texte": "Chez vous, sur demande.",
+        "prix": "+15 €"
+      },
+      {
+        "icone": "menthe",
+        "titre": "En téléconsultation",
+        "texte": "Par téléphone ou en visio, depuis chez vous ou votre bureau.",
+        "prix": "70 €"
+      },
+      {
+        "icone": "tasse",
+        "titre": "Suivi en ligne",
+        "texte": "Par téléphone ou e-mail, pour poursuivre un suivi déjà commencé.",
+        "prix": "35 €"
+      }
     ]
   },
   "medecin": {

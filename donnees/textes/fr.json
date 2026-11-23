@@ -28,7 +28,9 @@
     "rdvTexte": "En ligne sur Doctolib, 7 jours sur 7, à toute heure. Ou par téléphone au secrétariat, au 04 89 82 09 06 (numéro non surtaxé).",
     "rdvApporter": "Pour la première visite, pensez à apporter une journée type de vos repas, la liste de vos préférences et vos dernières analyses de sang si vous en avez.",
     "rdvDoctolib": "Réserver sur Doctolib",
-    "rdvAppeler": "Appeler le 04 89 82 09 06"
+    "rdvAppeler": "Appeler le 04 89 82 09 06",
+    "resservir": "Resservir",
+    "resservirCache": "l'assiette"
   },
   "pages": {
     "accueil": {

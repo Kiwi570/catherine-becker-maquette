@@ -5,18 +5,20 @@ Direction artistique « L'assiette du marché » : lin, olive et tomate, titres 
 
 Adresse en ligne prévue : https://catherine-becker-maquette.vercel.app
 
-## Pages (v1)
+## Pages (v2)
 
 | Page | Ouverture | Contenu |
 |---|---|---|
-| Accueil `/` | Grande photo du marché et assiette dessinée (l'intro la remplit) | Motifs, méthode en 3 temps, bilan, deux cabinets et la visio, tarifs, qui vous reçoit, avis, rendez-vous |
-| Consultation `/consultation` | Grand titre puis bandeau photo | Motifs détaillés, déroulé, bilan et bio-impédancemétrie, préparer sa visite, rythme du suivi, quatre façons de consulter, courrier au médecin |
+| Accueil `/` | Grande photo du marché et assiette dessinée (l'intro la remplit ; un clic la ressert) | Motifs, méthode en 3 temps (compartiments cliquables), bilan, deux cabinets et la visio, tarifs, qui vous reçoit, avis, rendez-vous |
+| Consultation `/consultation` | Grand titre puis bandeau photo | Motifs détaillés, déroulé, bilan et bio-impédancemétrie, préparer sa visite (à cocher), rythme du suivi, quatre façons de consulter, courrier au médecin |
 | Tarifs `/tarifs` | « 70 € » en très grand, agrumes | Consultations, packs et calculateur, à domicile, en ligne, remboursement et réseaux, paiement et annulation, bon cadeau |
 | Présentation `/presentation` | Portrait réel en arche, nom en grand | Parcours, le métier, sept engagements, médias, collaborations, réseaux |
-| Cabinets et contact `/contact` | Carte dessinée de la côte | Horaires avec cadran et statut à l'heure de Paris, accès, formulaire simulé, coordonnées |
+| Cabinets et contact `/contact` | Carte dessinée de la côte (les épingles choisissent le cabinet) | Horaires avec cadran et statut à l'heure de Paris, accès, formulaire simulé, coordonnées |
 | 404 | Assiette vide, un petit pois | « Cette page n'est pas au menu » |
 
-Pages du site actuel non reprises en v1 (disponibles en v2) : Coaching en ligne, Pros, Blog.
+Pages du site actuel non reprises dans la maquette (à ajouter dans une version suivante) : Coaching en ligne, Pros, Blog.
+
+La liste « Préparer votre première visite » garde les cases cochées dans le navigateur du visiteur (stockage local, rien n'est envoyé).
 
 ## Informations à fournir par le client (à compléter)
 

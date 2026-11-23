@@ -4,11 +4,14 @@
    - « ingredients » : basilic, citron et tomate dessinés qui flottent au défilement ;
    - « assiette-tourne » : l'assiette de l'appel final tourne doucement avec le défilement ;
    - « cadran » : horaires des cabinets, statut du moment à l'heure de Paris (page Cabinets et contact) ;
-   - « prix » : le prix de la consultation qui se compose (page Tarifs). */
-import { demarrer, versObjet, etat, quand, boucle } from './socle/index.js?v=2';
-import { preparer as preparerHoraires, maintenant, statut } from './horaires/calcul.js?v=2';
-import { init as initPile } from './pile/module.js?v=2';
-import { init as initCadran } from './horaires/module.js?v=2';
+   - « prix » : le prix de la consultation qui se compose (page Tarifs) ;
+   - « lettre », « sceau », « frise » : la lettre au médecin qui sort de l'enveloppe, le sceau du métier qui tourne,
+     la frise du parcours qui se trace ; et les petits jeux : resservir une assiette, cocher sa préparation,
+     les épingles de la carte qui choisissent le cabinet. */
+import { demarrer, versObjet, etat, quand, boucle, aller } from './socle/index.js?v=3';
+import { preparer as preparerHoraires, maintenant, statut } from './horaires/calcul.js?v=3';
+import { init as initPile } from './pile/module.js?v=3';
+import { init as initCadran } from './horaires/module.js?v=3';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -58,8 +61,20 @@ function methode() {
   const rempli = new Set();
   const tous = $$('.aliment', svg);
   gsap.set(tous, { opacity: 0, transformOrigin: '50% 50%' });
-  const vider = (comp) => { rempli.delete(comp); gsap.to(aliments(svg, comp), { opacity: 0, y: 12, scale: 0.85, duration: 0.3, stagger: 0.004, overwrite: true }); };
-  const remplir = (comp) => { if (rempli.has(comp)) return; rempli.add(comp); verser(svg, comp, null); };
+  const contour = (comp, vide) => { const c = $(`[data-contour="${comp}"]`, svg); if (c) gsap.to(c, { opacity: vide ? 1 : 0, duration: 0.35 }); };
+  const vider = (comp) => { rempli.delete(comp); contour(comp, true); gsap.to(aliments(svg, comp), { opacity: 0, y: 12, scale: 0.85, duration: 0.3, stagger: 0.004, overwrite: true }); };
+  const remplir = (comp) => { if (rempli.has(comp)) return; rempli.add(comp); contour(comp, false); verser(svg, comp, null); };
+  /* Un clic sur un compartiment mène à son étape ; le survol d'une étape fait sautiller son compartiment. */
+  $$('[data-zone]', svg).forEach((z) => z.addEventListener('click', () => {
+    const e = etapes[ordre.indexOf(z.dataset.zone)];
+    if (!e) return;
+    if (matchMedia('(min-width: 900px)').matches) aller(e); else activer(ordre.indexOf(z.dataset.zone));
+  }));
+  etapes.forEach((e) => e.addEventListener('pointerenter', () => {
+    const comp = e.dataset.etape;
+    if (!rempli.has(comp)) return;
+    gsap.fromTo(aliments(svg, comp), { y: 0 }, { y: -7, duration: 0.16, yoyo: true, repeat: 1, ease: 'power2.out', stagger: { each: 0.004, from: 'random' }, overwrite: 'auto' });
+  }));
   const activer = (i) => {
     etapes.forEach((e, k) => e.classList.toggle('est-active', k === i));
     nums.forEach((n, k) => n.classList.toggle('est-active', ['1', '2', '3'][i] === n.textContent.trim()));
@@ -75,7 +90,119 @@ function methode() {
     } });
   });
   /* Au retour arrière : l'assiette est pleine. */
-  quand('retour', () => { gsap.set(tous, { opacity: 1, y: 0, scale: 1 }); ordre.forEach((c) => rempli.add(c)); });
+  quand('retour', () => { gsap.set(tous, { opacity: 1, y: 0, scale: 1 }); gsap.set($$('[data-contour]', svg), { opacity: 0 }); ordre.forEach((c) => rempli.add(c)); });
+}
+
+/* ——— Resservir : un clic sur une assiette la vide, puis les aliments retombent (accueil, appel final) ——— */
+function resservir() {
+  if (!gsap) return;
+  $$('[data-resservir]').forEach((b) => {
+    const svg = b.parentElement.querySelector('svg.assiette');
+    if (!svg) return;
+    let occupe = false;
+    b.addEventListener('click', () => {
+      if (occupe) return;
+      occupe = true;
+      const tous = $$('.aliment', svg);
+      const tl = gsap.timeline({ onComplete: () => { occupe = false; } });
+      tl.to(tous, { opacity: 0, y: () => -40 - Math.random() * 60, x: () => (Math.random() - 0.5) * 70, scale: 0.6, duration: 0.32, ease: 'power2.in', stagger: { each: 0.002, from: 'random' } }, 0)
+        .set(tous, { x: 0 }, 0.5);
+      verser(svg, 'b', tl, 0.55, 0.26);
+      verser(svg, 'a', tl, 0.72, 0.28);
+      verser(svg, 'c', tl, 0.9, 0.2);
+      gsap.fromTo(b.parentElement, { scale: 1 }, { scale: 1.05, duration: 0.18, yoyo: true, repeat: 1, ease: 'power2.out' });
+    });
+  });
+}
+
+/* ——— Visio (accueil) : l'assiette tourne doucement dans l'écran, le voyant « en direct » respire ——— */
+function visio() {
+  const plat = $('.visio-assiette .assiette');
+  if (plat) boucle(plat, (dt, t) => { plat.style.transform = `rotate(${(t * 14) % 360}deg)`; });
+  const point = $('.visio-direct');
+  if (point) boucle(point, (dt, t) => { point.style.opacity = (0.55 + Math.sin(t * 3) * 0.45).toFixed(2); });
+}
+
+/* ——— Préparer sa visite (Consultation) : chaque point se coche ; gardé sur cet appareil si possible ——— */
+function preparerVisite() {
+  const boutons = $$('[data-coche]');
+  const etatEl = $('[data-coche-etat]');
+  if (!boutons.length || !etatEl) return;
+  const CLE = 'cb-preparer';
+  let coches = [];
+  try { coches = JSON.parse(localStorage.getItem(CLE) || '[]'); } catch { coches = []; }
+  etatEl.hidden = false;
+  const maj = (fete) => {
+    boutons.forEach((b, i) => {
+      const oui = coches.includes(i);
+      b.setAttribute('aria-pressed', String(oui));
+      b.closest('[data-coche-ligne]').classList.toggle('est-pret', oui);
+    });
+    const n = coches.length;
+    etatEl.textContent = n === 0 ? etatEl.dataset.etat0 : n >= boutons.length ? etatEl.dataset.etattout : etatEl.dataset.etatn.replace('{n}', n);
+    etatEl.classList.toggle('est-complet', n >= boutons.length);
+    if (fete && n >= boutons.length && gsap) gsap.fromTo($$('[data-coche-ligne] > svg'), { y: 0 }, { y: -12, duration: 0.22, yoyo: true, repeat: 1, ease: 'power2.out', stagger: 0.08 });
+  };
+  boutons.forEach((b, i) => b.addEventListener('click', () => {
+    coches = coches.includes(i) ? coches.filter((x) => x !== i) : [...coches, i];
+    try { localStorage.setItem(CLE, JSON.stringify(coches)); } catch { /* stockage indisponible : l'état reste pour la visite */ }
+    if (gsap && !coches.includes(i)) { /* décoché */ } else if (gsap) gsap.fromTo(b, { scale: 0.7 }, { scale: 1, duration: 0.4, ease: 'back.out(3)' });
+    maj(true);
+  }));
+  maj(false);
+}
+
+/* ——— Lettre au médecin : elle sort de l'enveloppe au défilement ——— */
+function lettre() {
+  const el = $('[data-effet="lettre"]');
+  if (!el || !gsap || !ST) return;
+  const tl = gsap.timeline({ scrollTrigger: { trigger: el, start: 'top 90%', end: 'bottom 40%', scrub: 0.6 } });
+  tl.fromTo($('.lettre-papier', el), { y: 58 }, { y: -6, ease: 'power1.out' }, 0)
+    .fromTo($('.lettre-cachet', el), { rotation: -40, scale: 0.6, transformOrigin: '50% 50%' }, { rotation: 0, scale: 1, ease: 'back.out(2)' }, 0.2);
+}
+
+/* ——— Sceau du métier : l'anneau de texte tourne avec le défilement, l'assiette au centre en sens inverse ——— */
+function sceau() {
+  const el = $('[data-effet="sceau"]');
+  if (!el || !gsap || !ST) return;
+  const st = { trigger: el, start: 'top bottom', end: 'bottom top', scrub: 0.8 };
+  gsap.fromTo($('.metier-anneau', el), { rotation: -50 }, { rotation: 130, ease: 'none', transformOrigin: '50% 50%', scrollTrigger: st });
+  gsap.fromTo($('.metier-sceau-centre svg', el), { rotation: 30 }, { rotation: -40, ease: 'none', transformOrigin: '50% 50%', scrollTrigger: { ...st } });
+}
+
+/* ——— Frise du parcours : chaque trait se trace, puis son point s'allume ——— */
+function frise() {
+  const el = $('[data-effet="frise"]');
+  if (!el || !gsap || !ST) return;
+  const etapes = $$('.frise-etape', el);
+  gsap.set(etapes, { '--trait': 0 });
+  gsap.timeline({ scrollTrigger: { trigger: el, start: 'top 80%', end: 'bottom 55%', scrub: 0.6 } })
+    .to(etapes, { '--trait': 1, ease: 'none', duration: 1, stagger: 0.55 });
+  quand('retour', () => gsap.set(etapes, { '--trait': 1 }));
+}
+
+/* ——— Carte de la côte (Cabinets et contact) : les épingles tombent, respirent, et choisissent le cabinet ——— */
+function epingles() {
+  const els = $$('.cote-lien');
+  if (!els.length) return;
+  $$('.cote-onde').forEach((o, i) => boucle(o, (dt, t) => {
+    const p = ((t * 0.55 + i * 0.5) % 1);
+    o.setAttribute('r', (10 + p * 22).toFixed(1));
+    o.style.opacity = (0.75 * (1 - p)).toFixed(2);
+  }));
+  /* Le lien mène aux horaires (le socle fait défiler et met l'adresse à jour) ; ici, il choisit d'abord le cabinet. */
+  els.forEach((a) => a.addEventListener('click', () => {
+    const module = $('[data-module="horaires-ouvert-maintenant"]');
+    const choix = module && $$('.horaires__choix', module).find((b) => b.textContent.toLowerCase().includes(a.dataset.cabinet));
+    if (choix && choix.getAttribute('aria-pressed') !== 'true') choix.click();
+  }));
+}
+function epinglesTomber(tl, at) {
+  const els = $$('.cote-goutte');
+  if (!els.length || !gsap) return;
+  const vars = { y: 0, opacity: 1, duration: 0.7, ease: 'bounce.out', stagger: 0.18 };
+  const depart = { y: -90, opacity: 0 };
+  if (tl) tl.fromTo(els, depart, vars, at); else gsap.fromTo(els, depart, { ...vars, delay: 0.25 });
 }
 
 /* ——— Ingrédients qui flottent, icônes qui tournent ——— */
@@ -83,9 +210,11 @@ function ingredients() {
   if (!gsap || !ST) return;
   $$('.ingredients').forEach((zone) => {
     const section = zone.parentElement;
+    const premier = section.classList.contains('hero');
     $$('[data-vitesse]', zone).forEach((el) => {
       const v = parseFloat(el.dataset.vitesse) || 0.2;
-      gsap.fromTo(el, { y: 0, rotation: 0 }, { y: v * 320, rotation: v * 140, ease: 'none', scrollTrigger: { trigger: section, start: 'top top', end: 'bottom top', scrub: 0.6 } });
+      if (premier) gsap.fromTo(el, { y: 0, rotation: 0 }, { y: v * 320, rotation: v * 140, ease: 'none', scrollTrigger: { trigger: section, start: 'top top', end: 'bottom top', scrub: 0.6 } });
+      else gsap.fromTo(el, { y: -v * 200, rotation: -v * 90 }, { y: v * 200, rotation: v * 90, ease: 'none', scrollTrigger: { trigger: section, start: 'top bottom', end: 'bottom top', scrub: 0.6 } });
     });
   });
   $$('[data-effet="ingredients"][data-vitesse]').forEach((el) => {
@@ -162,7 +291,26 @@ function calculateur() {
     const compte = {};
     b.choix.forEach((x) => (compte[x] = (compte[x] || 0) + 1));
     const parts = Object.entries(compte).map(([k, v]) => k === 'unité' ? `${v} consultation${v > 1 ? 's' : ''} à l’unité` : `${v > 1 ? v + ' × ' : ''}${k}`);
-    sortie('[data-calcul-detail]').textContent = parts.join(' + ').replace(/^./, (c) => c.toUpperCase());
+    const TYPES = { 'suivi à l’année': 'an', 'pack 5': 'p5', 'pack 3': 'p3', 'unité': 'u' };
+    const detail = sortie('[data-calcul-detail]');
+    detail.textContent = '';
+    Object.entries(compte).forEach(([k], j) => {
+      const tag = document.createElement('span');
+      tag.className = 'calcul-tag';
+      tag.dataset.type = TYPES[k];
+      tag.textContent = j ? parts[j] : parts[j].replace(/^./, (c) => c.toUpperCase());
+      if (j) detail.append(' + ');
+      detail.append(tag);
+    });
+    /* Une petite assiette par consultation, colorée selon la formule qui la paie. */
+    const zone = sortie('[data-calcul-assiettes]');
+    if (zone) {
+      const types = b.choix.flatMap((x) => Array((PACKS.find((p) => p.nom === x) || { nb: 1 }).nb).fill(TYPES[x]));
+      const avant = zone.children.length;
+      zone.innerHTML = types.map((t) => `<i data-type="${t}"></i>`).join('');
+      if (gsap && types.length > avant) gsap.fromTo([...zone.children].slice(avant), { scale: 0, y: -10 }, { scale: 1, y: 0, duration: 0.45, ease: 'back.out(3)', stagger: 0.04 });
+      else if (gsap && n > 0) gsap.fromTo(zone.children, { scale: 0.9 }, { scale: 1, duration: 0.3, ease: 'back.out(2)', stagger: 0.01 });
+    }
     sortie('[data-calcul-eco]').textContent = fmt(unite - b.cout);
     sortie('[data-calcul-moins]').disabled = n <= 1;
     sortie('[data-calcul-plus]').disabled = n >= 12;
@@ -207,7 +355,14 @@ demarrer({
     jalons();
     motifChoisi();
     bandeau();
+    resservir();
+    preparerVisite();
+    lettre();
+    sceau();
+    frise();
+    epingles();
     quand('pret', respirer);
+    quand('pret', visio);
     ingredients();
     const pile = $('[data-module="temoignages-en-pile"]');
     if (pile) initPile(pile, { textes: { precedent: 'Avis précédent', suivant: 'Avis suivant' } });
@@ -227,6 +382,7 @@ demarrer({
     versObjet(tl, { a: 1.1, duree: 0.5, ouverture: 0.8 });
     heroEntree(tl, 1.55);
     prixJouer(tl, 1.5);
+    epinglesTomber(tl, 1.45);
     return tl;
   },
 
@@ -235,12 +391,14 @@ demarrer({
     gsap.set('.hero-l', { y: 0, yPercent: 0 });
     $('.hero-titre')?.classList.add('vu');
     gsap.set('.hero-sur, .hero-intro, .hero-actions, .hero-info', { opacity: 1, y: 0 });
+    gsap.set('.cote-goutte', { y: 0, opacity: 1 });
     prixFinal();
   },
 
   arrivee() {
     if (!gsap) return;
     prixJouer(null);
+    epinglesTomber(null);
     if (!$('.hero-l')) return;
     const tl = gsap.timeline({ defaults: { ease: 'power3.out' }, delay: 0.1 });
     heroEntree(tl, 0);

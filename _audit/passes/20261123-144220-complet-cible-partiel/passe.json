@@ -1,0 +1,18 @@
+{
+ "id": "20261123-144220-complet-cible-partiel",
+ "date": "2026-11-23T14:50:38.816Z",
+ "niveau": "complet",
+ "pages": "/,/contact,/tarifs",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "parcours",
+  "mouvement"
+ ],
+ "version": "3",
+ "echecs": 0,
+ "aRegarder": 13,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

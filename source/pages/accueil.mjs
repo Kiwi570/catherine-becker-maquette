@@ -3,7 +3,7 @@
 import { html, brut } from '../../outils/gabarit.mjs';
 import { assiette } from '../gabarits/assiette.mjs';
 import { icone } from '../gabarits/icones.mjs';
-import { horairesTexte, appelFinal, scriptHoraires } from '../gabarits/blocs.mjs';
+import { horairesTexte, appelFinal, scriptHoraires, boutonResservir } from '../gabarits/blocs.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'grok/accueil-ouverture-1280.webp' };
 
@@ -16,7 +16,6 @@ export default (c) => {
   <div class="ingredients" data-effet="ingredients" data-superpose aria-hidden="true">
     <span class="ingredient ingredient--1" data-vitesse="-0.35">${icone('basilic')}</span>
     <span class="ingredient ingredient--2" data-vitesse="0.25">${icone('citron')}</span>
-    <span class="ingredient ingredient--3" data-vitesse="-0.2">${icone('tomate')}</span>
   </div>
   <div class="hero-texte">
     <p class="surtitre hero-sur" data-anime="gsap">${c.t('accueil.hero.surtitre')}</p>
@@ -34,7 +33,7 @@ export default (c) => {
   </div>
   <div class="hero-visuel">
     ${c.media({ nom: 'grok/accueil-ouverture', alt: c.s('accueil.hero.alt'), cadrage: '55% 45%', priorite: true, classe: 'hero-media', sizes: '(max-width: 760px) 100vw, 46vw', attrs: 'data-fx="parallaxe" data-fx-force="6"' })}
-    <div class="hero-assiette" data-iris-centre="disque">${assiette({ id: 'hero' })}</div>
+    <div class="hero-assiette" data-iris-centre="disque" data-grille="manipuler">${assiette({ id: 'hero' })}${boutonResservir(c)}</div>
   </div>
 </section>
 
@@ -108,7 +107,16 @@ export default (c) => {
         </div>
       </article>`)}
       <article class="cabinet cabinet--visio" data-fx="vitesse" data-fx-force="2">
-        <div class="cabinet-dessin" data-visuel aria-hidden="true">${icone('citron', 'icone icone--a')}${icone('menthe', 'icone icone--b')}${icone('tasse', 'icone icone--c')}</div>
+        <div class="cabinet-dessin visio" data-visuel aria-hidden="true">
+          ${icone('menthe', 'icone visio-menthe')}
+          <div class="visio-ecran">
+            <span class="visio-barre"><i></i><i></i><i></i></span>
+            <span class="visio-direct"></span>
+            <div class="visio-assiette">${assiette({ id: 'visio' })}</div>
+            <span class="visio-pip">${icone('tasse')}</span>
+            <span class="visio-commandes"><i></i><i></i><i class="visio-raccroche"></i></span>
+          </div>
+        </div>
         <div class="cabinet-corps">
           <h3>${c.t('accueil.cabinets.visioTitre')}</h3>
           <p>${c.t('accueil.cabinets.visioTexte')}</p>
@@ -122,6 +130,10 @@ export default (c) => {
 </section>
 
 <section class="tarifs-accueil" id="tarifs">
+  <div class="ingredients" data-effet="ingredients" data-superpose aria-hidden="true">
+    <span class="ingredient ingredient--t1" data-vitesse="-0.3">${icone('carotte')}</span>
+    <span class="ingredient ingredient--t2" data-vitesse="0.28">${icone('pomme')}</span>
+  </div>
   <div class="conteneur">
     <div class="tete-section">
       <p class="surtitre">${c.t('accueil.tarifs.surtitre')}</p>
@@ -174,7 +186,8 @@ export default (c) => {
     </div>
     <div class="tep__scene" data-effet="pile">
       <ol class="tep__pile">
-        ${D.temoignages.map((t) => html`<li class="tep__carte">
+        ${D.temoignages.map((t, i) => html`<li class="tep__carte${t.texte.length < 90 ? ' tep__carte--courte' : ''}">
+          <span class="tep__deco" aria-hidden="true">${icone(['citron', 'basilic', 'tomate', 'olive'][i % 4])}</span>
           <blockquote class="tep__citation"><p>${t.texte}</p></blockquote>
           <p class="tep__auteur"><span class="tep__nom">${t.nom}</span><span class="tep__contexte">${t.source}</span></p>
         </li>`)}

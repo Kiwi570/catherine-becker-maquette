@@ -92,8 +92,9 @@ export default (c) => {
       <p class="surtitre">${D.preparer.surtitre}</p>
       <h2 class="titre-section" data-anime="lignes">${D.preparer.titre1} <em>${D.preparer.titre2}</em></h2>
       <ul class="preparer-liste" data-anime="cascade">
-        ${D.preparer.points.map((p) => html`<li>${icone(p.icone)}<div><h3>${p.titre}</h3><p>${p.texte}</p></div></li>`)}
+        ${D.preparer.points.map((p) => html`<li data-coche-ligne>${icone(p.icone)}<div><h3>${p.titre}</h3><p>${p.texte}</p></div><button type="button" class="coche" aria-pressed="false" data-coche><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="visuellement-cache">${D.preparer.cocher} : ${p.titre}</span></button></li>`)}
       </ul>
+      <p class="preparer-etat" data-coche-etat data-etat0="${D.preparer.etat0}" data-etatn="${D.preparer.etatN}" data-etattout="${D.preparer.etatTout}" aria-live="polite" hidden></p>
     </div>
   </div>
 </section>
@@ -126,7 +127,22 @@ export default (c) => {
 
 <section class="medecin" id="medecin">
   <div class="conteneur medecin-grille">
-    <svg class="medecin-lettre" viewBox="0 0 200 150" aria-hidden="true" data-fx="trace" data-visuel><path d="M10 30 L100 95 L190 30 M10 30 H190 V140 H10 Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M10 140 L80 82 M190 140 L120 82" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+    <div class="medecin-lettre" data-effet="lettre" data-visuel aria-hidden="true"><svg viewBox="0 0 220 210" focusable="false">
+      <path d="M18 92 L110 26 L202 92 Z" fill="#D9C7A2"/>
+      <path d="M18 92 H202 V196 H18 Z" fill="#E6D7B8"/>
+      <g class="lettre-papier">
+        <rect x="40" y="44" width="140" height="132" rx="8" fill="#FFFDF8" stroke="#E2D8C4" stroke-width="1.5"/>
+        <rect x="58" y="66" width="62" height="7" rx="3.5" fill="#C23E22"/>
+        <rect x="58" y="84" width="104" height="6" rx="3" fill="#D6DACB"/>
+        <rect x="58" y="98" width="92" height="6" rx="3" fill="#D6DACB"/>
+        <rect x="58" y="112" width="100" height="6" rx="3" fill="#D6DACB"/>
+        <rect x="58" y="126" width="70" height="6" rx="3" fill="#D6DACB"/>
+        <path d="M120 152 c 8 -10 14 4 22 -4 s 10 2 16 -2" fill="none" stroke="#33442F" stroke-width="2.4" stroke-linecap="round"/>
+      </g>
+      <path d="M18 92 L110 150 L202 92 V196 H18 Z" fill="#F1E6CE"/>
+      <path d="M18 196 L92 140 M202 196 L128 140" stroke="#DCCBA8" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <g class="lettre-cachet" transform="translate(110 150)"><circle r="19" fill="#C23E22"/><circle r="14" fill="none" stroke="#F08A66" stroke-width="1.5"/><path d="M-6 6 C -6 -4 0 -9 7 -9 C 7 -1 3 5 -6 6 Z M-6 6 L 2 -2" fill="#F7F2E8" stroke="#F7F2E8" stroke-width="1.2" stroke-linejoin="round"/></g>
+    </svg></div>
     <div>
       <p class="surtitre">${D.medecin.surtitre}</p>
       <h2 class="titre-section titre-moyen" data-anime="lignes">${D.medecin.titre}</h2>

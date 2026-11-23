@@ -101,7 +101,6 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-titre:not(.vu) .hero-l 
 .hero-assiette .assiette { width: 100%; height: 100%; }
 .ingredient--1 { left: 41%; top: 16%; transform: rotate(-20deg); }
 .ingredient--2 { left: 43%; bottom: 20%; }
-.ingredient--3 { right: 2%; top: calc(var(--entete-h) + 6px); width: clamp(30px, 3vw, 48px); }
 @media (max-width: 760px) {
   .hero { grid-template-columns: minmax(0, 1fr); align-content: start; gap: 70px; min-height: 0; padding-top: calc(var(--entete-h) + 22px); }
   .hero-titre { font-size: clamp(2.6rem, 12.5vw, 3.6rem); }
@@ -109,7 +108,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-titre:not(.vu) .hero-l 
   .hero-media { aspect-ratio: 4 / 5; height: auto; border-radius: 22px 22px 22px 90px; }
   .hero-assiette { left: auto; right: 4%; bottom: auto; top: -54px; width: 36vw; }
   .ingredient--1 { left: auto; right: 6%; top: calc(var(--entete-h) + 8px); }
-  .ingredient--2, .ingredient--3 { display: none; }
+  .ingredient--2 { display: none; }
 }
 @media (max-height: 820px) and (min-width: 761px) {
   .hero-titre { font-size: clamp(2.6rem, min(5.6vw, 10.5vh), 5.6rem); }
@@ -198,10 +197,6 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-titre:not(.vu) .hero-l 
 @keyframes battement { 50% { box-shadow: 0 0 0 7px rgba(79, 122, 55, .08); } }
 .cabinet--visio { background: var(--surface); }
 .cabinet-dessin { position: relative; aspect-ratio: 4 / 3; background: radial-gradient(circle at 50% 55%, #F7F2E8 0 34%, transparent 35%), #E8DCC3; }
-.cabinet-dessin .icone { position: absolute; width: 30%; }
-.cabinet-dessin .icone--a { left: 35%; top: 30%; width: 32%; }
-.cabinet-dessin .icone--b { left: 12%; top: 14%; width: 22%; transform: rotate(-18deg); }
-.cabinet-dessin .icone--c { right: 10%; bottom: 10%; width: 26%; }
 .cabinets-note { margin-top: 22px; }
 @media (max-width: 1000px) { .cabinets-grille { grid-template-columns: repeat(2, minmax(0, 1fr)); } .cabinet--visio { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); } .cabinet--visio .cabinet-dessin { aspect-ratio: auto; min-height: 220px; } }
 @media (max-width: 640px) { .cabinets-grille { grid-template-columns: minmax(0, 1fr); } .cabinet--visio { display: flex; } .cabinet--visio .cabinet-dessin { aspect-ratio: 16 / 9; min-height: 0; } }
@@ -350,7 +345,7 @@ html.js[data-arrivee="intro"]:not(.secours) .ouverture-panneau .aliment { opacit
 .cote text { font: 600 22px var(--police-texte); fill: #22301E; }
 .cote-visio text { fill: #F7F2E8; font-size: 18px; }
 @media (max-width: 760px) { .ouv-carte { grid-template-columns: minmax(0, 1fr); min-height: 0; padding-top: calc(var(--entete-h) + 20px); } }
-@media (max-height: 500px) and (min-width: 761px) { .ouv-carte { min-height: 0; padding-top: calc(var(--entete-h) + 10px); } .ouv-carte .titre-page { font-size: 2.4rem; } .ouv-carte-visuel { max-height: calc(100svh - var(--entete-h) - 24px); } .cote { max-height: calc(100svh - var(--entete-h) - 30px); } }
+@media (max-height: 500px) and (min-width: 761px) { .ouv-carte { min-height: 0; padding-top: calc(var(--entete-h) + 10px); } .ouv-carte .titre-page { font-size: 2.4rem; } .ouv-carte-visuel { max-height: calc(100svh - var(--entete-h) - 24px); } .cote-cadre { width: min(100%, calc((100svh - var(--entete-h) - 30px) * 700 / 420)); margin-inline: auto; } }
 
 /* ——— Consultation ——— */
 .motifs-detail, .deroule, .bilan-detail, .preparer, .rythme, .modalites, .medecin { padding-block: var(--espace); }
@@ -469,7 +464,7 @@ html.js[data-arrivee="intro"]:not(.secours) .ouverture-panneau .aliment { opacit
 .carte-cadeau { position: relative; aspect-ratio: 1.6; max-width: 460px; width: 100%; justify-self: center; padding: 28px; border-radius: 22px; background: linear-gradient(135deg, #3d523a, #33442F 60%, #2b3a28); color: var(--lin); box-shadow: 0 30px 50px -24px rgba(34, 48, 30, .6); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; }
 .carte-cadeau img { height: 44px; width: auto; }
 .carte-cadeau-nom { font-family: var(--police-titres); font-size: 2rem; margin: 0; }
-.carte-cadeau-valeur { margin: 0; letter-spacing: .12em; text-transform: uppercase; font-size: .8rem; color: #E9C46A; }
+.carte-cadeau-valeur { margin: 0; letter-spacing: .12em; text-transform: uppercase; font-size: max(13px, .8rem); color: #E9C46A; }
 .carte-cadeau-ruban { position: absolute; top: 0; bottom: 0; right: 22%; width: 26px; background: var(--accent); }
 .carte-cadeau-citron { position: absolute; right: calc(22% - 34px); top: 30%; width: 94px; height: 94px; }
 @media (max-width: 760px) { .cadeau-grille { grid-template-columns: minmax(0, 1fr); } }
@@ -603,3 +598,123 @@ html:not(.js) .introuvable { min-height: calc(100svh - 90px); }
   .ouv-carte .titre-page { font-size: clamp(2.2rem, 8.4vh, 3.4rem); }
   .ouv-carte .ouv-actions { margin-bottom: .5rem; }
 }
+
+/* ——— v2 : jeux et finitions ——— */
+
+/* Resservir : toute l'assiette est un bouton ; une étiquette discrète l'annonce. */
+.hero-assiette, .appel-assiette { position: relative; }
+.hero-assiette { position: absolute; }
+.assiette-jeu { position: absolute; inset: 0; border: 0; border-radius: 50%; background: transparent; padding: 0; cursor: pointer; color: var(--olive); }
+.assiette-jeu:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.assiette-indice { position: absolute; left: 50%; bottom: -16px; transform: translateX(-50%); display: inline-flex; align-items: center; gap: .4em; padding: .42em .9em; border-radius: 999px;
+  background: var(--carte); color: var(--olive); font: 600 .86rem/1 var(--police-texte); white-space: nowrap; box-shadow: 0 10px 20px -12px rgba(34, 48, 30, .55); transition: transform .3s var(--courbe); }
+.assiette-indice svg { width: 15px; height: 15px; transition: transform .5s var(--courbe); }
+.assiette-jeu:hover .assiette-indice, .assiette-jeu:focus-visible .assiette-indice { background: var(--accent); color: #fff; transform: translateX(-50%) translateY(-3px); }
+.assiette-jeu:hover .assiette-indice svg { transform: rotate(-200deg); }
+.hero-assiette .assiette-indice { bottom: auto; top: -14px; }
+.appel .assiette-indice { bottom: -6px; }
+@media (max-width: 760px) { .hero-assiette .assiette-indice { top: auto; bottom: -10px; font-size: .78rem; padding: .38em .75em; } }
+
+/* Méthode : compartiments vides en pointillés, cliquables. */
+.assiette-zones path { cursor: pointer; }
+.methode-assiette .assiette-num { pointer-events: none; }
+
+/* Visio (accueil) : un écran d'appel avec l'assiette dedans. */
+.cabinet-dessin.visio { display: grid; place-items: center; padding: 9% 11%; background: #E8DCC3; overflow: hidden; }
+.visio-ecran { position: relative; width: 100%; aspect-ratio: 16 / 10; border-radius: 16px; background: var(--lin); border: 3px solid var(--olive); box-shadow: 0 18px 26px -18px rgba(34, 48, 30, .6); display: grid; place-items: center; overflow: hidden; }
+.visio-barre { position: absolute; left: 10px; top: 9px; display: flex; gap: 5px; }
+.visio-barre i { width: 8px; height: 8px; border-radius: 50%; background: #C23E22; }
+.visio-barre i:nth-child(2) { background: #E9C46A; } .visio-barre i:nth-child(3) { background: #86A862; }
+.visio-direct { position: absolute; left: 10px; bottom: 10px; width: 9px; height: 9px; border-radius: 50%; background: #5F8A3F; box-shadow: 0 0 0 4px rgba(95, 138, 63, .22); }
+.visio-assiette { width: 50%; aspect-ratio: 1; border-radius: 50%; box-shadow: 0 12px 18px -10px rgba(34, 48, 30, .45); }
+.visio-assiette .assiette { width: 100%; height: 100%; }
+.visio-pip { position: absolute; right: 9px; top: 9px; width: 24%; aspect-ratio: 4 / 3; border-radius: 8px; background: #E8DCC3; border: 2px solid var(--carte); display: grid; place-items: center; }
+.visio-pip svg { width: 58%; height: auto; }
+.visio-commandes { position: absolute; left: 50%; bottom: 9px; transform: translateX(-50%); display: flex; align-items: center; gap: 6px; padding: 5px 9px; border-radius: 999px; background: rgba(34, 48, 30, .86); }
+.visio-commandes i { width: 10px; height: 10px; border-radius: 50%; background: var(--lin); }
+.visio-commandes .visio-raccroche { width: 20px; border-radius: 6px; background: #C23E22; }
+.visio-menthe { position: absolute; left: 3%; top: 4%; width: 17%; transform: rotate(-22deg); z-index: 1; }
+@media (max-width: 1000px) and (min-width: 641px) { .cabinet--visio .cabinet-dessin.visio { padding: 7% 8%; } }
+
+/* Tarifs (accueil) : deux ingrédients flottent autour des prix. */
+.tarifs-accueil { overflow: hidden; }
+.tarifs-accueil > .conteneur { position: relative; z-index: 1; }
+.ingredient--t1 { right: 3%; top: 9%; }
+.ingredient--t2 { left: 1.5%; bottom: 12%; }
+@media (max-width: 760px) { .ingredient--t1 { right: 4%; top: 2%; width: 44px; } .ingredient--t2 { display: none; } }
+
+/* Avis : fiche centrée, un ingrédient dessiné en coin ; les avis courts en plus grand. */
+.tep__carte { position: relative; align-content: center; overflow: hidden; }
+.tep__carte--courte .tep__citation { font-size: clamp(1.45rem, 1.1rem + 1.4vw, 2.15rem); }
+.tep__auteur { margin-top: .3rem; }
+.tep__deco { position: absolute; right: 18px; bottom: 16px; width: clamp(44px, 5vw, 64px); opacity: .9; transform: rotate(-12deg); pointer-events: none; }
+.tep__deco svg { width: 100%; height: auto; }
+
+/* Consultation : la carte de la bio-impédancemétrie sans chevauchement sur téléphone. */
+@media (max-width: 760px) { .bio-assiette { width: 130px; right: -48px; top: -48px; } .bio h3 { max-width: 74%; } }
+
+/* Consultation : préparer sa visite, à cocher. */
+.preparer-liste li { grid-template-columns: 56px minmax(0, 1fr) auto; transition: background-color .35s, border-color .35s; }
+.coche { display: none; }
+html.js .coche { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 2px solid var(--ligne); background: var(--lin); color: transparent; cursor: pointer; align-self: center; transition: background-color .25s, border-color .25s, color .25s; }
+.coche svg { width: 22px; height: 22px; }
+.coche:hover { border-color: var(--accent); color: var(--accent-clair); }
+.coche[aria-pressed="true"] { background: #5F8A3F; border-color: #5F8A3F; color: #fff; }
+.preparer-liste li.est-pret { background: #EEF2E4; border-color: #C9D6B4; }
+.preparer-etat { display: flex; align-items: center; gap: .6em; margin: 16px 0 0; font-weight: 600; color: var(--texte-doux); }
+.preparer-etat::before { content: ''; width: 10px; height: 10px; border-radius: 50%; background: var(--ligne); transition: background-color .3s; }
+.preparer-etat.est-complet { color: #3E6A2A; }
+.preparer-etat.est-complet::before { background: #5F8A3F; box-shadow: 0 0 0 4px rgba(95, 138, 63, .2); }
+
+/* Consultation : la lettre au médecin. */
+.medecin-lettre { width: 100%; max-width: 240px; justify-self: center; }
+.medecin-lettre svg { width: 100%; height: auto; display: block; overflow: visible; }
+@media (max-width: 760px) { .medecin-lettre { max-width: 150px; justify-self: start; } }
+
+/* Tarifs : une petite assiette par consultation dans le calculateur. */
+.calcul-assiettes { display: flex; flex-wrap: wrap; gap: 7px; min-height: 26px; margin: -4px 0 18px; }
+.calcul-assiettes i { width: 24px; height: 24px; border-radius: 50%; background: #E9C46A; box-shadow: inset 0 0 0 3px #E4E4DF, 0 3px 6px -3px rgba(0, 0, 0, .5); }
+.calcul-assiettes i[data-type="an"] { background: #86A862; }
+.calcul-assiettes i[data-type="p5"] { background: #E9C46A; }
+.calcul-assiettes i[data-type="p3"] { background: #F08A66; }
+.calcul-assiettes i[data-type="u"] { background: transparent; box-shadow: inset 0 0 0 2px #D9DCCB; }
+
+/* Présentation : la frise se trace étape par étape. */
+.frise-etape { border-top-color: transparent; }
+.frise-etape::after { content: ''; position: absolute; left: 0; right: 0; top: -2px; height: 2px; background: linear-gradient(90deg, var(--accent) 0 calc(var(--trait, 1) * 100%), var(--ligne) 0); }
+.frise-etape::before { z-index: 1; transform: scale(calc(.55 + var(--trait, 1) * .45)); transition: transform .2s; }
+
+/* Présentation : le sceau du métier. */
+.metier-sceau { position: relative; width: 100%; max-width: 260px; aspect-ratio: 1; justify-self: center; color: var(--accent-clair); }
+.metier-anneau { width: 100%; height: 100%; display: block; overflow: visible; }
+.metier-anneau text { fill: var(--lin); font: 600 13.5px var(--police-texte); letter-spacing: .14em; }
+.metier-sceau-centre { position: absolute; inset: 26%; border-radius: 50%; box-shadow: 0 16px 26px -12px rgba(0, 0, 0, .5); }
+.metier-sceau-centre svg { width: 100%; height: 100%; }
+@media (max-width: 760px) { .metier-sceau { max-width: 170px; justify-self: start; } }
+
+/* Présentation : la huitième case des engagements invite au rendez-vous. */
+.engagement--appel { display: grid; align-content: center; gap: 10px; background: var(--olive); border-color: var(--olive); color: var(--lin); }
+.engagement--appel h3 { color: var(--lin); font-size: 1.5rem; margin: 0; }
+.engagement--appel p { color: #D9DCCB; }
+.engagement--appel .bouton { justify-self: start; }
+@media (min-width: 521px) and (max-width: 1000px) { .engagement--appel { grid-column: 1 / -1; } }
+
+/* Présentation : vignettes des médias sans chevauchement. */
+.vignettes .vignette-cadre:nth-child(5) { margin-top: 0; }
+
+/* Contact : épingles de la carte ; des liens posés dessus (lisibles au clavier) choisissent le cabinet. */
+.cote-cadre { position: relative; width: 100%; aspect-ratio: 700 / 420; }
+.cote-cadre .cote { position: absolute; inset: 0; width: 100%; height: 100%; }
+.cote-lien { position: absolute; z-index: 2; width: 17.8%; height: 32%; border-radius: 18px; }
+.cote-lien[data-cabinet="cannes"] { left: 8.3%; top: 37.6%; }
+.cote-lien[data-cabinet="nice"] { left: 74.9%; top: 9%; }
+.cote-lien:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.cote-goutte { transition: transform .3s var(--courbe); }
+.cote-cadre:has(.cote-lien[data-cabinet="cannes"]:is(:hover, :focus-visible)) .cote-epingle--cannes .cote-goutte,
+.cote-cadre:has(.cote-lien[data-cabinet="nice"]:is(:hover, :focus-visible)) .cote-epingle--nice .cote-goutte { transform: translateY(-6px); }
+
+.calcul-tag::before { content: ''; display: inline-block; width: 10px; height: 10px; margin: 0 .4em 0 .15em; border-radius: 50%; background: #E9C46A; vertical-align: .02em; }
+.calcul-tag[data-type="an"]::before { background: #86A862; }
+.calcul-tag[data-type="p3"]::before { background: #F08A66; }
+.calcul-tag[data-type="u"]::before { background: transparent; box-shadow: inset 0 0 0 2px #D9DCCB; }
+.calcul-detail dd { color: #EDEFE4; }

@@ -1,6 +1,7 @@
 /* Présentation : portrait réel en arche et nom en grand ; parcours, métier, engagements, médias, collaborations, réseaux. */
 import { html } from '../../outils/gabarit.mjs';
 import { icone } from '../gabarits/icones.mjs';
+import { assiette } from '../gabarits/assiette.mjs';
 import { appelFinal } from '../gabarits/blocs.mjs';
 
 export const page = { cle: 'presentation', fichier: 'presentation', imagePartage: 'presentation-ouverture-1280.webp' };
@@ -33,7 +34,7 @@ export default (c) => {
       <p class="surtitre">${P.parcours.surtitre}</p>
       <h2 class="titre-section" data-anime="lignes">${P.parcours.titre1} <em>${P.parcours.titre2}</em></h2>
     </div>
-    <ol class="frise" data-anime="cascade">
+    <ol class="frise" data-anime="cascade" data-effet="frise">
       ${P.parcours.etapes.map((e) => html`<li class="frise-etape"><p class="frise-quand">${e.quand}</p><h3>${e.titre}</h3><p>${e.texte}</p></li>`)}
     </ol>
   </div>
@@ -41,7 +42,12 @@ export default (c) => {
 
 <section class="metier fond-olive" id="metier">
   <div class="conteneur metier-grille">
-    <svg class="metier-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><circle cx="100" cy="100" r="86" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="100" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M100 30 V170 M30 100 H100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+    <div class="metier-sceau" data-effet="sceau" data-visuel aria-hidden="true">
+      <svg class="metier-anneau" viewBox="0 0 240 240" focusable="false"><defs><path id="sceau-cercle" d="M120 120 m -94 0 a 94 94 0 1 1 188 0 a 94 94 0 1 1 -188 0"/></defs>
+        <circle cx="120" cy="120" r="116" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="120" cy="120" r="72" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+        <text><textPath href="#sceau-cercle" textLength="580">${P.metier.sceau}</textPath></text></svg>
+      <div class="metier-sceau-centre">${assiette({ id: 'sceau' })}</div>
+    </div>
     <div>
       <p class="surtitre">${P.metier.surtitre}</p>
       <h2 class="titre-section titre-moyen" data-anime="lignes">${P.metier.titre}</h2>
@@ -58,7 +64,8 @@ export default (c) => {
       <h2 class="titre-section" data-anime="lignes">${P.engagements.titre1} <em>${P.engagements.titre2}</em></h2>
     </div>
     <ul class="engagements-grille" data-anime="cascade">
-      ${P.engagements.liste.map((e) => html`<li class="engagement">${icone(e.icone)}<h3>${e.titre}</h3><p>${e.texte}</p></li>`)}
+      ${P.engagements.liste.map((e) => html`<li class="engagement" data-survol="incline" data-survol-force="3">${icone(e.icone)}<h3>${e.titre}</h3><p>${e.texte}</p></li>`)}
+      <li class="engagement engagement--appel"><h3>${P.engagements.appelTitre}</h3><p>${P.engagements.appelTexte}</p><a class="bouton bouton--clair" href="${c.site.doctolib}" target="_blank" rel="noopener">${c.t('commun.actionEntete')}<span class="visuellement-cache"> ${c.t('commun.nouvelOnglet')}</span></a></li>
     </ul>
   </div>
 </section>
